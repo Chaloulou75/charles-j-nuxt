@@ -7,16 +7,16 @@
 }
 
 a {
-  @apply text-green-700 font-bold;
+  @apply text-white font-bold;
 }
 
 a:hover {
-  @apply text-green-800;
+  @apply text-green-500;
 }
 
 nav .nuxt-link-exact-active {
   font-weight: bold;
-  @apply border-black border-b;
+  @apply border-white border-b;
 }
 
 .container-inner {

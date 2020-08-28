@@ -1,4 +1,4 @@
-# charles-j-nuxt
+# charles-jeandey-nuxtJS
 
 ## Build Setup
 
