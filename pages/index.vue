@@ -53,8 +53,8 @@
       </div> <!-- end projects -->
     </div>
 
-    <div class="overflow-x-hidden border-b border-gray-200">
-      <div class="relative pb-16 mx-auto text-xl get-to-know-me container-inner">
+    <div class="overflow-x-hidden ">
+      <div class="relative pb-16 mx-auto text-xl border-b border-gray-200 get-to-know-me container-inner">
         <h2 class="mb-6 font-bold" id="about">Get to know me:</h2>
 
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">

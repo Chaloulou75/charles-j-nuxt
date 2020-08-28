@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans text-gray-100 bg-gray-800">
+  <div class="min-h-screen font-sans text-gray-100 bg-gray-800">
     <Navigation />
     <Nuxt />
   </div>
