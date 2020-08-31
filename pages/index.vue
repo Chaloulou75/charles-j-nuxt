@@ -2,8 +2,8 @@
   <div >
     <div class="flex flex-col justify-between py-16 mx-auto hero container-inner sm:flex-row">
       <div class="w-full text-4xl font-bold text-center sm:w-3/5 sm:text-left">
-        <div class="leading-tight">Full-stack web developer</div>
-        <div class="leading-tight text-green-700">Welcome to my website</div>
+        <div class="leading-tight">Développeur Web Full-stack</div>
+        <div class="leading-tight text-green-700">Bienvenu sur mon site</div>
       </div>
       <div class="mt-8 sm:mt-0">
         <img src="~assets/img/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
@@ -11,7 +11,7 @@
     </div> <!-- end hero -->
 
     <div class="mx-auto container-inner">
-      <p class="text-lg sm:text-xl">Find the <a href="https://github.com/chaloulou75/">GitHub repo here</a>.
+      <p class="text-lg sm:text-xl">Mon <a href="https://github.com/chaloulou75/">GitHub ici</a>.
 
       <div class="flex items-center justify-between py-6">
         <div class="w-full px-8 py-8 sm:w-1/2 sm:py-0">
@@ -25,7 +25,7 @@
 
     <div class="overflow-x-hidden works">
       <div class="relative py-16 mx-auto mb-16 text-xl border-t border-b border-gray-500 projects container-inner">
-        <h2 class="mb-6 font-bold" id="projects">Here are some projects I've worked on:</h2>
+        <h2 class="mb-6 font-bold" id="projects">Quelques-uns de mes projets:</h2>
 
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -54,7 +54,7 @@
 
     <div class="overflow-x-hidden ">
       <div class="relative pb-16 mx-auto text-xl border-b border-gray-200 get-to-know-me container-inner">
-        <h2 class="mb-6 font-bold" id="about">Get to know me:</h2>
+        <h2 class="mb-6 font-bold" id="about">En deux mots:</h2>
 
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -65,7 +65,7 @@
             <img src="~assets/img/avatar.jpg" alt="avatar" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
           </div>
           <div class="flex-1 ml-6 text-lg sm:text-xl">
-            Hello! I’m Charles. I spend my days developing web applications. I specialize in the <a href="https://laravel.com/"> Laravel PHP framework </a> on the backend, <a href="https://vuejs.org/"> Vue.js </a> on the frontend and <a href="https://tailwindcss.com/"> Tailwind CSS </a> for styling.... Oh, and i'm a huge fan of <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ"> Boards Of Canada </a>, so ready, let's go  "Open the light".
+            Bonjour! Je suis Charles. Je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/"> Tailwind CSS </a> pour le style... Oh, et je suis un gros fan de  <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ"> Boards Of Canada </a>, so ready, let's go  "Open the light".
           </div>
         </div>
 
@@ -78,13 +78,13 @@
     <div class="overflow-x-hidden">
       <div class="pt-16 contact-me">
         <div class="relative pb-4 mx-auto text-xl container-inner">
-          <h2 class="mb-6 font-bold" id="contact">Contact me:</h2>
+          <h2 class="mb-6 font-bold" id="contact">Contactez moi:</h2>
 
           <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
             <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
           </div>
 
-          <p class="mb-12">If you’re looking to get in contact with me for your website or if you have a question, feel free to <a href="mailto:c.jeandey@gmail.com">email me</a>. I’ll try to respond as soon as I can.</p>
+          <p class="mb-12">Vous voulez faire votre site web, ou juste si vous avez une question. N'hésitez pas à me contacter via <a href="mailto:c.jeandey@gmail.com">email</a>. Je vous répondrai dés que possible.</p>
         </div>
       </div>
 
@@ -98,7 +98,7 @@
 
     <footer class="text-white bg-green-700">
       <div class="container flex items-center justify-between px-4 py-8 mx-auto">
-        <div>Copyright {{ new Date().getFullYear() }}. All rights reserved.</div>
+        <div class="text-sm">Copyright {{ new Date().getFullYear() }}. Tous droits réservés.</div>
         <ul class="flex items-center space-x-8">
           <li>
             <a href="mailto:c.jeandey@gmail.com" class="text-white hover:text-gray-400">
