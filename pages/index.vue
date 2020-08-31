@@ -1,9 +1,9 @@
 <template>
-  <div >
+  <div>
     <div class="flex flex-col justify-between py-16 mx-auto hero container-inner sm:flex-row">
       <div class="w-full text-4xl font-bold text-center sm:w-3/5 sm:text-left">
-        <div class="leading-tight">Développeur Web Full-stack</div>
-        <div class="leading-tight text-green-700">Bienvenu sur mon site</div>
+        <div class="leading-tight">Développeur Web </div>
+        <div class="leading-tight text-green-700">Full-stack</div>
       </div>
       <div class="mt-8 sm:mt-0">
         <img src="~assets/img/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
@@ -11,7 +11,9 @@
     </div> <!-- end hero -->
 
     <div class="mx-auto container-inner">
-      <p class="text-lg sm:text-xl">Mon <a href="https://github.com/chaloulou75/">GitHub ici</a>.
+      <p class="text-lg sm:text-xl">Mon <a href="https://github.com/chaloulou75/">GitHub ici</a>.</p>
+
+      <TransitionComponent />
 
       <div class="flex items-center justify-between py-6">
         <div class="w-full px-8 py-8 sm:w-1/2 sm:py-0">
@@ -33,19 +35,19 @@
 
         <ul class="space-y-6 text-lg sm:text-xl">
           <li class="checkmark">
-            <div><a href="https://apuestamigo.com/">Apuestamigo</a></div>
+            <div><a href="https://apuestamigo.com/" target="_blank">Apuestamigo</a></div>
             <div class="text-lg text-gray-600">Site de ligues de paris entre amis pour savoir qui est le meilleur pronostiqueur. Réalisé avec Laravel, Tailwind, Livewire et Alpine JS. Déployé avec Heroku.</div>
           </li>
           <li class="checkmark">
-            <div><a href="https://julienlepretre.com/">Julien Leprêtre</a></div>
+            <div><a href="https://julienlepretre.com/" target="_blank">Julien Leprêtre</a></div>
             <div class="text-lg text-gray-600">Site de Julien Leprêtre. Réalisé avec Laravel, Tailwind, et Vuejs. Déployé avec Heroku.</div>
           </li>
           <li class="checkmark">
-            <div><a href="https://carpinto-sites.netlify.app/">Carpinto</a></div>
-            <div class="text-lg text-gray-600">Site où je décris mes outils préférés de développement web. Réalisé avec VuePress. Déployé avec Netlify.</div>
+            <div><a href="https://carpinto-sites.netlify.app/" target="_blank">Carpinto</a></div>
+            <div class="text-lg text-gray-600">Site où je décris mes outils de développement préférés  web. Réalisé avec VuePress. Déployé avec Netlify.</div>
           </li>
           <li class="checkmark">
-            <div><a href="https://charles-jeandey.netlify.app/">Charles Jeandey</a></div>
+            <div><a href="https://charles-jeandey.netlify.app/" target="_blank">Charles Jeandey</a></div>
             <div class="text-lg text-gray-600">Site sur lequel vous êtes. Réalisé avec NuxtJS, Tailwind, et Vuejs. Déployé avec Netlify.</div>
           </li>
         </ul>
@@ -65,7 +67,7 @@
             <img src="~assets/img/avatar.jpg" alt="avatar" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
           </div>
           <div class="flex-1 ml-6 text-lg sm:text-xl">
-            Bonjour! Je suis Charles. Je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/"> Tailwind CSS </a> pour le style... Oh, et je suis un gros fan de  <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ"> Boards Of Canada </a>, so ready, let's go  "Open the light".
+            Bonjour! Je suis Charles. Je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/"> Tailwind CSS </a> pour le style... Oh, et je suis un gros fan de  <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ"> Boards Of Canada </a>.
           </div>
         </div>
 
@@ -87,7 +89,6 @@
           <p class="mb-12">Vous voulez faire votre site web, ou juste si vous avez une question. N'hésitez pas à me contacter via <a href="mailto:c.jeandey@gmail.com">email</a>. Je vous répondrai dés que possible.</p>
         </div>
       </div>
-
     </div>
 
     <div class="newsletter">
@@ -114,6 +115,10 @@
         </ul>
       </div>
     </footer>
+
+    <div style="display:none">
+      <svg id="dots-triangle" width="170" height="170" xmlns="http://www.w3.org/2000/svg"><path d="M168.152 170a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm-18.478-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0 18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm-18.478 0a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.479a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm-18.479 0a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0 18.479a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0 18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-55.435a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zM94.24 133.043a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0 18.479a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0 18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-55.435a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm-18.478 36.956a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0 18.479a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0 18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-55.435a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm-18.478 55.434a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0 18.479a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0 18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-55.435a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.479a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm-18.479 73.913a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0 18.479a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0 18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-55.435a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.479a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0-18.478a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm-18.478 92.391a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0 18.479a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0 18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-55.435a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.479a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0-18.478a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zM1.848 133.044a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.695zm0 18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0 18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-55.435a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.479a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0-18.478a1.848 1.848 0 1 1 0-3.695 1.848 1.848 0 0 1 0 3.695zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696zm0-18.478a1.848 1.848 0 1 1 0-3.696 1.848 1.848 0 0 1 0 3.696z" fill="#2C8056" fill-rule="evenodd" opacity=".503"/></svg>
+    </div>
 
   </div>
 </template>
