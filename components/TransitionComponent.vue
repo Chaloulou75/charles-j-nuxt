@@ -1,12 +1,12 @@
 <template>
   <div>
     <button
-      class="py-2 mt-4 bg-gray-800 rounded outline-none hover:text-green-500 focus:outline-none"
+      class="py-2 mt-4 text-xl bg-gray-800 rounded outline-none hover:text-green-500 focus:outline-none"
       @click="show = !show">
       Qu'il y a t-il ici?
     </button>
     <transition name="fade">
-      <p v-if="show" class="py-2 tracking-wide">
+      <p v-if="show" class="py-2 text-xl tracking-wide">
        Juste un petit composant Vue avec une transition smoothie
       </p>
     </transition>

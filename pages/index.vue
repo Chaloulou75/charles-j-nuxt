@@ -55,7 +55,7 @@
     </div>
 
     <div class="overflow-x-hidden ">
-      <div class="relative pb-16 mx-auto text-xl border-b border-gray-200 get-to-know-me container-inner">
+      <div class="relative pb-16 mx-auto text-xl border-b border-gray-200 container-inner">
         <h2 class="mb-6 font-bold" id="about">En quelques mots:</h2>
 
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
@@ -67,7 +67,7 @@
             <img src="~assets/img/laravel_and_vue.svg" alt="avatar" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
           </div>
           <div class="flex-1 ml-6 text-lg sm:text-xl">
-            Bonjour! Je suis Charles. Je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/" target="_blank"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/" target="_blank"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/" target="_blank"> Tailwind CSS </a> pour le style... Oh, et je suis un gros fan de  <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank"> Boards Of Canada </a>.
+            Bonjour! Je suis Charles. Je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/" target="_blank"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/" target="_blank"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/" target="_blank"> Tailwind CSS </a> pour le style... Oh, et je suis un gros fan de  <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank"> Boards Of Canada</a>.
           </div>
         </div>
 
@@ -77,14 +77,42 @@
       </div> <!-- end get-to-know me -->
     </div>
 
+
+    <div class="pt-16 skills">
+      <div class="relative pb-4 mx-auto text-xl border-b border-gray-200 container-inner">
+        <h2 class="mb-6 font-bold">Mes compétences:</h2>
+
+        <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
+          <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
+        </div>
+
+        <div class="justify-between px-4 mb-12 sm:flex">
+          <ul class="text-base text-gray-300 list-disc">
+            <li>Laravel</li>
+            <li>PHP/MySQL</li>
+            <li>VueJS</li>
+            <li>HTML/CSS</li>
+          </ul>
+          <ul class="text-base text-gray-300 list-disc">
+            <li>Tailwind CSS</li>
+            <li>Livewire</li>
+            <li>JavaScript</li>
+            <li>AlpineJS</li>
+          </ul>
+          <ul class="text-base text-gray-300 list-disc">
+            <li>Git/Version Control</li>
+            <li>Servers/Deployment</li>
+            <li>UI/UX Design</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <div class="overflow-x-hidden">
       <div class="pt-16 contact-me">
         <div class="relative pb-4 mx-auto text-xl container-inner">
           <h2 class="mb-6 font-bold" id="contact">Contactez moi:</h2>
-
-          <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
-            <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
-          </div>
 
           <p class="mb-12">Vous voulez faire votre site web, ou avez une question? N'hésitez pas à me contacter via <a href="mailto:c.jeandey@gmail.com">email</a>. Je vous répondrai dés que possible.</p>
 
