@@ -36,19 +36,19 @@
         <ul class="space-y-6 text-lg sm:text-xl">
           <li class="checkmark">
             <div><a href="https://apuestamigo.com/" target="_blank">Apuestamigo</a></div>
-            <div class="text-lg text-gray-600">Site de ligues de paris entre amis pour savoir qui est le meilleur pronostiqueur. Réalisé avec Laravel, Tailwind, Livewire et Alpine JS. Déployé avec Heroku.</div>
+            <div class="text-lg text-gray-400">Site de ligues de paris entre amis pour savoir qui est le meilleur pronostiqueur. Réalisé avec Laravel, Tailwind, Livewire et Alpine JS. Déployé avec Heroku.</div>
           </li>
           <li class="checkmark">
             <div><a href="https://julienlepretre.com/" target="_blank">Julien Leprêtre</a></div>
-            <div class="text-lg text-gray-600">Site de Julien Leprêtre. Réalisé avec Laravel, Tailwind, et Vuejs. Déployé avec Heroku.</div>
+            <div class="text-lg text-gray-400">Site de Julien Leprêtre. Réalisé avec Laravel, Tailwind, et Vuejs. Déployé avec Heroku.</div>
           </li>
           <li class="checkmark">
             <div><a href="https://carpinto-sites.netlify.app/" target="_blank">Carpinto</a></div>
-            <div class="text-lg text-gray-600">Site où je décris mes outils de développement préférés. Réalisé avec VuePress. Déployé avec Netlify.</div>
+            <div class="text-lg text-gray-400">Site où je décris mes outils de développement préférés. Réalisé avec VuePress. Déployé avec Netlify.</div>
           </li>
           <li class="checkmark">
             <div><a href="https://charles-jeandey.netlify.app/" target="_blank">Charles Jeandey</a></div>
-            <div class="text-lg text-gray-600">Site sur lequel vous êtes. Réalisé avec NuxtJS, Tailwind, et Vuejs. Déployé avec Netlify.</div>
+            <div class="text-lg text-gray-400">Site sur lequel vous êtes. Réalisé avec NuxtJS, Tailwind, et Vuejs. Déployé avec Netlify.</div>
           </li>
         </ul>
       </div> <!-- end projects -->
@@ -67,7 +67,7 @@
             <img src="~assets/img/laravel_and_vue.svg" alt="avatar" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
           </div>
           <div class="flex-1 ml-6 text-lg sm:text-xl">
-            Bonjour! Je suis Charles. Je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/" target="_blank"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/" target="_blank"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/" target="_blank"> Tailwind CSS </a> pour le style... Oh, et je suis un gros fan de  <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank"> Boards Of Canada</a>.
+            Bonjour! Je suis Charles. Je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/" target="_blank"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/" target="_blank"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/" target="_blank"> Tailwind CSS </a> pour la stylisation... Oh, et je suis un gros fan de  <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank"> Boards Of Canada</a>.
           </div>
         </div>
 
@@ -77,7 +77,7 @@
       </div> <!-- end get-to-know me -->
     </div>
 
-    <div class="overflow-x-hidden ">
+    <div class="overflow-x-hidden">
       <div class="pt-16 skills">
         <div class="relative pb-4 mx-auto text-xl border-b border-gray-200 container-inner">
           <h2 class="mb-6 font-bold">Mes compétences:</h2>
@@ -86,22 +86,22 @@
             <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
           </div>
 
-          <div class="justify-between px-4 mb-12 sm:flex">
-            <ul class="text-base text-gray-300 list-disc">
+          <div class="justify-between px-4 mb-12 lg:flex">
+            <ul class="text-base text-green-500 list-disc lg:space-y-3">
               <li>Laravel</li>
               <li>PHP/MySQL</li>
               <li>VueJS</li>
               <li>HTML/CSS</li>
             </ul>
-            <ul class="text-base text-gray-300 list-disc">
+            <ul class="text-base text-green-500 list-disc lg:space-y-3">
               <li>Tailwind CSS</li>
               <li>Livewire</li>
               <li>JavaScript</li>
               <li>AlpineJS</li>
             </ul>
-            <ul class="text-base text-gray-300 list-disc">
+            <ul class="text-base text-green-500 list-disc lg:space-y-3">
               <li>Git/Version Control</li>
-              <li>Servers/Deployment</li>
+              <li>Deployment</li>
               <li>UI/UX Design</li>
               <li>Bootstrap</li>
             </ul>
@@ -154,7 +154,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+
+}
 </script>
 
 <style>
