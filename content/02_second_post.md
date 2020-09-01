@@ -5,13 +5,12 @@ author: Raymundo la malice
 
 ---
 
-
-## The return of the Dalai Lama! 
+## The return of the Space cowboy! 
 
 ``` php{3}
 
 Route::get('home', function () {
-      return 'Bonjour à tous!';
+      return 'hello world!';
     });
 
 ```

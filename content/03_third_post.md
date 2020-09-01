@@ -5,17 +5,15 @@ author: Chaloulou Bombonador
 
 ---
 
-
-## Je suis un newbie avec NuxtJS! 
+## Et pourquoi pas! 
 
 ``` php{3}
 
-Route::get('home', function () {
-      return 'le retour du king!';
+Route::get('/blog', function () {
+      return 'ready to go!';
     });
 
 ```
-<logo></logo>
 
 
 

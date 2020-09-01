@@ -7,7 +7,7 @@
     </button>
     <transition name="fade">
       <p v-if="show" class="py-2 tracking-wide">
-       Juste un petit toogle avec une transition smoothie
+       Juste un petit composant Vue avec une transition smoothie
       </p>
     </transition>
   </div>
@@ -17,7 +17,7 @@
 export default {
   data() {
     return {
-      show: true
+      show: false
     }
   }
 }

@@ -5,7 +5,6 @@ author: Carpinto Bombonador
 
 ---
 
-
 ## Ce site a été fait avec NuxtJS! 
 
 ``` php{3}
@@ -16,4 +15,3 @@ Route::get('home', function () {
 
 ```
 
-<logo></logo>

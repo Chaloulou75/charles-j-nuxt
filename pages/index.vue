@@ -27,7 +27,7 @@
 
     <div class="overflow-x-hidden works">
       <div class="relative py-16 mx-auto mb-16 text-xl border-t border-b border-gray-500 projects container-inner">
-        <h2 class="mb-6 font-bold" id="projects">Mes projets:</h2>
+        <h2 class="mb-6 font-bold" id="projects">Quelques-uns de mes projets:</h2>
 
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -44,7 +44,7 @@
           </li>
           <li class="checkmark">
             <div><a href="https://carpinto-sites.netlify.app/" target="_blank">Carpinto</a></div>
-            <div class="text-lg text-gray-600">Site où je décris mes outils de développement préférés  web. Réalisé avec VuePress. Déployé avec Netlify.</div>
+            <div class="text-lg text-gray-600">Site où je décris mes outils de développement préférés. Réalisé avec VuePress. Déployé avec Netlify.</div>
           </li>
           <li class="checkmark">
             <div><a href="https://charles-jeandey.netlify.app/" target="_blank">Charles Jeandey</a></div>
@@ -64,7 +64,7 @@
 
         <div class="flex flex-col items-center justify-between mb-16 sm:flex-row">
           <div>
-            <img src="~assets/img/avatar.jpg" alt="avatar" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
+            <img src="~assets/img/laravel_and_vue.svg" alt="avatar" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
           </div>
           <div class="flex-1 ml-6 text-lg sm:text-xl">
             Bonjour! Je suis Charles. Je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/" target="_blank"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/" target="_blank"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/" target="_blank"> Tailwind CSS </a> pour le style... Oh, et je suis un gros fan de  <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank"> Boards Of Canada </a>.
@@ -87,6 +87,7 @@
           </div>
 
           <p class="mb-12">Vous voulez faire votre site web, ou avez une question? N'hésitez pas à me contacter via <a href="mailto:c.jeandey@gmail.com">email</a>. Je vous répondrai dés que possible.</p>
+
         </div>
       </div>
     </div>
@@ -99,7 +100,7 @@
 
     <footer class="text-white bg-green-700">
       <div class="container flex items-center justify-between px-4 py-8 mx-auto">
-        <div class="text-sm">Copyright {{ new Date().getFullYear() }}. Tous droits réservés.</div>
+        <div class="text-xs">@Copyright {{ new Date().getFullYear() }}. Tous droits réservés.</div>
         <ul class="flex items-center space-x-8">
           <li>
             <a href="mailto:c.jeandey@gmail.com" class="text-white hover:text-gray-400">
