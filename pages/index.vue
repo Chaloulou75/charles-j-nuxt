@@ -11,7 +11,7 @@
     </div> <!-- end hero -->
 
     <div class="mx-auto container-inner">
-      <p class="text-lg sm:text-xl">Je suis Charles. Je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/" target="_blank"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/" target="_blank"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/" target="_blank"> Tailwind CSS </a> pour la stylisation...</p>
+      <p class="text-lg sm:text-xl">Bonjour! Je suis Charles et je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/" target="_blank"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/" target="_blank"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/" target="_blank"> Tailwind CSS </a> pour la stylisation.</p>
 
       <TransitionComponent />
 
@@ -36,7 +36,7 @@
         <ul class="space-y-6 text-lg sm:text-xl">
           <li class="checkmark">
             <div><a href="https://apuestamigo.com/" target="_blank">Apuestamigo</a></div>
-            <div class="text-lg text-gray-400">Site de ligues de paris entre amis pour savoir qui est le meilleur pronostiqueur. Réalisé avec Laravel, Tailwind, Livewire et Alpine JS. Déployé avec Heroku (<a class="text-base italic font-normal text-gray-400" href="https://github.com/chaloulou75/apuestamigov3" target="_blank">GitHub ici</a>).</div>
+            <div class="text-lg text-gray-400">Site de ligues de pronostics entre amis sur le foot. Réalisé avec Laravel, Tailwind, Livewire et Alpine JS. Déployé avec Heroku (<a class="text-base italic font-normal text-gray-400" href="https://github.com/chaloulou75/apuestamigov3" target="_blank">GitHub ici</a>).</div>
           </li>
           <li class="checkmark">
             <div><a href="https://julienlepretre.com/" target="_blank">Julien Leprêtre</a></div>
@@ -67,7 +67,7 @@
             <img src="~assets/img/laravel_and_vue.svg" alt="laravel_and_vue" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
           </div>
           <div class="flex-1 ml-6 text-lg sm:text-xl">
-            <p class="pb-2">Autodidacte, je me suis formé (et continue chaque jour) au travers de plateformes telles que <a href="https://laracasts.com" target="_blank"> Laracasts</a> et <a href="https://openclassrooms.com" target="_blank"> Openclassrooms</a>, mais aussi via diverses chaines Youtube qui m'ont beaucoup appris et que je tiens à référencer pour leurs apports non négligeables dans mes connaissances (<a href="https://www.youtube.com/channel/UCzuaB4F2znrMggxcwUuVhAw" target="_blank"> Les Teachers Du Net</a>, <a href="https://www.youtube.com/channel/UCtb40EQj2inp8zuaQlLx3iQ" target="_blank">André Madarang</a> ou encore <a href="https://www.youtube.com/channel/UChyW1pwcQT2RA4Q2onfNfpg" target="_blank">Thibault Dauce</a> entre autres).</p>
+            <p class="pb-2">Autodidacte et passionné, je me suis formé (et continue chaque jour) au travers de plateformes telles que <a href="https://laracasts.com" target="_blank"> Laracasts</a> et <a href="https://openclassrooms.com" target="_blank"> Openclassrooms</a>, mais aussi via diverses chaines Youtube qui m'ont beaucoup appris et que je tiens à référencer pour leurs apports non négligeables dans mes connaissances (<a href="https://www.youtube.com/channel/UCzuaB4F2znrMggxcwUuVhAw" target="_blank"> Les Teachers Du Net</a>, <a href="https://www.youtube.com/channel/UCtb40EQj2inp8zuaQlLx3iQ" target="_blank">André Madarang</a> ou encore <a href="https://www.youtube.com/channel/UChyW1pwcQT2RA4Q2onfNfpg" target="_blank">Thibault Dauce</a> entre autres).</p>
             <p>Par ailleurs, je suis un grand amateur de <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank"> Boards Of Canada</a>, et un joueur intraitable à <a href="https://mpg.football/dashboard?lang=fr-FR" target="_blank"> Mon Petit Gazon</a>!</p>
 
           </div>
@@ -83,7 +83,7 @@
       <div class="pt-16 skills">
         <div class="relative pb-16 mx-auto text-xl border-b border-gray-200 container-inner">
           <h2 class="mb-6 font-bold focus:outline-none">
-            Mes compétences:
+            Compétences:
           </h2>
 
           <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
@@ -92,24 +92,48 @@
 
           <div class="justify-between px-4 mb-12 lg:flex">
             <ul class="text-base text-green-500 list-disc lg:space-y-3">
-              <li>Laravel</li>
-              <li>PHP/MySQL</li>
-              <li>VueJS</li>
-              <li>HTML/CSS</li>
+              <li>Laravel </li>
+              <li>PHP/MySQL </li>
+              <li>VueJS </li>
+              <li>HTML/CSS </li>
             </ul>
             <ul class="text-base text-green-500 list-disc lg:space-y-3">
               <li>Tailwind CSS</li>
-              <li>Livewire</li>
-              <li>JavaScript</li>
-              <li>AlpineJS</li>
+              <li>Livewire </li>
+              <li>JavaScript </li>
+              <li>AlpineJS </li>
             </ul>
             <ul class="text-base text-green-500 list-disc lg:space-y-3">
               <li>Git/Version Control</li>
-              <li>Deployment</li>
-              <li>UI/UX Design</li>
+              <li>Deployment </li>
+              <li>UI/UX Design </li>
               <li>Bootstrap</li>
             </ul>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="overflow-x-hidden">
+      <div class="pt-16 skills">
+        <div class="relative pb-16 mx-auto text-xl border-b border-gray-200 container-inner">
+
+          <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
+            <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
+          </div>
+
+          <!-- <div class="flex items-center justify-between space-x-4"> -->
+
+            <div class="w-full mx-auto mt-8 lg:w-1/2 sm:mt-0">
+              <img src="~assets/img/review.svg" alt="review" class="mx-auto" />
+            </div>
+
+          <!-- </div> -->
+
+          <!-- <div class="w-full mx-auto mt-8 lg:w-1/2 sm:mt-4">
+            <img src="~assets/img/laracasts.jpg" alt="Laracasts" class="mx-auto" />
+          </div> -->
+
         </div>
       </div>
     </div>
@@ -119,7 +143,7 @@
         <div class="relative pb-4 mx-auto text-xl container-inner">
           <h2 class="mb-6 font-bold" id="contact">Contactez moi:</h2>
 
-          <p class="mb-12">Vous voulez faire votre site web, ou avez une question? N'hésitez pas à me contacter via <a href="mailto:c.jeandey@gmail.com">email</a>. Je vous répondrai dés que possible.</p>
+          <p class="mb-12">Vous voulez faire votre site web, ou avez simplement une question? N'hésitez pas à me contacter via <a href="mailto:c.jeandey@gmail.com">email</a>. Je vous répondrai dés que possible.</p>
 
         </div>
       </div>
@@ -133,8 +157,8 @@
 
     <footer class="text-white bg-green-700">
       <div class="container flex items-center justify-between px-4 py-8 mx-auto">
-        <div class="text-xs">@Copyright {{ new Date().getFullYear() }}. Tous droits réservés.</div>
-        <ul class="flex items-center space-x-8">
+        <div class="text-xs">	&copy; Charles Jeandey {{ new Date().getFullYear() }}.<br> Tous droits réservés.</div>
+        <ul class="flex items-center space-x-6">
           <li>
             <a href="mailto:c.jeandey@gmail.com" class="text-white hover:text-gray-400">
               <svg width="25" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0h20A2.5 2.5 0 0 1 25 2.5v15a2.5 2.5 0 0 1-2.5 2.5h-20A2.5 2.5 0 0 1 0 17.5v-15C0 1.125 1.125 0 2.5 0zm20 4.225V2.5h-20v1.725l10 5 10-5zm0 2.8l-9.438 4.713a1.25 1.25 0 0 1-1.124 0L2.5 7.025V17.5h20V7.025z" fill-rule="nonzero"/></svg>
@@ -143,7 +167,7 @@
 
           <li>
             <a href="https://github.com/Chaloulou75" target="_blank" class="text-white hover:text-gray-400">
-              <svg width="20" height="19" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 0c1.814 0 3.487.435 5.02 1.306a9.827 9.827 0 0 1 3.639 3.542A9.33 9.33 0 0 1 20 9.734c0 2.121-.636 4.03-1.908 5.723a9.783 9.783 0 0 1-4.928 3.518c-.234.042-.408.012-.52-.09a.49.49 0 0 1-.17-.38l.006-.969c.005-.621.007-1.19.007-1.705 0-.82-.226-1.42-.677-1.8.495-.05.94-.126 1.335-.228a5.4 5.4 0 0 0 1.223-.494 3.62 3.62 0 0 0 1.055-.843c.282-.334.512-.777.69-1.33.178-.554.267-1.19.267-1.909a3.7 3.7 0 0 0-1.028-2.61c.32-.77.286-1.631-.105-2.586-.243-.076-.594-.03-1.054.14-.46.168-.86.354-1.198.557l-.495.304a9.478 9.478 0 0 0-2.5-.33c-.86 0-1.693.11-2.5.33a11.6 11.6 0 0 0-.553-.342c-.23-.135-.593-.298-1.088-.488-.494-.19-.863-.247-1.106-.171-.391.955-.426 1.816-.105 2.585A3.7 3.7 0 0 0 3.62 9.227c0 .719.089 1.352.267 1.902.178.549.406.993.683 1.33.278.339.627.622 1.048.85a5.4 5.4 0 0 0 1.224.494c.395.102.84.178 1.335.228-.338.305-.551.74-.638 1.306a2.631 2.631 0 0 1-.586.19 3.782 3.782 0 0 1-.742.063c-.287 0-.57-.09-.853-.272a2.256 2.256 0 0 1-.723-.792 2.068 2.068 0 0 0-.631-.66c-.256-.168-.471-.27-.645-.304l-.26-.038c-.182 0-.308.02-.378.057-.07.038-.09.087-.065.146.026.06.065.118.117.178.053.059.109.11.17.152l.09.063c.192.085.38.245.567.482.187.236.324.452.41.646l.13.292c.113.32.304.58.574.78.269.198.56.325.872.38.312.054.614.084.905.088.29.004.532-.01.723-.044l.299-.05c0 .32.002.694.007 1.12l.006.692a.49.49 0 0 1-.17.38c-.112.101-.286.13-.52.089a9.783 9.783 0 0 1-4.928-3.518C.636 13.763 0 11.855 0 9.734a9.33 9.33 0 0 1 1.341-4.886 9.827 9.827 0 0 1 3.64-3.542C6.512.436 8.185 0 10 0zM3.79 13.98c.025-.058-.005-.11-.092-.151-.087-.026-.143-.017-.17.025-.025.06.005.11.092.152.078.05.134.042.17-.025zm.403.432c.06-.043.052-.11-.026-.203-.087-.076-.157-.089-.209-.038-.06.042-.052.11.026.203.087.084.157.097.209.038zm.39.57c.078-.06.078-.14 0-.24-.07-.11-.143-.136-.221-.077-.078.042-.078.118 0 .228.078.11.152.14.221.089zm.547.532c.07-.067.052-.148-.052-.24-.104-.102-.19-.115-.26-.039-.078.068-.061.148.052.241.104.102.19.114.26.038zm.742.317c.026-.093-.03-.16-.169-.203-.13-.033-.213-.004-.247.09-.035.092.021.155.169.19.13.05.213.025.247-.077zm.82.064c0-.11-.073-.157-.22-.14-.14 0-.209.047-.209.14 0 .11.074.156.221.139.14 0 .209-.046.209-.14zm.756-.127c-.017-.093-.096-.131-.234-.114-.14.025-.2.088-.183.19.018.101.096.135.235.101.139-.034.2-.093.182-.177z" fill-rule="nonzero"/></svg>
+              <svg width="20" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M10 0c1.814 0 3.487.435 5.02 1.306a9.827 9.827 0 0 1 3.639 3.542A9.33 9.33 0 0 1 20 9.734c0 2.121-.636 4.03-1.908 5.723a9.783 9.783 0 0 1-4.928 3.518c-.234.042-.408.012-.52-.09a.49.49 0 0 1-.17-.38l.006-.969c.005-.621.007-1.19.007-1.705 0-.82-.226-1.42-.677-1.8.495-.05.94-.126 1.335-.228a5.4 5.4 0 0 0 1.223-.494 3.62 3.62 0 0 0 1.055-.843c.282-.334.512-.777.69-1.33.178-.554.267-1.19.267-1.909a3.7 3.7 0 0 0-1.028-2.61c.32-.77.286-1.631-.105-2.586-.243-.076-.594-.03-1.054.14-.46.168-.86.354-1.198.557l-.495.304a9.478 9.478 0 0 0-2.5-.33c-.86 0-1.693.11-2.5.33a11.6 11.6 0 0 0-.553-.342c-.23-.135-.593-.298-1.088-.488-.494-.19-.863-.247-1.106-.171-.391.955-.426 1.816-.105 2.585A3.7 3.7 0 0 0 3.62 9.227c0 .719.089 1.352.267 1.902.178.549.406.993.683 1.33.278.339.627.622 1.048.85a5.4 5.4 0 0 0 1.224.494c.395.102.84.178 1.335.228-.338.305-.551.74-.638 1.306a2.631 2.631 0 0 1-.586.19 3.782 3.782 0 0 1-.742.063c-.287 0-.57-.09-.853-.272a2.256 2.256 0 0 1-.723-.792 2.068 2.068 0 0 0-.631-.66c-.256-.168-.471-.27-.645-.304l-.26-.038c-.182 0-.308.02-.378.057-.07.038-.09.087-.065.146.026.06.065.118.117.178.053.059.109.11.17.152l.09.063c.192.085.38.245.567.482.187.236.324.452.41.646l.13.292c.113.32.304.58.574.78.269.198.56.325.872.38.312.054.614.084.905.088.29.004.532-.01.723-.044l.299-.05c0 .32.002.694.007 1.12l.006.692a.49.49 0 0 1-.17.38c-.112.101-.286.13-.52.089a9.783 9.783 0 0 1-4.928-3.518C.636 13.763 0 11.855 0 9.734a9.33 9.33 0 0 1 1.341-4.886 9.827 9.827 0 0 1 3.64-3.542C6.512.436 8.185 0 10 0zM3.79 13.98c.025-.058-.005-.11-.092-.151-.087-.026-.143-.017-.17.025-.025.06.005.11.092.152.078.05.134.042.17-.025zm.403.432c.06-.043.052-.11-.026-.203-.087-.076-.157-.089-.209-.038-.06.042-.052.11.026.203.087.084.157.097.209.038zm.39.57c.078-.06.078-.14 0-.24-.07-.11-.143-.136-.221-.077-.078.042-.078.118 0 .228.078.11.152.14.221.089zm.547.532c.07-.067.052-.148-.052-.24-.104-.102-.19-.115-.26-.039-.078.068-.061.148.052.241.104.102.19.114.26.038zm.742.317c.026-.093-.03-.16-.169-.203-.13-.033-.213-.004-.247.09-.035.092.021.155.169.19.13.05.213.025.247-.077zm.82.064c0-.11-.073-.157-.22-.14-.14 0-.209.047-.209.14 0 .11.074.156.221.139.14 0 .209-.046.209-.14zm.756-.127c-.017-.093-.096-.131-.234-.114-.14.025-.2.088-.183.19.018.101.096.135.235.101.139-.034.2-.093.182-.177z" fill-rule="nonzero"/></svg>
             </a>
           </li>
         </ul>
