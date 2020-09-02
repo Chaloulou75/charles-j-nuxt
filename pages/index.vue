@@ -11,7 +11,7 @@
     </div> <!-- end hero -->
 
     <div class="mx-auto container-inner">
-      <p class="text-lg sm:text-xl">Mon <a href="https://github.com/chaloulou75/" target="_blank">GitHub ici</a>.</p>
+      <p class="text-lg sm:text-xl">Je suis Charles. Je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/" target="_blank"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/" target="_blank"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/" target="_blank"> Tailwind CSS </a> pour la stylisation...</p>
 
       <TransitionComponent />
 
@@ -36,27 +36,27 @@
         <ul class="space-y-6 text-lg sm:text-xl">
           <li class="checkmark">
             <div><a href="https://apuestamigo.com/" target="_blank">Apuestamigo</a></div>
-            <div class="text-lg text-gray-400">Site de ligues de paris entre amis pour savoir qui est le meilleur pronostiqueur. Réalisé avec Laravel, Tailwind, Livewire et Alpine JS. Déployé avec Heroku.</div>
+            <div class="text-lg text-gray-400">Site de ligues de paris entre amis pour savoir qui est le meilleur pronostiqueur. Réalisé avec Laravel, Tailwind, Livewire et Alpine JS. Déployé avec Heroku (<a class="text-base italic font-normal text-gray-400" href="https://github.com/chaloulou75/apuestamigov3" target="_blank">GitHub ici</a>).</div>
           </li>
           <li class="checkmark">
             <div><a href="https://julienlepretre.com/" target="_blank">Julien Leprêtre</a></div>
-            <div class="text-lg text-gray-400">Site de Julien Leprêtre. Réalisé avec Laravel, Tailwind, et Vuejs. Déployé avec Heroku.</div>
+            <div class="text-lg text-gray-400">Site de Julien Leprêtre. Réalisé avec Laravel, Tailwind, et Vuejs. Déployé avec Heroku (<a class="text-base italic font-normal text-gray-400" href="https://github.com/chaloulou75/julienlepretre" target="_blank">GitHub ici</a>).</div>
           </li>
           <li class="checkmark">
             <div><a href="https://carpinto-sites.netlify.app/" target="_blank">Carpinto</a></div>
-            <div class="text-lg text-gray-400">Site où je décris mes outils de développement préférés. Réalisé avec VuePress. Déployé avec Netlify.</div>
+            <div class="text-lg text-gray-400">Site où je décris mes outils de développement préférés. Réalisé avec VuePress. Déployé avec Netlify (<a class="text-base italic font-normal text-gray-400" href="https://github.com/chaloulou75/charles-j-vuepress" target="_blank">GitHub ici</a>).</div>
           </li>
           <li class="checkmark">
             <div><a href="https://charles-jeandey.netlify.app/" target="_blank">Charles Jeandey</a></div>
-            <div class="text-lg text-gray-400">Site sur lequel vous êtes. Réalisé avec NuxtJS, Tailwind, et Vuejs. Déployé avec Netlify.</div>
+            <div class="text-lg text-gray-400">Site sur lequel vous êtes. Réalisé avec NuxtJS, Tailwind, et Vuejs. Déployé avec Netlify (<a class="text-base italic font-normal text-gray-400" href="https://github.com/chaloulou75/charles-j-nuxt" target="_blank">GitHub ici</a>)</div>
           </li>
         </ul>
       </div> <!-- end projects -->
     </div>
 
-    <div class="overflow-x-hidden ">
+    <div class="overflow-x-hidden">
       <div class="relative pb-16 mx-auto text-xl border-b border-gray-200 container-inner">
-        <h2 class="mb-6 font-bold" id="about">En quelques mots:</h2>
+        <h2 class="mb-6 font-bold" id="about">Mais encore?</h2>
 
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -64,10 +64,12 @@
 
         <div class="flex flex-col items-center justify-between mb-16 sm:flex-row">
           <div>
-            <img src="~assets/img/laravel_and_vue.svg" alt="avatar" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
+            <img src="~assets/img/laravel_and_vue.svg" alt="laravel_and_vue" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
           </div>
           <div class="flex-1 ml-6 text-lg sm:text-xl">
-            Bonjour! Je suis Charles. Je passe mes journées à développer des applications web. Je me suis spécialisé sur le<a href="https://laravel.com/" target="_blank"> framework PHP Laravel </a> pour le backend, <a href="https://vuejs.org/" target="_blank"> Vue.js </a> pour le frontend et <a href="https://tailwindcss.com/" target="_blank"> Tailwind CSS </a> pour la stylisation... Oh, et je suis un gros fan de  <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank"> Boards Of Canada</a>.
+            <p class="pb-2">Autodidacte, je me suis formé (et continue chaque jour) au travers de plateformes telles que <a href="https://laracasts.com" target="_blank"> Laracasts</a> et <a href="https://openclassrooms.com" target="_blank"> Openclassrooms</a>, mais aussi via diverses chaines Youtube qui m'ont beaucoup appris et que je tiens à référencer pour leurs apports non négligeables dans mes connaissances (<a href="https://www.youtube.com/channel/UCzuaB4F2znrMggxcwUuVhAw" target="_blank"> Les Teachers Du Net</a>, <a href="https://www.youtube.com/channel/UCtb40EQj2inp8zuaQlLx3iQ" target="_blank">André Madarang</a> ou encore <a href="https://www.youtube.com/channel/UChyW1pwcQT2RA4Q2onfNfpg" target="_blank">Thibault Dauce</a> entre autres).</p>
+            <p>Par ailleurs, je suis un grand amateur de <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank"> Boards Of Canada</a>, et un joueur intraitable à <a href="https://mpg.football/dashboard?lang=fr-FR" target="_blank"> Mon Petit Gazon</a>!</p>
+
           </div>
         </div>
 
@@ -79,8 +81,10 @@
 
     <div class="overflow-x-hidden">
       <div class="pt-16 skills">
-        <div class="relative pb-4 mx-auto text-xl border-b border-gray-200 container-inner">
-          <h2 class="mb-6 font-bold">Mes compétences:</h2>
+        <div class="relative pb-16 mx-auto text-xl border-b border-gray-200 container-inner">
+          <h2 class="mb-6 font-bold focus:outline-none">
+            Mes compétences:
+          </h2>
 
           <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
             <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
