@@ -47,6 +47,10 @@
             <div class="text-lg text-gray-400">Site où je décris mes outils de développement préférés. Réalisé avec VuePress. Déployé avec Netlify (<a class="text-base italic font-normal text-gray-400" href="https://github.com/chaloulou75/charles-j-vuepress" target="_blank">GitHub ici</a>).</div>
           </li>
           <li class="checkmark">
+            <div><a href="https://charles-videogames.netlify.app/" target="_blank">Video Games</a></div>
+            <div class="text-lg text-gray-400">Site où j'utilise une API de jeux videos. Réalisé avec NuxtJS et Tailwindcss. Déployé avec Netlify (<a class="text-base italic font-normal text-gray-400" href="https://github.com/chaloulou75/videogames" target="_blank">GitHub ici</a>).</div>
+          </li>
+          <li class="checkmark">
             <div><a href="https://charles-jeandey.netlify.app/" target="_blank">Charles Jeandey</a></div>
             <div class="text-lg text-gray-400">Site sur lequel vous êtes. Réalisé avec NuxtJS, Tailwind, et Vuejs. Déployé avec Netlify (<a class="text-base italic font-normal text-gray-400" href="https://github.com/chaloulou75/charles-j-nuxt" target="_blank">GitHub ici</a>)</div>
           </li>
@@ -91,23 +95,23 @@
           </div>
 
           <div class="justify-between px-4 mb-12 lg:flex">
-            <ul class="text-base text-green-500 list-disc lg:space-y-3">
+            <ul class="text-base text-gray-400 list-disc lg:space-y-3">
               <li>Laravel </li>
               <li>PHP/MySQL </li>
               <li>VueJS </li>
               <li>HTML/CSS </li>
             </ul>
-            <ul class="text-base text-green-500 list-disc lg:space-y-3">
+            <ul class="text-base text-gray-400 list-disc lg:space-y-3">
               <li>Tailwind CSS</li>
               <li>Livewire </li>
               <li>JavaScript </li>
               <li>AlpineJS </li>
             </ul>
-            <ul class="text-base text-green-500 list-disc lg:space-y-3">
+            <ul class="text-base text-gray-400 list-disc lg:space-y-3">
               <li>Git/Version Control</li>
               <li>Deployment </li>
               <li>UI/UX Design </li>
-              <li>Bootstrap</li>
+              <li>Bootstrap </li>
             </ul>
           </div>
         </div>
