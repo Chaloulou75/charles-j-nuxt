@@ -23,6 +23,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Open Sans',
         'Nunito Sans',
         'Roboto',
         '-apple-system',
