@@ -14,7 +14,7 @@
 
       <div class="hidden desktop-menu lg:block">
         <ul class="flex justify-around space-x-6 font-semibold">
-          <li><NuxtLink to="/posts">Blog</NuxtLink></li>
+          <li><NuxtLink to="/posts">Not Blog</NuxtLink></li>
           <nuxt-link
             v-for="locale in availableLocales"
             :key="locale.code"
@@ -24,7 +24,7 @@
     </nav>
     <transition name="fade" class="mobile-menu lg:hidden">
         <ul class="flex flex-col items-end px-8 space-y-2 text-sm font-semibold" v-if="show">
-          <li><NuxtLink to="/posts" >Blog</NuxtLink></li>
+          <li><NuxtLink to="/posts" >Not Blog</NuxtLink></li>
           <nuxt-link
             v-for="locale in availableLocales"
             :key="locale.code"
