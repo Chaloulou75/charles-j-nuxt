@@ -33,18 +33,18 @@
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
 
-        <ul class="space-y-6 text-lg sm:text-xl">
+        <ul class="space-y-6 text-lg leading-normal sm:text-xl">
           <li class="checkmark">
             <div><a href="https://www.apuestamigo.com/" target="_blank">Apuestamigo</a></div>
-            <div class="text-lg text-gray-400">{{ $t('apuestamigo') }} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/apuestamigov3" target="_blank">GitHub</a>).</div>
+            <div class="text-lg tracking-wider text-gray-400">{{ $t('apuestamigo') }} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/apuestamigov3" target="_blank">GitHub</a>).</div>
           </li>
           <li class="checkmark">
             <div><a href="https://julienlepretre.com/" target="_blank">Julien Leprêtre</a></div>
-            <div class="text-lg text-gray-400">{{ $t('julien') }}(<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/julienlepretre" target="_blank">GitHub</a>).</div>
+            <div class="text-lg tracking-wider text-gray-400 ">{{ $t('julien') }}(<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/julienlepretre" target="_blank">GitHub</a>).</div>
           </li>
           <li class="checkmark">
             <div><a href="https://carpinto-sites.netlify.app/" target="_blank">Carpinto</a></div>
-            <div class="text-lg text-gray-400">{{ $t('carpinto') }} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/charles-j-vuepress" target="_blank">GitHub</a>).</div>
+            <div class="text-lg tracking-wider text-gray-400">{{ $t('carpinto') }} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/charles-j-vuepress" target="_blank">GitHub</a>).</div>
           </li>
           <!-- <li class="checkmark">
             <div><a href="https://charles-videogames.netlify.app/" target="_blank">Video Games</a></div>
@@ -52,7 +52,7 @@
           </li> -->
           <li class="checkmark">
             <div><a href="https://charles-jeandey.netlify.app/" target="_blank">Charles Jeandey</a></div>
-            <div class="text-lg text-gray-400"> {{ $t('charlesjnuxt')}} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/charles-j-nuxt" target="_blank">GitHub</a>).</div>
+            <div class="text-lg tracking-wider text-gray-400"> {{ $t('charlesjnuxt')}} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/charles-j-nuxt" target="_blank">GitHub</a>).</div>
           </li>
         </ul>
       </div> <!-- end projects -->
@@ -70,16 +70,17 @@
 
           <div class="justify-between px-4 mb-12 lg:flex">
             <ul class="text-base text-gray-400 list-disc lg:space-y-3">
+              <ol class="font-semibold">TALL Stack</ol>
               <li>Laravel </li>
-              <li>PHP/MySQL </li>
-              <li>VueJS </li>
-              <li>HTML/CSS </li>
+              <li>Tailwind CSS</li>
+              <li>Livewire</li>
+              <li>AlpineJS </li>
             </ul>
             <ul class="text-base text-gray-400 list-disc lg:space-y-3">
-              <li>Tailwind CSS</li>
-              <li>Livewire </li>
-              <li>JavaScript </li>
-              <li>AlpineJS </li>
+              <li>PHP/MySQL</li>
+              <li>HTML/CSS  </li>
+              <li>VueJS</li>
+              <li>JavaScript</li>
             </ul>
             <ul class="text-base text-gray-400 list-disc lg:space-y-3">
               <li>Git/Version Control</li>
@@ -95,7 +96,7 @@
     <div class="overflow-x-hidden">
       <div class="pt-8 lg:pt-16 encore"><!-- encore-->
         <div class="relative pb-8 mx-auto text-xl border-b border-gray-200 lg:pb-16 container-inner">
-          <h2 class="mb-6 font-bold" id="about">{{$t('encore')}}</h2>
+          <h2 class="mb-6 font-bold" id="about">{{ $t('encore') }}</h2>
 
           <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
             <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -135,7 +136,7 @@
 
     <div class="overflow-x-hidden">
       <div class="pt-8 lg:pt-16 contact-me">
-        <div class="relative pb-4 mx-auto text-xl container-inner">
+        <div class="relative pb-4 mx-auto text-xl leading-normal container-inner">
           <h2 class="mb-6 font-bold" id="contact">{{ $t('contactme') }}</h2>
           <p class="mb-12" v-html=" $t('contacttext') "></p>
         </div>
