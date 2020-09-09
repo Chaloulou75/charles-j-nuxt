@@ -35,7 +35,7 @@
 
         <ul class="space-y-6 text-lg sm:text-xl">
           <li class="checkmark">
-            <div><a href="https://apuestamigo.com/" target="_blank">Apuestamigo</a></div>
+            <div><a href="https://www.apuestamigo.com/" target="_blank">Apuestamigo</a></div>
             <div class="text-lg text-gray-400">{{ $t('apuestamigo') }} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/apuestamigov3" target="_blank">GitHub</a>).</div>
           </li>
           <li class="checkmark">
@@ -46,10 +46,10 @@
             <div><a href="https://carpinto-sites.netlify.app/" target="_blank">Carpinto</a></div>
             <div class="text-lg text-gray-400">{{ $t('carpinto') }} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/charles-j-vuepress" target="_blank">GitHub</a>).</div>
           </li>
-          <li class="checkmark">
+          <!-- <li class="checkmark">
             <div><a href="https://charles-videogames.netlify.app/" target="_blank">Video Games</a></div>
             <div class="text-lg text-gray-400">{{ $t('videogames') }}(<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/videogames" target="_blank">GitHub</a>).</div>
-          </li>
+          </li> -->
           <li class="checkmark">
             <div><a href="https://charles-jeandey.netlify.app/" target="_blank">Charles Jeandey</a></div>
             <div class="text-lg text-gray-400"> {{ $t('charlesjnuxt')}} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/charles-j-nuxt" target="_blank">GitHub</a>).</div>
