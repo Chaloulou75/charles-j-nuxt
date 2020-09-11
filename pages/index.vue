@@ -13,8 +13,6 @@
     <div class="pb-8 mx-auto container-inner">
       <p class="text-lg sm:text-xl" v-html="$t('intro')"></p>
 
-      <TransitionComponent />
-
       <div class="flex items-center justify-between py-6">
         <div class="w-full px-8 py-8 sm:w-1/2 sm:py-0">
           <img src="~assets/img/browser.svg" alt="browser" />
@@ -111,9 +109,9 @@
               <p v-html="$t('encoretext2')"></p>
             </div>
           </div>
-
+          <TransitionComponent />
           <div class="responsive-container">
-            <iframe class="top-0 left-0 w-full h-full border-0 responsive-iframe" src="https://www.youtube.com/embed/CURPyCzoKfY" style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="top-0 left-0 w-full h-full border-0 responsive-iframe" src="https://www.youtube.com/embed/PI3b6EEltD4" style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div><!-- end encore  -->
