@@ -1,8 +1,8 @@
 <template>
   <div>
-    <nav class="flex justify-between w-full px-8 py-8 text-white bg-gray-800 border-green-700 border-t-14">
+    <nav class="flex justify-between w-full px-8 py-8 text-white bg-transparent border-green-700 border-t-14">
 
-      <NuxtLink to="/" class="font-semibold uppercase">Charles Jeandey</NuxtLink>
+      <NuxtLink to="/" class="font-semibold uppercase transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2">Charles Jeandey</NuxtLink>
 
       <button
         class="outline-none mobile-hamburger lg:hidden focus:outline-none hover:text-green-700"
@@ -14,9 +14,9 @@
 
       <div class="hidden desktop-menu lg:block">
         <ul class="flex justify-around space-x-6 font-semibold">
-          <li><NuxtLink to="/posts">Not Blog</NuxtLink></li>
-          <li><NuxtLink to="/#contact">{{ $t('contact') }}</NuxtLink></li>
-          <nuxt-link
+          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><NuxtLink to="/posts">Not Blog</NuxtLink></li>
+          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><nuxt-link :to="{ path: '/', hash:'#contact'}">{{ $t('contact') }}</nuxt-link></li>
+          <nuxt-link class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"
             v-for="locale in availableLocales"
             :key="locale.code"
             :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>
@@ -25,9 +25,9 @@
     </nav>
     <transition name="fade" class="mobile-menu lg:hidden">
         <ul class="flex flex-col items-end px-8 space-y-2 text-sm font-semibold" v-if="show">
-          <li><NuxtLink to="/posts" >Not Blog</NuxtLink></li>
-          <li><NuxtLink to="/#contact">{{ $t('contact') }}</NuxtLink></li>
-          <nuxt-link
+          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><NuxtLink to="/posts" >Not Blog</NuxtLink></li>
+          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><nuxt-link :to="{ path: '/', hash:'#contact'}">{{ $t('contact') }}</nuxt-link></li>
+          <nuxt-link class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"
             v-for="locale in availableLocales"
             :key="locale.code"
             :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>

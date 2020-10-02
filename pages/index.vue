@@ -13,7 +13,7 @@
     <div class="pb-8 mx-auto container-inner">
       <p class="text-lg sm:text-xl" v-html="$t('intro')"></p>
 
-      <div class="flex items-center justify-between py-6">
+      <div class="flex items-center justify-center py-6">
         <div class="w-full px-8 py-8 sm:w-1/2 sm:py-0">
           <img src="~assets/img/browser.svg" alt="browser" />
         </div>
@@ -66,7 +66,7 @@
             <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
           </div>
 
-          <div class="justify-between px-4 mb-12 lg:flex">
+          <div class="justify-between px-12 mb-12 lg:px-4 lg:flex">
             <ul class="text-base text-gray-400 list-disc lg:space-y-3">
               <ol class="font-semibold">TALL Stack</ol>
               <li>Laravel </li>
@@ -77,6 +77,7 @@
             <ul class="text-base text-gray-400 list-disc lg:space-y-3">
               <li>PHP/MySQL</li>
               <li>HTML/CSS  </li>
+              <li>SASS </li>
               <li>VueJS</li>
               <li>JavaScript</li>
             </ul>
@@ -109,7 +110,7 @@
               <p v-html="$t('encoretext2')"></p>
             </div>
           </div>
-          <TransitionComponent />
+          <!-- <TransitionComponent /> -->
           <div class="responsive-container">
             <iframe class="top-0 left-0 w-full h-full border-0 responsive-iframe" src="https://www.youtube.com/embed/CURPyCzoKfY" style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
@@ -132,10 +133,10 @@
       </div>
     </div>
 
-    <div class="overflow-x-hidden">
+    <div class="overflow-x-hidden" id="contact">
       <div class="pt-8 lg:pt-16 contact-me">
         <div class="relative pb-4 mx-auto text-xl leading-normal container-inner">
-          <h2 class="mb-6 font-bold" id="contact">{{ $t('contactme') }}</h2>
+          <h2 class="mb-6 font-bold" >{{ $t('contactme') }}</h2>
           <p class="mb-12" v-html=" $t('contacttext') "></p>
         </div>
       </div>
@@ -147,7 +148,7 @@
       </div>
     </div>
 
-    <footer class="text-white bg-green-700">
+    <footer class="text-white bg-transparent">
       <div class="container flex items-center justify-between px-4 py-8 mx-auto">
         <div class="text-xs">	&copy; Charles Jeandey {{ new Date().getFullYear() }}.<br> {{$t('footer')}}.</div>
         <ul class="flex items-center space-x-6">
