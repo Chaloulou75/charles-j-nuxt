@@ -57,9 +57,11 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxt/content',
-    'nuxt-i18n',
+    'nuxt-i18n'
   ],
+
   i18n: {
+    strategy: 'prefix_except_default',
     locales: [
       {
         code: 'en',
