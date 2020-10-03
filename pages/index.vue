@@ -17,9 +17,9 @@
         <div class="w-full px-8 py-8 sm:w-1/2 sm:py-0">
           <img src="~assets/img/browser.svg" alt="browser" />
         </div>
-        <div class="justify-end hidden w-1/2 px-8 sm:flex">
-          <img src="~assets/img/mobile.svg" alt="mobile" />
-        </div>
+        <!-- <div class="justify-end hidden w-1/2 px-8 sm:flex">
+          <img src="~assets/img/Devices.svg" alt="mobile" />
+        </div> -->
       </div>
     </div>
 
