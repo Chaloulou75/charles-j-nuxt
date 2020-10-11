@@ -37,7 +37,7 @@
             <div class="text-lg tracking-wider text-gray-400">{{ $t('apuestamigo') }} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/apuestamigov3" target="_blank">GitHub</a>).</div>
           </li>
           <li class="checkmark">
-            <div><a href="https://julienlepretre.com/" target="_blank">Julien Leprêtre</a></div>
+            <div><a href="https://julienlepretre.herokuapp.com/" target="_blank">Julien Leprêtre</a></div>
             <div class="text-lg tracking-wider text-gray-400 ">{{ $t('julien') }}(<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/julienlepretre" target="_blank">GitHub</a>).</div>
           </li>
           <li class="checkmark">
@@ -76,16 +76,15 @@
             </ul>
             <ul class="text-base text-gray-400 list-disc lg:space-y-3">
               <li>PHP/MySQL</li>
-              <li>HTML/CSS  </li>
+              <li>HTML/CSS </li>
               <li>SASS </li>
               <li>VueJS</li>
-              <li>JavaScript</li>
             </ul>
             <ul class="text-base text-gray-400 list-disc lg:space-y-3">
               <li>Git/Version Control</li>
-              <li>Deployment </li>
-              <li>UI/UX Design </li>
-              <li>Bootstrap </li>
+              <li>Deployment</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
             </ul>
           </div>
         </div>
