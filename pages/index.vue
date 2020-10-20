@@ -37,10 +37,6 @@
             <div class="text-lg tracking-wider text-gray-400">{{ $t('apuestamigo') }} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/apuestamigov3" target="_blank">GitHub</a>).</div>
           </li>
           <li class="checkmark">
-            <div class="font-bold">Julien Leprêtre</div>
-            <div class="text-lg tracking-wider text-gray-400 ">{{ $t('julien') }}(<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/julienlepretre" target="_blank">GitHub</a>).</div>
-          </li>
-          <li class="checkmark">
             <div><a href="https://carpinto-sites.netlify.app/" target="_blank">Carpinto</a></div>
             <div class="text-lg tracking-wider text-gray-400">{{ $t('carpinto') }} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/charles-j-vuepress" target="_blank">GitHub</a>).</div>
           </li>
@@ -51,6 +47,10 @@
           <li class="checkmark">
             <div><a href="https://charles-jeandey.netlify.app/" target="_blank">Charles Jeandey</a></div>
             <div class="text-lg tracking-wider text-gray-400"> {{ $t('charlesjnuxt')}} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/charles-j-nuxt" target="_blank">GitHub</a>).</div>
+          </li>
+          <li class="checkmark">
+            <div class="font-bold">Julien Leprêtre</div>
+            <div class="text-lg tracking-wider text-gray-400 ">{{ $t('julien') }}(<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/julienlepretre" target="_blank">GitHub</a>).</div>
           </li>
         </ul>
       </div> <!-- end projects -->
