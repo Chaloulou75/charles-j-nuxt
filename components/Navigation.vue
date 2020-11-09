@@ -15,7 +15,7 @@
       <div class="hidden desktop-menu lg:block">
         <ul class="flex justify-around space-x-6 font-semibold">
           <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><nuxt-link :to="localePath('/posts')">Not Blog</nuxt-link></li>
-          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><nuxt-link :to="localePath({ Path: '/', hash:'#contact'})">{{ $t('contact') }}</nuxt-link></li>
+          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><scroll-link href="#contact">{{ $t('contact') }}</scroll-link></li>
           <nuxt-link class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"
             v-for="locale in availableLocales"
             :key="locale.code"
@@ -26,7 +26,7 @@
     <transition name="fade" class="mobile-menu lg:hidden">
         <ul class="flex flex-col items-end px-8 space-y-2 text-sm font-semibold" v-if="show">
           <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><nuxt-link :to="localePath('/posts')">Not Blog</nuxt-link></li>
-          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><nuxt-link :to="localePath({ Path: '/', hash:'#contact'})">{{ $t('contact') }}</nuxt-link></li>
+          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><scroll-link href="#contact">{{ $t('contact') }}</scroll-link></li>
           <nuxt-link class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"
             v-for="locale in availableLocales"
             :key="locale.code"
@@ -37,7 +37,12 @@
 </template>
 
 <script>
+import ScrollLink from './../components/ScrollLink.vue'
+
 export default {
+  components :{
+    ScrollLink
+  },
   data() {
     return {
       show: false

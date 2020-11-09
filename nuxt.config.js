@@ -15,11 +15,11 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'Charles Jeandey',
+    title: 'Charles Jeandey | Web Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Developpeur web Laravel' }
+      { hid: 'description', name: 'description', content: 'Web Developer Laravel & Vue from Paris' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/laravel-logo.svg' }, //favicon.ico
@@ -93,6 +93,7 @@ export default {
           whatshere : 'What is it here?',
           compotrans : 'Just a small Vue component with a smoothie transition',
           tete : 'But above all, I had to show my face somewhere...',
+          persona: 'Website for Julieta, Design creation. Made with VueJS (NuxtJS) and Tailwind CSS',
           apuestamigo : 'Site of football predictions between friends. Made with Laravel, Tailwind, Livewire and Alpine JS. Deployed with Heroku',
           julien : 'Julien Leprêtre website and blog. Made with Laravel, Tailwind, and Vuejs. Deployed with Heroku ',
           carpinto : 'Website where I describe my favorite development tools. Especially for testing VuePress. Deployed with Netlify',
@@ -117,6 +118,7 @@ export default {
           whatshere: '¿Qué hay aquí?',
           compotrans : 'Solo un pequeño componente de Vue con una transición',
           tete : 'Tenía que mostrar mi cara en algun lado...',
+          persona: 'Sitio web de Julieta, Diseñadora. Hecho con VueJS (NuxtJS) y Tailwind CSS',
           apuestamigo : 'Sitio de predicciones de fútbol entre amigos. Hecho con Laravel, Tailwind, Livewire y Alpine JS. Implementado con Heroku',
           julien : 'Sitio web de Julien Leprêtre. Hecho con Laravel, Tailwind y Vuejs. Desplegado con Heroku ',
           carpinto : 'Sitio donde describo mis herramientas de desarrollo favoritas. Especialmente para probar VuePress. Implementado con Netlify ',
@@ -140,6 +142,7 @@ export default {
           whatshere: 'Qu\'il y a t-il ici?',
           compotrans : 'Juste un petit composant Vue avec une transition smoothie',
           tete : 'Mais surtout, il fallait bien que je montre ma tête quelque part...',
+          persona: 'Site web de Julieta, Creatrice de disign. Réalisé avec VueJS (NuxtJS) et Tailwind CSS',
           apuestamigo : 'Site de ligues de pronostics entre amis sur le foot. Réalisé avec Laravel, Tailwind, Livewire et Alpine JS. Déployé avec Heroku',
           julien : 'Site de Julien Leprêtre. Réalisé avec Laravel, Tailwind, et Vuejs. Déployé avec Heroku ',
           carpinto : 'Site où je décris mes outils de développement préférés. Surtout pour tester VuePress. Déployé avec Netlify ',
@@ -171,34 +174,34 @@ export default {
 
   router: {
     scrollBehavior: async function (to, from, savedPosition) {
-        if (savedPosition) {
-          return savedPosition;
-        }
-
-        const findEl = async (hash, x = 0) => {
-          return (
-            document.querySelector(hash) ||
-            new Promise(resolve => {
-              if (x > 50) {
-                return resolve(document.querySelector("#app"));
-              }
-              setTimeout(() => {
-                resolve(findEl(hash, ++x || 1));
-              }, 100);
-            })
-          );
-        };
-
-        if (to.hash) {
-          let el = await findEl(to.hash);
-          if ("scrollBehavior" in document.documentElement.style) {
-            return window.scrollTo({ top: el.offsetTop, behavior: "smooth" });
-          } else {
-            return window.scrollTo(0, el.offsetTop);
-          }
-        }
-
-        return { x: 0, y: 0 };
+      if (savedPosition) {
+        return savedPosition;
       }
+
+      const findEl = async (hash, x = 0) => {
+        return (
+          document.querySelector(hash) ||
+          new Promise(resolve => {
+            if (x > 50) {
+              return resolve(document.querySelector("#app"));
+            }
+            setTimeout(() => {
+              resolve(findEl(hash, ++x || 1));
+            }, 100);
+          })
+        );
+      };
+
+      if (to.hash) {
+        let el = await findEl(to.hash);
+        if ("scrollBehavior" in document.documentElement.style) {
+          return window.scrollTo({ top: el.offsetTop, behavior: "smooth" });
+        } else {
+          return window.scrollTo(0, el.offsetTop);
+        }
+      }
+
+      return { x: 0, y: 0 };
+    }
   },
 }
