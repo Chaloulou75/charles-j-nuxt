@@ -142,7 +142,7 @@ export default {
           whatshere: 'Qu\'il y a t-il ici?',
           compotrans : 'Juste un petit composant Vue avec une transition smoothie',
           tete : 'Mais surtout, il fallait bien que je montre ma tête quelque part...',
-          persona: 'Site web de Julieta, Creatrice de disign. Réalisé avec VueJS (NuxtJS) et Tailwind CSS',
+          persona: 'Site web de Julieta, Creatrice de design. Réalisé avec VueJS (NuxtJS) et Tailwind CSS',
           apuestamigo : 'Site de ligues de pronostics entre amis sur le foot. Réalisé avec Laravel, Tailwind, Livewire et Alpine JS. Déployé avec Heroku',
           julien : 'Site de Julien Leprêtre. Réalisé avec Laravel, Tailwind, et Vuejs. Déployé avec Heroku ',
           carpinto : 'Site où je décris mes outils de développement préférés. Surtout pour tester VuePress. Déployé avec Netlify ',
