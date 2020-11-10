@@ -153,6 +153,7 @@
       </div>
     </div>
 
+    <visible when-hidden="#herotop">
     <div class="fixed bottom-0 right-0 z-20 mb-12 mr-5">
       <div class="p-2 bg-gray-100 border rounded-full opacity-50">
         <scroll-link href="#herotop" class="text-gray-800">
@@ -160,6 +161,7 @@
         </scroll-link>
       </div>
     </div>
+    </visible>
 
     <footer class="text-white bg-transparent">
       <div class="container flex items-center justify-between px-4 py-8 mx-auto">
@@ -194,9 +196,12 @@
 
 <script>
 import ScrollLink from './../components/ScrollLink.vue'
+import Visible from './../components/Visible.vue'
+
 export default {
   components :{
-    ScrollLink
+    ScrollLink,
+    Visible
   },
 }
 </script>

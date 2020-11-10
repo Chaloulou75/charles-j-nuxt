@@ -37,6 +37,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '@/plugins/in-viewport', ssr: false },
   ],
   /*
   ** Auto import components
