@@ -59,17 +59,19 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxt/content',
-    'nuxt-i18n'
+    'nuxt-i18n',
+    [
+      "nuxt-compress",
+      {
+        gzip: {
+          cache: true
+        },
+        brotli: {
+          threshold: 10240
+        }
+      }
+    ]
   ],
-
-  "nuxt-compress": {
-    gzip: {
-      cache: true
-    },
-    brotli: {
-      threshold: 10240
-    }
-  },
 
   i18n: {
     strategy: 'prefix_except_default',
