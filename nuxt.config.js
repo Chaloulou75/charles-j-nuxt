@@ -50,6 +50,7 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    "nuxt-compress"
   ],
   /*
   ** Nuxt.js modules
@@ -60,6 +61,15 @@ export default {
     '@nuxt/content',
     'nuxt-i18n'
   ],
+
+  "nuxt-compress": {
+    gzip: {
+      cache: true
+    },
+    brotli: {
+      threshold: 10240
+    }
+  },
 
   i18n: {
     strategy: 'prefix_except_default',
