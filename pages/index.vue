@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <div id="back"></div>
-    <div id="front"></div>
+  <div >
     <Navigation />
     <div id="herotop" class="flex flex-col justify-between py-16 mx-auto hero container-inner sm:flex-row">
       <div class="w-full text-4xl font-bold text-center sm:w-3/5 sm:text-left">
