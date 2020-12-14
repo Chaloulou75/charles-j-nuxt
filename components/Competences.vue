@@ -2,7 +2,7 @@
   <div class="overflow-x-hidden competences" >
       <div class="skills"><!-- competences -->
         <div class="relative py-8 mx-auto text-xl border-b border-gray-200 lg:py-16 container-inner">
-          <h2 class="mb-6 text-4xl font-bold focus:outline-none" data-scroll>
+          <h2 class="mb-8 text-4xl font-bold text-gray-300" data-scroll>
             {{ $t('skills') }}
           </h2>
           <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">

@@ -2,8 +2,8 @@
   <div class="overflow-x-hidden" id="contact">
     <div class="pt-8 lg:pt-16 contact-me">
       <div class="relative pb-4 mx-auto text-xl leading-loose container-inner">
-        <h2 class="mb-6 text-4xl font-bold" data-scroll>{{ $t('contactme') }}</h2>
-        <p class="z-20 mb-12" v-html=" $t('contacttext') " data-scroll></p>
+        <h2 class="mb-8 text-4xl font-bold text-gray-300" data-scroll>{{ $t('contactme') }}</h2>
+        <p class="z-20 mb-12 text-gray-300" v-html=" $t('contacttext') " data-scroll></p>
       </div>
     </div>
   </div>

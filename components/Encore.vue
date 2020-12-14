@@ -2,7 +2,7 @@
   <div class="overflow-x-hidden"><!-- encore-->
       <div class="pt-8 lg:pt-16 encore">
         <div class="relative pb-8 mx-auto text-xl border-b border-gray-200 lg:pb-16 container-inner">
-          <h2 class="mb-6 text-4xl font-bold" id="about" data-scroll>{{ $t('encore') }}</h2>
+          <h2 class="mb-8 text-4xl font-bold text-gray-300" id="about" data-scroll>{{ $t('encore') }}</h2>
 
           <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
             <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -13,8 +13,8 @@
               <img loading="lazy" src="~assets/img/laravel_and_vue.svg" alt="laravel_and_vue" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
             </div>
             <div class="flex-1 ml-6 text-lg">
-              <p class="pb-2 leading-loose" v-html="$t('encoretext')" data-scroll></p>
-              <p class="leading-loose" v-html="$t('encoretext2')" data-scroll></p>
+              <p class="pb-2 leading-loose text-gray-300" v-html="$t('encoretext')" data-scroll></p>
+              <p class="leading-loose text-gray-300" v-html="$t('encoretext2')" data-scroll></p>
             </div>
           </div>
           <!-- <TransitionComponent /> -->

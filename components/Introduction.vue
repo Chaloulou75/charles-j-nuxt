@@ -1,6 +1,6 @@
 <template>
   <div class="pb-8 mx-auto container-inner">
-    <p class="text-xl leading-loose" v-html="$t('intro')" data-scroll></p>
+    <p class="text-xl leading-loose text-gray-300" v-html="$t('intro')" data-scroll></p>
 
     <div class="flex items-center justify-center py-6">
       <div class="w-full px-8 py-8 sm:w-1/2 sm:py-0" data-scroll>

@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       colors: {
         gray: colors.coolGray,
+        orange: colors.orange,
         gold: '#FFDF00',
       },
       spacing: {
