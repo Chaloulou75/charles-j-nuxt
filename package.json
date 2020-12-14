@@ -18,6 +18,7 @@
     "nuxt-compress": "^4.1.0",
     "nuxt-i18n": "^6.15.1",
     "postcss": "^7.0.35",
+    "scroll-out": "^2.2.12",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
   },
   "devDependencies": {

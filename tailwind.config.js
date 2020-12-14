@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: [
     './components/**/*.{vue,js}',
@@ -10,6 +12,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        gray: colors.coolGray,
         gold: '#FFDF00',
       },
       spacing: {

@@ -40,6 +40,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '@/plugins/scroll-out', ssr: false },
     { src: '@/plugins/in-viewport', ssr: false },
   ],
   /*
@@ -142,7 +143,7 @@ export default {
           charlesjnuxt : '¡Sitio donde estás ahora mismo! Hecho con NuxtJS y Tailwindcss. Implementado con Netlify',
           encore : 'Ok, pero cuéntanos más',
           encoretext : 'Autodidacta y apasionado, me formé (y continúo haciéndolo a diario) en distintas plataformas como <a href="https://laracasts.com" target="_blank"> Laracasts </a> y <a href = " https://openclassrooms.com "target =" _ blank "> Openclassrooms </a>. También, gracias a varios canales de Youtube, los cuales no quiero dejar de mencionar porque me enseñaron mucho (<a href = "https://www.youtube.com/channel/UCzuaB4F2znrMggxcwUuVhAw" target = "_ blank"> Les Teachers Du Net </a>, <a href = "https://www.youtube.com/channel/UCtb40EQj2inp8zuaQlLx3iQ" target = "_ blank"> André Madarang </a> o <a href="https://www.youtube.com/channel/UChyW1pwcQT2RA4Q2onfNfpg" target="_blank"> Thibault Dauce </a> entre otros).',
-          encoretext2 : 'Por otro lado, soy un gran admirador de <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank"> Boards Of Canada </a>, y un jugador inigualable en <a href="https://mpg.football/dashboard?lang=fr-FR" target="_blank"> Mon Petit Gazon </a>.',
+          encoretext2 : 'Por otro lado, soy un gran admirador de <a href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank"> Boards Of Canada </a>, y un jugador inigualable en <a href="https://mpg.football/dashboard?lang=fr-FR" target="_blank"> Mon Petit Gazon</a>.',
           footer : 'Todos los derechos reservados'
         },
         fr: {
@@ -186,38 +187,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-  },
+  }
 
-  router: {
-    scrollBehavior: async function (to, from, savedPosition) {
-      if (savedPosition) {
-        return savedPosition;
-      }
-
-      const findEl = async (hash, x = 0) => {
-        return (
-          document.querySelector(hash) ||
-          new Promise(resolve => {
-            if (x > 50) {
-              return resolve(document.querySelector("#app"));
-            }
-            setTimeout(() => {
-              resolve(findEl(hash, ++x || 1));
-            }, 100);
-          })
-        );
-      };
-
-      if (to.hash) {
-        let el = await findEl(to.hash);
-        if ("scrollBehavior" in document.documentElement.style) {
-          return window.scrollTo({ top: el.offsetTop, behavior: "smooth" });
-        } else {
-          return window.scrollTo(0, el.offsetTop);
-        }
-      }
-
-      return { x: 0, y: 0 };
-    }
-  },
 }
