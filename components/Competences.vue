@@ -11,25 +11,25 @@
 
           <div class="justify-between px-12 mb-12 lg:px-4 lg:flex">
             <ul class="space-y-2 text-xl text-gray-400 list-disc lg:space-y-4">
-              <ol class="font-semibold" data-scroll>TALL Stack</ol>
-              <li data-scroll>Laravel </li>
-              <li data-scroll>Tailwind CSS</li>
-              <li data-scroll>Livewire</li>
-              <li data-scroll>AlpineJS </li>
+              <ol class="font-semibold" data-scroll><code>TALL Stack</code></ol>
+              <li data-scroll><code>Laravel</code></li>
+              <li data-scroll><code>Tailwind CSS</code></li>
+              <li data-scroll><code>Livewire</code></li>
+              <li data-scroll><code>AlpineJS</code></li>
             </ul>
             <ul class="space-y-2 text-xl text-gray-400 list-disc lg:space-y-4">
-              <li data-scroll>PHP/MySQL</li>
-              <li data-scroll>HTML/CSS </li>
-              <li data-scroll>SASS </li>
-              <li data-scroll>Vue JS</li>
-              <li data-scroll>Nuxt JS</li>
+              <li data-scroll><code>PHP/MySQL</code></li>
+              <li data-scroll><code>HTML/CSS</code> </li>
+              <li data-scroll><code>SASS</code> </li>
+              <li data-scroll><code>Vue JS</code></li>
+              <li data-scroll><code>Nuxt JS</code></li>
             </ul>
             <ul class="space-y-2 text-xl text-gray-400 list-disc lg:space-y-4">
-              <li data-scroll>Git/Version Control</li>
-              <li data-scroll>Deployment</li>
-              <li data-scroll>JavaScript</li>
-              <li data-scroll>Bootstrap</li>
-              <li data-scroll>VuePress / Gridsome</li>
+              <li data-scroll><code>Git/Version Control</code></li>
+              <li data-scroll><code>Deployment</code></li>
+              <li data-scroll><code>JavaScript</code></li>
+              <li data-scroll><code>Bootstrap</code></li>
+              <li data-scroll><code>VuePress / Gridsome</code></li>
             </ul>
           </div>
         </div>
