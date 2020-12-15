@@ -99,7 +99,7 @@ export default {
       messages: {
         en: {
           welcome: 'Welcome',
-          dev : 'Web developer',
+          dev : 'Web Developer',
           notblog : 'This is not blog!',
           contact : 'Contact',
           skills : 'Skills',

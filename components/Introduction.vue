@@ -1,9 +1,9 @@
 <template>
-  <div class="pb-8 mx-auto container-inner">
+  <div class="mx-auto my-8 container-inner">
     <p class="text-xl leading-loose text-gray-300" v-html="$t('intro')" data-scroll></p>
 
-    <div class="flex items-center justify-center py-6">
-      <div class="w-full px-8 py-8 sm:w-1/2 sm:py-0" data-scroll>
+    <div class="flex items-center justify-center py-6 mt-12">
+      <div class="w-full px-8 py-8 lg:w-1/2 lg:py-0" data-scroll>
         <img loading="lazy" src="~assets/img/browser.svg" alt="browser" />
       </div>
     </div>

@@ -81,15 +81,11 @@
 import ScrollOut from "scroll-out"
 import ScrollLink from './../components/ScrollLink.vue'
 import Visible from './../components/Visible.vue'
-import Competences from '~/components/Competences.vue'
-import Svgdots from '~/components/Svgdots.vue'
 
 export default {
   components :{
     ScrollLink,
     Visible,
-    Competences,
-    Svgdots
   },
   mounted() {
     this.so = ScrollOut({

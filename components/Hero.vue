@@ -1,13 +1,16 @@
 <template>
-  <div id="herotop" class="flex flex-col justify-between py-16 mx-auto hero container-inner sm:flex-row">
-      <div class="w-full text-5xl font-bold text-center lg:text-7xl sm:w-3/5 sm:text-left" >
-        <div class="leading-tight" data-scroll>{{ $t('dev') }} </div>
+  <div class="flex items-center justify-around min-h-screen">
+    <div class="flex flex-col justify-between px-4 py-4 mx-auto mb-auto lg:flex-row">
+      <div class="w-full text-6xl font-bold text-center lg:text-left lg:w-3/5 lg:text-8xl" >
+        <div class="leading-tight text-gray-300" data-scroll>{{ $t('dev') }} </div>
         <div class="leading-tight text-green-700" data-scroll>Full-stack</div>
       </div>
-      <div class="mt-8 sm:mt-0">
+      <div class="mt-8">
         <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
       </div>
     </div> <!-- end hero -->
+  </div>
+
 </template>
 
 <script>
@@ -29,7 +32,7 @@ export default {
 <style scoped>
 
 [data-scroll] {
-  transition: all 4s;
+  transition: all 3s;
 }
 
 [data-scroll="in"] {

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="herotop">
     <nav class="flex justify-between w-full px-8 py-8 text-white bg-transparent border-green-700 border-t-14">
 
       <nuxt-link :to="localePath('/')" class="text-xl font-thin tracking-wider no-underline transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2" data-scroll>Charles Jeandey</nuxt-link>
@@ -14,23 +14,40 @@
 
       <div class="hidden desktop-menu lg:block">
         <ul class="flex justify-around space-x-6 font-semibold">
-          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2" data-scroll><nuxt-link :to="localePath('/posts')">Not Blog</nuxt-link></li>
-          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2" data-scroll><scroll-link href="#contact">{{ $t('contact') }}</scroll-link></li>
-          <nuxt-link class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"
+          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2" data-scroll>
+            <nuxt-link :to="localePath('/posts')">
+              Not Blog
+            </nuxt-link>
+          </li>
+          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2" data-scroll>
+            <scroll-link href="#contact">
+              {{ $t('contact') }}
+            </scroll-link>
+          </li>
+          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"
             v-for="locale in availableLocales"
             :key="locale.code"
-            :to="switchLocalePath(locale.code)" data-scroll>{{ locale.name }}</nuxt-link>
+            data-scroll>
+            <nuxt-link :to="switchLocalePath(locale.code)">
+              {{ locale.name }}
+            </nuxt-link>
+          </li>
         </ul>
       </div>
     </nav>
+
     <transition name="fade" class="mobile-menu lg:hidden">
-        <ul class="flex flex-col items-end px-8 space-y-2 text-sm font-semibold" v-if="show">
+        <ul class="flex flex-col items-start px-8 space-y-2 text-sm font-semibold" v-if="show">
           <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><nuxt-link :to="localePath('/posts')">Not Blog</nuxt-link></li>
           <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"><scroll-link href="#contact">{{ $t('contact') }}</scroll-link></li>
-          <nuxt-link class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"
+          <li class="transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2"
             v-for="locale in availableLocales"
             :key="locale.code"
-            :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>
+          >
+            <nuxt-link :to="switchLocalePath(locale.code)">
+              {{ locale.name }}
+            </nuxt-link>
+          </li>
         </ul>
     </transition>
   </div>
