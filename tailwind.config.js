@@ -15,6 +15,7 @@ module.exports = {
         gray: colors.coolGray,
         orange: colors.orange,
         gold: '#FFDF00',
+        bluefonce: '#05182d',
       },
       spacing: {
         108: '27rem'

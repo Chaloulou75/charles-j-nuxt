@@ -1,9 +1,9 @@
 <template>
   <div class="flex items-center justify-around min-h-screen">
     <div class="flex flex-col justify-between px-4 py-4 mx-auto mb-auto lg:flex-row">
-      <div class="w-full text-6xl font-bold text-center lg:text-left lg:w-3/5 lg:text-8xl" >
-        <div class="leading-tight text-gray-300" data-scroll>{{ $t('dev') }} </div>
-        <div class="leading-tight text-green-700" data-scroll>Full-stack</div>
+      <div class="w-full text-6xl font-extrabold text-center lg:text-left lg:w-3/5 lg:text-8xl" >
+        <div class="leading-tight text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500" data-scroll>{{ $t('dev') }} </div>
+        <div class="leading-tight text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500" data-scroll>Full-stack</div>
       </div>
       <div class="mt-8">
         <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="mx-auto sm:mx-0" />

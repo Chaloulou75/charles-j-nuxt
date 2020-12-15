@@ -1,26 +1,20 @@
 <template>
-<div>
-  <div id="back"></div>
-  <div id="front"></div>
-  <Navigation />
-  <div class="px-2 mx-auto lg:px-20">
-    <div class="px-4 py-4 mx-auto font-semibold text-center text-gray-100">{{ postInMarkdown.title}}</div>
-    <div class="px-4 py-4 mx-auto text-center text-gray-300">by: {{ postInMarkdown.author}}</div>
+  <div>
+    <Navigation />
+    <div class="px-2 mx-auto lg:px-20">
+      <div class="px-4 py-4 mx-auto font-semibold text-center text-gray-100">{{ postInMarkdown.title}}</div>
+      <div class="px-4 py-4 mx-auto text-center text-gray-300">by: {{ postInMarkdown.author}}</div>
 
-    <nuxt-content :document="postInMarkdown" />
+      <nuxt-content :document="postInMarkdown" />
 
+    </div>
+    <Contact />
+    <Footer />
   </div>
-</div>
 </template>
 
 <script>
-import Logo from '~/components/Logo';
-
 export default {
-
-    components: {
-      Logo,
-    },
 
   async asyncData({ $content, params }) {
 
@@ -30,7 +24,6 @@ export default {
       return {
         postInMarkdown
       }
-
   }
 
 };
