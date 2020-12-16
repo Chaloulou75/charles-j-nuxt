@@ -11,12 +11,13 @@
           <h2 class="mb-12 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500" id="about" data-scroll>{{ $t('encore') }}</h2>
           <div class="relative flex flex-col items-center justify-between h-auto px-8 py-8 my-24 lg:flex-row lg:px-24 lg:py-12">
 
-            <div class="absolute inset-0 transform bg-orange-600 rounded-xl rotate-12"></div>
+            <!-- <div class="absolute inset-0 transform bg-orange-600 rounded-xl rotate-12"></div>
             <div class="absolute inset-0 transform bg-gold rounded-xl -rotate-12"></div>
-            <div class="absolute inset-0 transform bg-purple-900 rounded-xl -rotate-3"></div>
+            <div class="absolute inset-0 transform bg-purple-900 rounded-xl -rotate-3"></div> -->
+
             <div class="flex-1 ml-6 text-xl font-semibold leading-loose">
-              <p class="pb-2 text-gray-200" v-html="$t('encoretext')" data-scroll></p>
-              <p class="text-gray-200" v-html="$t('encoretext2')" data-scroll></p>
+              <p class="pb-2 font-semibold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500" v-html="$t('encoretext')" data-scroll></p>
+              <p class="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500" v-html="$t('encoretext2')" data-scroll></p>
             </div>
           </div>
           <div class="responsive-container" data-scroll>
