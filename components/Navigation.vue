@@ -1,6 +1,6 @@
 <template>
   <div id="herotop">
-    <nav class="flex justify-between w-full px-8 py-8 text-white bg-transparent">
+    <nav class="flex items-center justify-between w-full px-8 py-8 bg-transparent">
 
       <nuxt-link :to="localePath('/')" class="text-xl font-semibold tracking-wider text-transparent no-underline transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Charles Jeandey</nuxt-link>
 

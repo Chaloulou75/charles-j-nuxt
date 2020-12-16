@@ -1,7 +1,7 @@
 <template>
   <div class="overflow-x-hidden works">
-      <div class="relative py-8 mx-auto text-xl border-t border-b border-gray-500 lg:py-16 projects container-inner">
-        <h2 class="mb-8 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500" id="projects" data-scroll>{{$t('projects')}}</h2>
+      <div class="relative py-16 mx-auto text-xl border-t border-b border-gray-500 container-inner">
+        <h2 class="mb-12 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500" id="projects" data-scroll>{{$t('projects')}}</h2>
 
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -20,10 +20,6 @@
             <div class="mb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"><a href="https://carpinto-sites.netlify.app/" target="_blank">Carpinto</a></div>
             <div class="text-lg tracking-wider text-gray-400">{{ $t('carpinto') }} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/charles-j-vuepress" target="_blank">GitHub</a>).</div>
           </li>
-          <!-- <li class="checkmark">
-            <div class="mb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"><a href="https://charles-videogames.netlify.app/" target="_blank">Video Games</a></div>
-            <div class="text-lg text-gray-400">{{ $t('videogames') }}(<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/videogames" target="_blank">GitHub</a>).</div>
-          </li> -->
           <li class="checkmark" data-scroll>
             <div class="mb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"><a href="https://charles-jeandey.netlify.app/" target="_blank">Charles Jeandey</a></div>
             <div class="text-lg tracking-wider text-gray-400"> {{ $t('charlesjnuxt')}} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/charles-j-nuxt" target="_blank">GitHub</a>).</div>
@@ -56,7 +52,7 @@ export default {
 <style scoped>
 
 [data-scroll] {
-  transition: all 2s;
+  transition: all 2s ease-in-out;
 }
 
 [data-scroll="in"] {
@@ -65,7 +61,7 @@ export default {
 }
 [data-scroll="out"] {
   opacity: 0;
-  transform: translateX(-150px);
+  transform: translateX(150px);
 }
 
 </style>
