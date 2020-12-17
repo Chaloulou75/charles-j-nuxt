@@ -8,7 +8,7 @@
         <div class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r from-green-500 to-blue-700" data-scroll>VueJS</div>
       </div>
       <div class="flex items-center mt-8">
-        <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
+        <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="h-auto mx-auto sm:mx-0" />
       </div>
     </div> <!-- end hero -->
   </div>
@@ -22,7 +22,6 @@ export default {
   mounted() {
     this.so = ScrollOut({
       scope: this.$el,
-      threshold: .2,
     });
   },
   destroyed() {
@@ -39,12 +38,12 @@ export default {
 
 [data-scroll="in"] {
   opacity: 1;
-  transform: translateY(0) scale(1);
+  transform: translateY(0) translateX(0) scale(1);
 }
 
 [data-scroll="out"] {
   opacity: 0;
-  transform: translateY(-1250px) scale(.3);
+  transform: translateY(-1250px) translateX(1200px) scale(0);
 }
 
 </style>
