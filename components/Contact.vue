@@ -26,7 +26,7 @@ export default {
 <style scoped>
 
 [data-scroll] {
-  transition: all 3.5s;
+  transition: all 2.5s;
 }
 
 [data-scroll="in"] {
