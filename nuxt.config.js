@@ -81,15 +81,18 @@ export default {
     locales: [
       {
         code: 'en',
-        name: 'English'
+        name: 'Eng',
+        iso: 'en-US'
       },
       {
         code: 'es',
-        name: 'Español'
+        name: 'Esp',
+        iso: 'es-ES'
       },
       {
         code: 'fr',
-        name: 'Français'
+        name: 'Fra',
+        iso: 'fr-FR'
       }
     ],
     defaultLocale: 'fr',

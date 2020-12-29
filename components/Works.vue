@@ -40,7 +40,7 @@ export default {
   mounted() {
     this.so = ScrollOut({
       scope: this.$el,
-      threshold: .4
+      threshold: .3
     });
   },
   destroyed() {
@@ -52,7 +52,7 @@ export default {
 <style scoped>
 
 [data-scroll] {
-  transition: all 1s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
 
 [data-scroll="in"] {
@@ -61,7 +61,7 @@ export default {
 }
 [data-scroll="out"] {
   opacity: 0;
-  transform: translateX(150px);
+  transform: translateX(100px);
 }
 
 </style>

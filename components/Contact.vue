@@ -14,7 +14,7 @@ export default {
   mounted() {
     this.so = ScrollOut({
       scope: this.$el,
-      threshold: .5
+      threshold: .3
     });
   },
   destroyed() {
