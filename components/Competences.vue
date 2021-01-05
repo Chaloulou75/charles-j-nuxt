@@ -16,6 +16,8 @@
               <li data-scroll><code>Tailwind CSS</code></li>
               <li data-scroll><code>Livewire</code></li>
               <li data-scroll><code>AlpineJS</code></li>
+              <li data-scroll><code>InertiaJS</code></li>
+
             </ul>
             <ul class="space-y-3 text-xl text-gray-400 list-disc lg:space-y-4">
               <li data-scroll><code>PHP/MySQL</code></li>

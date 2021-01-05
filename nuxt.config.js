@@ -189,6 +189,12 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    }
   }
 
 }
