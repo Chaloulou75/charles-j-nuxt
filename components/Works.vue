@@ -9,7 +9,7 @@
 
         <ul class="space-y-10 text-lg leading-normal sm:text-xl">
           <li class="checkmark" data-scroll>
-            <div class="mb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"><a href="https://vigilant-goodall-6169be.netlify.app/" target="_blank" rel=”noreferrer”>Persona Diseño </a></div>
+            <div class="mb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"><a href="https://personadiseno.netlify.app/" target="_blank" rel=”noreferrer”>Persona Diseño </a></div>
             <div class="text-lg tracking-wider text-gray-400">{{ $t('persona') }} (<a class="text-base font-semibold text-gray-500" href="https://github.com/chaloulou75/persona" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
           </li>
           <li class="checkmark" data-scroll>
