@@ -21,10 +21,10 @@ export default {
       { hid: 'description', name: 'description', content: 'Charles Jeandey Web Developer Laravel & Vue from Paris' }
     ],
     link: [
-      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
-      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
-      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
-      { rel: 'manifest', href: '/site.webmanifest' }, //favicon.ico
+      // { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      // { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+      // { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+      // { rel: 'manifest', href: '/site.webmanifest' }, //favicon.ico
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap'}
     ]
   },
@@ -53,7 +53,8 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
-    "nuxt-compress"
+    "nuxt-compress",
+    '@nuxtjs/pwa',
   ],
   /*
   ** Nuxt.js modules
@@ -73,7 +74,8 @@ export default {
           threshold: 10240
         }
       }
-    ]
+    ],
+    '@nuxtjs/sitemap' //toujours en dernier des modules
   ],
 
   i18n: {
