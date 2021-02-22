@@ -18,7 +18,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Développeur web Laravel | Vue | TailwindCSS' }
+      { hid: 'description', name: 'description', content: 'Développeur web Laravel | VueJS | TailwindCSS' }
     ],
     link: [
       // { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
