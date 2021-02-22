@@ -18,7 +18,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Charles Jeandey Web Developer Laravel & Vue from Paris' }
+      { hid: 'description', name: 'description', content: 'Développeur web Laravel | Vue | TailwindCSS' }
     ],
     link: [
       // { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
@@ -54,6 +54,7 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
     "nuxt-compress",
+    '@aceforth/nuxt-optimized-images',
     '@nuxtjs/pwa',
   ],
   /*
@@ -176,6 +177,10 @@ export default {
         }
       }
     }
+  },
+
+  optimizedImages: {
+    optimizeImages: true
   },
 
   content: {
