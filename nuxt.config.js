@@ -183,6 +183,11 @@ export default {
     optimizeImages: true
   },
 
+  sitemap: {
+    hostname: 'https://charles-jeandey.com',
+    gzip: true,
+  },
+
   content: {
     liveEdit: false
   },
