@@ -4,12 +4,12 @@
       <div class="w-full space-y-3 text-5xl font-extrabold text-left lg:space-y-0 lg:w-4/5 lg:text-8xl">
         <h1 class="leading-tight text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500" data-scroll>{{ $t('dev') }} </h1>
         <h2 id="laravel" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r from-orange-400 to-blue-500" data-scroll>Laravel</h2>
-        <h2 id="tailwindcss" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r from-blue-600 to-green-400" data-scroll>TailwindCss</h2>
+        <h2 id="tailwindcss" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r from-blue-600 to-green-400" data-scroll>TailwindCSS</h2>
         <h2 id="vuejs" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r from-green-500 to-blue-700" data-scroll>VueJS</h2>
       </div>
       <div class="relative flex items-center mt-8">
         <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="h-auto mx-auto sm:mx-0" />
-        <div class="absolute inset-0 hidden w-48 h-48 rounded-lg shadow-lg lg:inline-block bg-blur-md animate-slowmoove"></div>
+        <div class="absolute inset-0 hidden w-48 h-48 shadow-lg rounded-xl lg:inline-block bg-blur-md animate-slowmoove"></div>
       </div>
 
     </div> <!-- end hero -->

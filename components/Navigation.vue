@@ -2,7 +2,7 @@
   <div id="herotop">
     <nav class="flex items-center justify-between w-full px-8 py-8 bg-transparent">
 
-      <nuxt-link :to="localePath('/')" class="text-xl font-semibold tracking-wider text-transparent no-underline transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Charles Jeandey</nuxt-link>
+      <nuxt-link :to="localePath('/')" class="text-xl font-semibold tracking-wider text-transparent no-underline uppercase transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Charles Jeandey</nuxt-link>
 
       <button
         class="outline-none mobile-hamburger lg:hidden focus:outline-none hover:text-green-700"
@@ -13,7 +13,7 @@
       </button>
 
       <div class="hidden desktop-menu lg:block">
-        <ul class="flex justify-around space-x-6 font-semibold">
+        <ul class="flex justify-around space-x-6 font-semibold uppercase">
           <li class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
             <nuxt-link :to="localePath('/posts')">
               Not Blog
@@ -37,7 +37,7 @@
     </nav>
 
     <transition name="fade" class="mobile-menu lg:hidden">
-        <ul class="flex flex-col items-start px-8 space-y-2 text-sm font-semibold" v-if="show">
+        <ul class="flex flex-col items-start px-8 space-y-2 text-sm font-semibold uppercase" v-if="show">
           <li class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"><nuxt-link :to="localePath('/posts')">Not Blog</nuxt-link></li>
           <li class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"><scroll-link href="#contact">{{ $t('contact') }}</scroll-link></li>
           <li class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"

@@ -31,8 +31,8 @@ module.exports = {
         slowmoove : {
           '0%, 100%': { transform: 'translateY(50%) translateX(0%) rotate(0)'},
           '20%': { transform: 'translateY(15%) translateX(-20%) rotate(90deg)' },
-          '50%': { transform: 'translateY(15%) translateX(-420%) rotate(90deg)'},
-          '75%': { transform: 'translateY(100%) translateX(-400%) rotate(360deg)' },
+          '50%': { transform: 'translateY(15%) translateX(-420%) rotate(180deg)'},
+          '75%': { transform: 'translateY(100%) translateX(-400%) rotate(90deg)' },
         },
         wiggle : {
           '0%, 100%': { transform: 'rotate(-3deg)' },
