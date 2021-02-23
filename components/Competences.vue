@@ -25,6 +25,7 @@
               <li data-scroll><code>SASS</code> </li>
               <li data-scroll><code>Vue JS</code></li>
               <li data-scroll><code>Nuxt JS</code></li>
+              <li data-scroll><code>JAMstack</code></li>
             </ul>
             <ul class="space-y-3 text-xl text-gray-400 list-disc lg:space-y-4">
               <li data-scroll><code>Git/Version Control</code></li>
