@@ -9,7 +9,7 @@
       </div>
       <div class="relative flex items-center mt-8">
         <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="h-auto mx-auto sm:mx-0" />
-        <div class="absolute inset-0 w-48 h-48 rounded-lg shadow-lg bg-blur-md animate-slowmoove"></div>
+        <div class="absolute inset-0 hidden w-48 h-48 rounded-lg shadow-lg lg:inline-block bg-blur-md animate-slowmoove"></div>
       </div>
 
     </div> <!-- end hero -->
