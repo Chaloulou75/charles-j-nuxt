@@ -11,7 +11,7 @@
 
           <div class="justify-between px-12 mb-12 space-y-3 lg:px-4 lg:flex lg:space-y-0" >
             <ul class="space-y-3 text-xl text-gray-400 list-disc lg:space-y-4">
-              <ol class="font-semibold" data-scroll><code>TALL Stack</code></ol>
+              <ol class="font-semibold hover:brightness-175" data-scroll><code>TALL Stack</code></ol>
               <li data-scroll><code>Laravel</code></li>
               <li data-scroll><code>Tailwind CSS</code></li>
               <li data-scroll><code>Livewire</code></li>

@@ -1,6 +1,6 @@
 <template>
-  <div class="mx-auto container-inner">
-    <div class="relative w-full h-auto" data-scroll>
+  <div class="relative min-h-screen mx-auto container-inner">
+    <div class="w-full" data-scroll>
       <p class="text-xl font-semibold leading-loose text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500" v-html="$t('intro')"></p>
     </div>
 
@@ -9,6 +9,7 @@
         <img loading="lazy" src="~assets/img/browser.svg" alt="browser" />
       </div>
     </div>
+    <div class="absolute top-0 right-0 hidden w-48 h-48 rounded-full shadow-lg lg:inline-block bg-blur-md animate-slowmoove hover:bg-brightness-175"></div>
   </div>
 </template>
 
