@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center justify-around min-h-screen">
     <div class="flex flex-col justify-between px-2 py-4 mx-auto mb-auto lg:flex-row">
-      <div class="w-full space-y-3 text-5xl font-extrabold text-left lg:space-y-2 lg:w-4/5 lg:text-8xl">
+      <div class="w-full space-y-3 text-5xl font-extrabold text-left font-poppins lg:space-y-2 lg:w-4/5 lg:text-8xl ">
         <h1 class="leading-tight text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500" data-scroll>{{ $t('dev') }} </h1>
         <h2 id="laravel" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r from-orange-400 to-blue-500" data-scroll>Laravel</h2>
         <h2 id="tailwindcss" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r from-blue-600 to-green-400" data-scroll>TailwindCSS</h2>
@@ -9,7 +9,7 @@
       </div>
       <div class="relative flex items-center mt-8">
         <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="h-auto mx-auto sm:mx-0" />
-        <div class="absolute inset-0 hidden transition duration-100 shadow-lg w-52 h-52 rounded-xl lg:inline-block bg-blur-md bg-brightness-150 animate-slowmoove hover:bg-brightness-175 hover:animation-paused"></div>
+        <div class="absolute inset-0 hidden transition duration-100 shadow-lg cursor-pointer w-52 h-52 rounded-xl lg:inline-block bg-blur-lg animate-slowmoove hover:bg-brightness-175 hover:animation-paused"></div>
       </div>
 
     </div> <!-- end hero -->
