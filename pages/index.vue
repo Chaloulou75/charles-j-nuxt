@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <Navigation />
 
     <Hero />

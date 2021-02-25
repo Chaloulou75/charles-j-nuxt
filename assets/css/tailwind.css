@@ -6,6 +6,14 @@ nav .nuxt-link-exact-active {
   @apply text-green-500;
 }
 
+@layer utilities {
+  @variants hover, focus {
+    .animation-paused {
+      animation-play-state: paused;
+    }
+  }
+}
+
 .container-inner {
   padding-left: 1rem;
   padding-right: 1rem;

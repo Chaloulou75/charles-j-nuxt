@@ -9,7 +9,6 @@
         <img loading="lazy" src="~assets/img/browser.svg" alt="browser" />
       </div>
     </div>
-    <div class="absolute top-0 right-0 hidden w-48 h-48 rounded-full shadow-lg lg:inline-block bg-blur-md animate-slowmoove hover:bg-brightness-175"></div>
   </div>
 </template>
 
