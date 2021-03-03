@@ -9,10 +9,8 @@
 
 <script>
 import ScrollOut from "scroll-out"
-import backgroundComponent from './backgroundComponent.vue';
 
 export default {
-  components: { backgroundComponent },
   mounted() {
     this.so = ScrollOut({
       scope: this.$el,
