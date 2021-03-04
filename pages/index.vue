@@ -1,7 +1,5 @@
 <template>
   <div>
-    <Navigation />
-
     <Hero />
 
     <Introduction />

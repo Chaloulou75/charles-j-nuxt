@@ -1,6 +1,5 @@
 <template>
 <div>
-  <Navigation />
   <div class="px-4 py-4 mx-auto font-semibold container-inner">
     <h1 class="mb-16 text-2xl font-bold text-center text-gray-100 truncate">{{ $t('notblog') }} </h1>
       <ul class="px-12">
