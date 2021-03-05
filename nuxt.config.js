@@ -64,6 +64,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    'nuxt-protected-mailto',
     '@nuxt/content',
     'nuxt-i18n',
     [
@@ -110,7 +111,8 @@ export default {
           contact : 'Contact',
           skills : 'Skills',
           contactme : 'Contact me',
-          contacttext: 'Want to make your website, or just have a question? Do not hesitate to contact me via <a class="text-green-500 font-bold" href="mailto:c.jeandey@gmail.com"> email </a>. I will answer you as soon as possible.',
+          contacttextuno: 'Want to make your website, or just have a question? Do not hesitate to contact me via ',
+          contacttextdos: 'I will answer you as soon as possible.',
           intro: 'Hello! I’m Charles. I spend my days designing and developing web applications.<br> I specialize in the <a class="text-green-500 font-bold" href="https://laravel.com/" target="_blank" rel=”noreferrer”>Laravel PHP framework</a> on the backend, <a class="text-green-500 font-bold" href="https://vuejs.org/" target="_blank" rel=”noreferrer”>Vue.js</a> on the frontend and <a class="text-green-500 font-bold" href="https://tailwindcss.com/" target="_blank" rel=”noreferrer”> Tailwindcss </a> for styling. I also really love working with <a class="text-green-500 font-bold" href="https://nuxtjs.org/" target="_blank" rel=”noreferrer”> NuxtJS</a> recently.',
           projects : 'Here are some projects I\'ve worked on:',
           whatshere : 'What is it here?',
@@ -135,7 +137,8 @@ export default {
           contact : 'Contacto',
           skills : 'Habilidades',
           contactme : 'Contáctame',
-          contacttext : '¿Quierés que haga tu sitio web o simplemente hacerme una pregunta? No dudes en contactarme a través del <a class="text-green-500 font-bold" href="mailto:c.jeandey@gmail.com"> correo electrónico </a>. Te responderé lo antes posible.',
+          contacttextuno: '¿Quierés que haga tu sitio web o simplemente hacerme una pregunta? No dudes en contactarme a través del ',
+          contacttextdos: 'Te responderé lo antes posible.',
           intro: '¡Hola! Soy Charles y me dedico al diseño y desarrollo de aplicaciones y sitios web.<br> Me especialicé en el<a class="text-green-500 font-bold" href="https://laravel.com/" target="_blank" rel=”noreferrer”> framework PHP Laravel </a> para el backend, <a class="text-green-500 font-bold" href="https://vuejs.org/" target="_blank" rel=”noreferrer”> Vue.js </a> para el frontend y <a class="text-green-500 font-bold" href="https://tailwindcss.com/" target="_blank" rel=”noreferrer”> Tailwindcss </a> para el estilo. Tambien, me re gusta trabajar con <a class="text-green-500 font-bold" href="https://nuxtjs.org/" target="_blank" rel=”noreferrer”> NuxtJS</a> recientemente.',
           projects : 'Aquí hay algunos proyectos en los que he trabajado:',
           whatshere: '¿Qué hay aquí?',
@@ -159,7 +162,8 @@ export default {
           contact : 'Contact',
           skills : 'Compétences',
           contactme : 'Contactez moi',
-          contacttext : 'Vous voulez faire votre site web, ou avez simplement une question? N\'hésitez pas à me contacter via <a class="text-green-500 font-bold" href="mailto:c.jeandey@gmail.com">email</a>. Je vous répondrai dés que possible.',
+          contacttextuno: 'Vous voulez faire votre site web, ou avez simplement une question? N\'hésitez pas à me contacter via ',
+          contacttextdos: 'Je vous répondrai dés que possible.',
           intro: 'Bonjour! Je suis Charles et je passe mes journées à développer des applications web. <br>Je me suis spécialisé sur le<a class="text-green-500 font-bold" href="https://laravel.com/" target="_blank" rel=”noreferrer”> framework PHP Laravel </a> pour le backend, <a class="text-green-500 font-bold" href="https://vuejs.org/" target="_blank" rel=”noreferrer”> Vue.js </a> pour le frontend et <a class="text-green-500 font-bold" href="https://tailwindcss.com/" target="_blank" rel=”noreferrer”> Tailwindcss </a> pour la stylisation. Aussi, j\'adore travailler avec <a class="text-green-500 font-bold" href="https://nuxtjs.org/" target="_blank" rel=”noreferrer”> NuxtJS</a> ces derniers temps.',
           projects : 'Quelques-uns de mes projets:',
           whatshere: 'Qu\'il y a t-il ici?',
@@ -207,6 +211,11 @@ export default {
         tailwindcss: {},
         autoprefixer: {},
       },
+    },
+    html: {
+      minify: {
+        decodeEntities: false
+      }
     }
   }
 
