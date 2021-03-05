@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-screen mx-auto container-inner">
     <div class="w-full" data-scroll>
-      <p class="text-xl font-semibold leading-loose text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500" v-html="$t('intro')"></p>
+      <p class="text-xl font-semibold leading-loose text-transparent bg-clip-text bg-gradient-to-br dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700" v-html="$t('intro')"></p>
     </div>
 
     <div class="flex items-center justify-center my-20">
@@ -19,7 +19,7 @@ export default {
   mounted() {
     this.so = ScrollOut({
       scope: this.$el,
-      threshold: .3
+      threshold: .2
     });
   },
   destroyed() {
@@ -31,7 +31,7 @@ export default {
 <style scoped>
 
 [data-scroll] {
-  transition: all 3.5s;
+  transition: all 2s;
 }
 
 [data-scroll="in"] {

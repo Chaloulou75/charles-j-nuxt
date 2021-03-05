@@ -4,7 +4,7 @@
         <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
-        <h2 class="mb-4 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500" id="about" data-scroll>{{ $t('encore') }}</h2>
+        <h2 class="mb-4 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" id="about" data-scroll>{{ $t('encore') }}</h2>
 
         <div class="flex justify-center w-full" data-scroll>
           <img loading="lazy" src="~assets/img/laravel_and_vue.svg" alt="laravel_and_vue" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
@@ -16,8 +16,8 @@
           <div class="absolute inset-0 transform bg-purple-900 rounded-xl -rotate-3"></div> -->
 
           <div class="flex-1 text-xl leading-loose" data-scroll>
-            <p class="pb-4 font-semibold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500" v-html="$t('encoretext')"></p>
-            <p class="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500" v-html="$t('encoretext2')"></p>
+            <p class="pb-4 font-semibold text-transparent bg-clip-text bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" v-html="$t('encoretext')"></p>
+            <p class="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" v-html="$t('encoretext2')"></p>
           </div>
         </div>
         <div class="responsive-container" data-scroll>
@@ -34,7 +34,7 @@ export default {
   mounted() {
     this.so = ScrollOut({
       scope: this.$el,
-      threshold: .3
+      threshold: .2
     });
   },
   destroyed() {
@@ -46,7 +46,7 @@ export default {
 <style scoped>
 
 [data-scroll] {
-  transition: all 3.5s;
+  transition: all 1.5s;
 }
 
 [data-scroll="in"] {

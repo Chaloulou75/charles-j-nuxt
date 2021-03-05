@@ -2,7 +2,7 @@
   <div class="overflow-x-hidden competences" ><!-- competences -->
       <div class="skills" >
         <div class="relative py-8 mx-auto text-xl border-b border-gray-500 lg:py-16 container-inner">
-          <h2 class="mb-8 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500" >
+          <h2 class="mb-8 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" >
             {{ $t('skills') }}
           </h2>
           <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
@@ -10,7 +10,7 @@
           </div>
 
           <div class="justify-between px-12 mb-12 space-y-3 lg:px-4 lg:flex lg:space-y-0" >
-            <ul class="space-y-3 text-xl text-gray-400 list-disc lg:space-y-4">
+            <ul class="space-y-3 text-xl text-gray-800 list-disc dark:text-gray-400 lg:space-y-4">
               <ol class="font-semibold hover:brightness-175" data-scroll><code>TALL Stack</code></ol>
               <li data-scroll><code>Laravel</code></li>
               <li data-scroll><code>Tailwind CSS</code></li>
@@ -19,7 +19,7 @@
               <li data-scroll><code>InertiaJS</code></li>
 
             </ul>
-            <ul class="space-y-3 text-xl text-gray-400 list-disc lg:space-y-4">
+            <ul class="space-y-3 text-xl text-gray-800 list-disc dark:text-gray-400 lg:space-y-4">
               <li data-scroll><code>PHP/MySQL</code></li>
               <li data-scroll><code>HTML/CSS</code> </li>
               <li data-scroll><code>SASS</code> </li>
@@ -27,7 +27,7 @@
               <li data-scroll><code>Nuxt JS</code></li>
               <li data-scroll><code>JAMstack</code></li>
             </ul>
-            <ul class="space-y-3 text-xl text-gray-400 list-disc lg:space-y-4">
+            <ul class="space-y-3 text-xl text-gray-800 list-disc dark:text-gray-400 lg:space-y-4">
               <li data-scroll><code>Git/Version Control</code></li>
               <li data-scroll><code>Deployment</code></li>
               <li data-scroll><code>JavaScript</code></li>
@@ -59,7 +59,7 @@ export default {
 <style scoped>
 
 [data-scroll] {
-  transition: all 4s;
+  transition: all 1.5s;
 }
 
 [data-scroll="in"] {
