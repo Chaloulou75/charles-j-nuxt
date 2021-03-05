@@ -3,7 +3,7 @@
     <div class="container flex items-center justify-between px-4 py-8 mx-auto lg:px-10">
       <div class="text-xs font-semibold tracking-wide text-gray-700 dark:text-gray-300">	&copy; Charles Jeandey {{ new Date().getFullYear() }}.<br> {{$t('footer')}}.
       </div>
-      <ul class="flex items-center space-x-6">
+      <ul class="flex items-center space-x-3 lg:space-x-6">
         <li>
           <Mailto mail="c.jeandey@gmail.com" class="text-gray-700 hover:text-gray-800 dark:text-gray-300 hover:dark:text-gray-500">
             <svg width="25" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0h20A2.5 2.5 0 0 1 25 2.5v15a2.5 2.5 0 0 1-2.5 2.5h-20A2.5 2.5 0 0 1 0 17.5v-15C0 1.125 1.125 0 2.5 0zm20 4.225V2.5h-20v1.725l10 5 10-5zm0 2.8l-9.438 4.713a1.25 1.25 0 0 1-1.124 0L2.5 7.025V17.5h20V7.025z" fill-rule="nonzero"/></svg>

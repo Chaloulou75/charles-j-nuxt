@@ -7,8 +7,8 @@
 
         <h2 class="mb-12 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" id="projects" data-scroll>{{$t('projects')}}</h2>
 
-        <div class="relative ">
-          <div class="absolute w-full h-full bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500 -right-4 -bottom-4 rounded-xl"></div>
+        <div class="relative mx-2">
+          <div class="absolute w-full h-full bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500 lg:-right-4 lg:-bottom-4 -right-2 -bottom-2 rounded-xl"></div>
 
           <div class="relative w-full py-8 space-y-10 text-lg leading-normal bg-gray-100 dark:bg-bluefonce rounded-xl sm:text-xl">
             <div class="checkmark" data-scroll>
