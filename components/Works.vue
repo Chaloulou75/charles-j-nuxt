@@ -28,10 +28,10 @@
               <div class="mb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" rel=”noreferrer”><a href="https://carpinto-sites.netlify.app/" target="_blank">Carpinto</a></div>
               <div class="text-lg tracking-wider text-gray-800 dark:text-gray-400">{{ $t('carpinto') }} (<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/charles-j-vuepress" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
             </div>
-            <div class="checkmark" data-scroll>
+            <!-- <div class="checkmark" data-scroll>
               <div class="mb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500">Julien Leprêtre</div>
               <div class="text-lg tracking-wider text-gray-800 dark:text-gray-400">{{ $t('julien') }}(<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/julienlepretre" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div> <!-- end projects -->
