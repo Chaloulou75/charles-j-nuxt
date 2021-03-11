@@ -20,8 +20,8 @@
             <p class="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" v-html="$t('encoretext2')"></p>
           </div>
         </div>
-        <div class="responsive-container" data-scroll>
-          <iframe title="Boards of Canada" class="top-0 left-0 w-full h-full border-0 responsive-iframe" src="https://www.youtube.com/embed/CURPyCzoKfY" style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="aspect-w-16 aspect-h-9" data-scroll>
+          <iframe title="Boards of Canada" src="https://www.youtube.com/embed/CURPyCzoKfY" style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
   </div><!-- end encore  -->

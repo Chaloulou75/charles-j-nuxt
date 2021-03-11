@@ -56,5 +56,6 @@ module.exports = {
   },
   plugins: [
     require('tailwind-filter-utilities'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 }
