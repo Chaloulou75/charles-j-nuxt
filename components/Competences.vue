@@ -11,13 +11,12 @@
 
           <div class="justify-between px-12 mb-12 space-y-3 lg:px-4 lg:flex lg:space-y-0" >
             <ul class="space-y-3 text-xl text-gray-800 list-disc dark:text-gray-400 lg:space-y-4">
-              <ol class="font-semibold hover:brightness-175" data-scroll><code>TALL Stack</code></ol>
+              <li class="font-semibold hover:brightness-175" data-scroll><code>TALL Stack</code></li>
               <li data-scroll><code>Laravel</code></li>
               <li data-scroll><code>Tailwind CSS</code></li>
               <li data-scroll><code>Livewire</code></li>
               <li data-scroll><code>AlpineJS</code></li>
               <li data-scroll><code>InertiaJS</code></li>
-
             </ul>
             <ul class="space-y-3 text-xl text-gray-800 list-disc dark:text-gray-400 lg:space-y-4">
               <li data-scroll><code>PHP/MySQL</code></li>

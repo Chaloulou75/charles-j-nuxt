@@ -8,7 +8,7 @@
         <h2 id="vuejs" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r dark:from-green-500 dark:to-blue-700 from-green-700 to-blue-800" data-scroll>VueJS / NuxtJS</h2>
       </div>
       <div class="relative flex items-center mt-8">
-        <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="h-auto mx-auto sm:mx-0" />
+        <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="object-cover h-auto mx-auto sm:mx-0" />
         <div class="absolute inset-0 hidden transition duration-100 shadow-2xl cursor-pointer w-52 h-52 rounded-xl lg:inline-block bg-blur-lg animate-slowmoove hover:bg-brightness-175 hover:animation-paused"></div>
       </div>
 

@@ -36,6 +36,7 @@
       <div class="p-2 bg-blue-800 border border-blue-700 rounded-full opacity-75 dark:bg-gray-100 dark:border-white hover:opacity-100">
         <scroll-link href="#herotop" class="text-gray-100 dark:text-gray-800">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"></path></svg>
+          <span class="sr-only">go to top</span>
         </scroll-link>
       </div>
     </div>
