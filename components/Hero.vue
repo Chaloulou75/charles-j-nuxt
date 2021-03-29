@@ -7,8 +7,8 @@
         <h2 id="tailwindcss" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r dark:from-blue-600 dark:to-green-400 from-blue-700 to-green-600" data-scroll>TailwindCSS</h2>
         <h2 id="vuejs" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r dark:from-green-500 dark:to-blue-700 from-green-700 to-blue-800" data-scroll>VueJS / NuxtJS</h2>
       </div>
-      <div class="relative flex items-center mt-8">
-        <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="object-cover h-auto mx-auto sm:mx-0" />
+      <div class="relative flex items-center mt-16 lg:mt-8">
+        <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="object-cover h-auto mx-auto sm:mx-0 w-72 " />
         <div class="absolute inset-0 hidden transition duration-100 shadow-2xl cursor-pointer w-52 h-52 rounded-xl lg:inline-block bg-blur-lg animate-slowmoove hover:bg-brightness-175 hover:animation-paused"></div>
       </div>
 

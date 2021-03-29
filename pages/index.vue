@@ -21,7 +21,7 @@
           </div>
 
           <div class="w-full mx-auto mt-8 lg:w-1/2 sm:mt-0">
-            <img loading="lazy" src="~assets/img/review.svg" alt="review" class="mx-auto" />
+            <img loading="lazy" src="~assets/img/review.svg" alt="review" class="h-auto mx-auto w-80" />
           </div>
         </div>
       </div>

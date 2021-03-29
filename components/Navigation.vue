@@ -4,7 +4,7 @@
 
       <div class="text-xl font-semibold tracking-wider text-transparent no-underline uppercase transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700">Charles Jeandey</div>
 
-      <div class="flex items-center justify-between space-x-4 lg:hidden"> <!-- Mobile hamburger -->
+      <div class="flex items-center justify-between space-x-4 lg:hidden"> <!-- Mobile nav -->
 
         <button  @click.prevent="toggleTheme"
           class="p-2 text-green-500 transition duration-200 ease-in-out transform bg-transparent dark:text-yellow-400 hover:dark:text-yellow-600 hover:text-green-700 focus:outline-none hover:scale-125">
@@ -23,8 +23,7 @@
         </button>
       </div>
 
-
-      <div class="hidden desktop-menu lg:block"> <!-- nav Lg-->
+      <div class="hidden desktop-menu lg:block"> <!--Lg nav -->
         <div class="flex items-center justify-around space-x-6 font-semibold uppercase">
           <!-- <li class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700">
             <nuxt-link :to="localePath('/posts')">

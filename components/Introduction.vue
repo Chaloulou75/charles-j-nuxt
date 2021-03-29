@@ -6,7 +6,7 @@
 
     <div class="flex items-center justify-center my-20">
       <div class="w-full px-8 lg:w-1/2 lg:py-0" >
-        <img loading="lazy" src="~assets/img/browser.svg" alt="browser" />
+        <img loading="lazy" src="~assets/img/browser.svg" alt="browser" class="h-auto mx-auto w-80" />
       </div>
     </div>
   </div>

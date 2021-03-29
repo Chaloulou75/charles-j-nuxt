@@ -7,7 +7,7 @@
         <h2 class="mb-4 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" id="about" data-scroll>{{ $t('encore') }}</h2>
 
         <div class="flex justify-center w-full" data-scroll>
-          <img loading="lazy" src="~assets/img/laravel_and_vue.svg" alt="laravel_and_vue" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
+          <img loading="lazy" src="~assets/img/laravel_and_vue.svg" alt="laravel_and_vue" class="w-48 h-auto my-12 rounded-full lg:mb-0" />
         </div>
         <div class="relative flex flex-col items-center justify-between h-auto py-16 lg:flex-row" >
 
