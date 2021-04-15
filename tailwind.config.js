@@ -47,8 +47,8 @@ module.exports = {
     },
   },
   variants: {
-    filters: ['hover', 'group-hover'],
-    bgFilters: ['hover'],
+    // filters: ['hover', 'group-hover'],
+    // bgFilters: ['hover'],
     extend: {
       blur: ['hover', 'focus'],
       backdropFilter: ['hover', 'focus'],
@@ -59,7 +59,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('tailwind-filter-utilities'),
+    // require('tailwind-filter-utilities'),
     require('@tailwindcss/aspect-ratio'),
   ],
 }
