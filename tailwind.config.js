@@ -50,6 +50,10 @@ module.exports = {
     filters: ['hover', 'group-hover'],
     bgFilters: ['hover'],
     extend: {
+      blur: ['hover', 'focus'],
+      backdropFilter: ['hover', 'focus'],
+      backdropBlur: ['hover', 'focus'],
+      backdropBrightness: ['hover', 'focus'],
       animation: ['hover', 'focus'],
       ringColor: ['hover', 'active'],
     },

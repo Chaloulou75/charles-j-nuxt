@@ -9,8 +9,9 @@
       </div>
       <div class="relative flex items-center mt-16 lg:mt-8">
         <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="object-cover h-auto mx-auto sm:mx-0 w-72 " />
-        <div class="absolute inset-0 hidden transition duration-100 shadow-2xl cursor-pointer w-52 h-52 rounded-xl lg:inline-block bg-blur-lg animate-slowmoove hover:bg-brightness-175 hover:animation-paused"></div>
+        <div class="absolute inset-0 hidden transition duration-100 shadow-2xl cursor-pointer w-52 h-52 rounded-xl lg:inline-block backdrop-filter backdrop-blur-lg hover:backdrop-brightness-150 animate-slowmoove hover:backdrop-blur-0 hover:animation-paused"></div>
       </div>
+      <!-- bg-blur-lg hover:bg-brightness-175-->
 
     </div> <!-- end hero -->
   </div>
