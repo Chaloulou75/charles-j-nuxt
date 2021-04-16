@@ -109,7 +109,7 @@ export default {
   },
 
   googleAnalytics: {
-    id: 'G-D49FKHF6LV'
+    id: '267616925'
   },
 
   content: {
