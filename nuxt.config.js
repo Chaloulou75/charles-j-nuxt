@@ -99,7 +99,7 @@ export default {
   },
 
   tailwindcss: {
-    jit: true
+    jit: false
   },
 
   sitemap: {

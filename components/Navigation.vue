@@ -79,13 +79,26 @@ export default {
       theme: 'dark',
     }
   },
-  mounted(){
-    this.theme = localStorage.getItem('theme') || 'dark'
-    if(this.theme === 'dark'){
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
+  // mounted(){
+  //   this.theme = localStorage.getItem('theme') || 'dark'
+  //   if(this.theme === 'dark'){
+  //     document.documentElement.classList.add('dark')
+  //   } else {
+  //     document.documentElement.classList.remove('dark')
+  //   }
+  // },
+  mounted() {
+      // check for active theme
+      let htmlElement = document.documentElement;
+      let theme = localStorage.getItem("theme");
+
+      if (this.theme === 'dark') {
+          htmlElement.setAttribute('theme', 'dark')
+          document.documentElement.classList.add('dark')
+      } else {
+          htmlElement.setAttribute('theme', 'light')
+          document.documentElement.classList.remove('dark')
+      }
   },
   computed: {
     availableLocales () {
