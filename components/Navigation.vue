@@ -51,7 +51,9 @@
 
     <transition name="fade" class="mobile-menu lg:hidden"><!-- nav mobile-->
         <div class="flex flex-col items-end px-4 py-2 space-y-2 text-base font-semibold uppercase" v-if="show">
-          <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-600 to-blue-700 dark:from-green-400 dark:to-blue-500"><scroll-link href="#contact">{{ $t('contact') }}</scroll-link></div>
+          <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-600 to-blue-700 dark:from-green-400 dark:to-blue-500">
+            <scroll-link href="#contact">{{ $t('contact') }}</scroll-link>
+          </div>
 
           <div class="flex space-x-3">
             <div class="text-xs text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-1 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700" v-for="locale in availableLocales"
