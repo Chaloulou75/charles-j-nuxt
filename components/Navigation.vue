@@ -32,8 +32,7 @@
           </div>
           <div class="flex space-x-2">
             <div class="text-sm text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-1 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700"
-              v-for="locale in availableLocales"
-              :key="locale.code"
+            v-for="locale in availableLocales" :key="locale.code"
             >
               <nuxt-link :to="switchLocalePath(locale.code)">
                 {{ locale.name }}
@@ -55,11 +54,9 @@
           <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-600 to-blue-700 dark:from-green-400 dark:to-blue-500"><scroll-link href="#contact">{{ $t('contact') }}</scroll-link></div>
 
           <div class="flex space-x-3">
-            <div class="text-xs text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-1 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700"
-              v-for="locale in availableLocales"
-              :key="locale.code"
-            >
-              <nuxt-link :to="switchLocalePath(locale.code)">
+            <div class="text-xs text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-1 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700" v-for="locale in availableLocales"
+              :key="locale.code">
+              <nuxt-link :to="switchLocalePath(locale.code)" >
                 {{ locale.name }}
               </nuxt-link>
             </div>
@@ -93,7 +90,7 @@ export default {
   computed: {
     availableLocales () {
       return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
-    },
+    }
   },
   methods: {
     toggleTheme : function(){

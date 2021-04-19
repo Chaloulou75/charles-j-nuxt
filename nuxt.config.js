@@ -57,7 +57,6 @@ export default {
     "nuxt-compress",
     '@aceforth/nuxt-optimized-images',
     '@nuxtjs/pwa',
-    '@nuxtjs/google-analytics',
   ],
   /*
   ** Nuxt.js modules
@@ -106,10 +105,6 @@ export default {
   sitemap: {
     hostname: 'https://charles-jeandey.com',
     gzip: true,
-  },
-
-  googleAnalytics: {
-    id: '267616925'
   },
 
   content: {
