@@ -14,7 +14,6 @@
           <!-- <div class="absolute inset-0 transform bg-orange-600 rounded-xl rotate-12"></div>
           <div class="absolute inset-0 transform bg-gold rounded-xl -rotate-12"></div>
           <div class="absolute inset-0 transform bg-purple-900 rounded-xl -rotate-3"></div> -->
-
           <div class="flex-1 text-xl leading-loose" data-scroll>
             <p class="pb-4 font-semibold text-transparent bg-clip-text bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" v-html="$t('encoretext')"></p>
             <p class="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" v-html="$t('encoretext2')"></p>
@@ -29,8 +28,10 @@
 
 <script>
 import ScrollOut from "scroll-out"
+import Carre from './Carre.vue';
 
 export default {
+  components: { Carre },
   mounted() {
     this.so = ScrollOut({
       scope: this.$el,

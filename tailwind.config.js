@@ -25,6 +25,7 @@ module.exports = {
       },
       animation: {
         slowmoove: 'slowmoove 14s ease-in-out infinite',
+        slowmooveTopDown: 'slowmooveTopDown 14s ease-in-out infinite',
         wiggle: 'wiggle 1s ease-in-out infinite',
       },
       keyframes:{
@@ -33,6 +34,12 @@ module.exports = {
           '15%': { transform: 'translateY(15%) translateX(-20%) rotate(90deg)'},
           '50%': { transform: 'translateY(15%) translateX(-420%) rotate(180deg)'},
           '75%': { transform: 'translateY(100%) translateX(-430%) rotate(90deg)' },
+        },
+        slowmooveTopDown: {
+          '0%, 100%': { transform: 'translateY(0%) translateX(0%) rotate(0)' },
+          '25%': { transform: 'translateY(200%) translateX(0%) rotate(90deg)' },
+          '50%': { transform: 'translateY(200%) translateX(200%) rotate(180deg)' },
+          '75%': { transform: 'translateY(0%) translateX(200%) rotate(-90deg)' },
         },
         wiggle : {
           '0%, 100%': { transform: 'rotate(-3deg)' },

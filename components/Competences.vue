@@ -41,8 +41,10 @@
 
 <script>
 import ScrollOut from "scroll-out"
+import Carre from './Carre.vue';
 
 export default {
+  components: { Carre },
   mounted() {
     this.so = ScrollOut({
       scope: this.$el,
