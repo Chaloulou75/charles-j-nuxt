@@ -26,6 +26,11 @@
 
 <script>
 export default {
+  transition: {
+    beforeEnter() {
+      this.$i18n.finalizePendingLocaleChange()
+    }
+  }
 }
 </script>
 

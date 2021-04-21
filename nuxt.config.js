@@ -38,6 +38,7 @@ export default {
   plugins: [
     { src: '@/plugins/scroll-out', ssr: false },
     { src: '@/plugins/in-viewport', ssr: false },
+    '~/plugins/router',
   ],
   /*
   ** Auto import components
@@ -91,6 +92,7 @@ export default {
       { code: 'es', iso: 'es-ES', name: 'Es', file: 'es-ES.js' },
       { code: 'fr', iso: 'fr-FR', name: 'Fr', file: 'fr-FR.js' },
     ],
+    skipSettingLocaleOnNavigate: true,
     lazy: true,
     langDir: "lang/",
   },

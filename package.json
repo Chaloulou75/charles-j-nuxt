@@ -18,7 +18,7 @@
     "in-viewport": "^3.6.0",
     "nuxt": "^2.15.4",
     "nuxt-compress": "^4.1.1",
-    "nuxt-i18n": "^6.25.0",
+    "nuxt-i18n": "^6.26.0",
     "nuxt-protected-mailto": "0.0.6",
     "postcss-import": "^14.0.1",
     "scroll-out": "^2.2.12",

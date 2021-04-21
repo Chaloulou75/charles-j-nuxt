@@ -55,13 +55,11 @@
 import ScrollOut from "scroll-out"
 import ScrollLink from './../components/ScrollLink.vue'
 import Visible from './../components/Visible.vue'
-import Bgcoolos from '~/components/bgcoolos.vue'
 
 export default {
   components :{
     ScrollLink,
     Visible,
-    Bgcoolos,
   },
   mounted() {
     this.so = ScrollOut({
@@ -71,6 +69,11 @@ export default {
   },
   destroyed() {
     this.so.teardown();
+  },
+  transition: {
+    beforeEnter() {
+      this.$i18n.finalizePendingLocaleChange()
+    }
   }
 }
 </script>
