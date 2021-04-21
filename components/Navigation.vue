@@ -3,7 +3,7 @@
     <nav class="flex items-center justify-between w-full px-4 py-4 bg-transparent">
 
       <div class="text-xl font-semibold tracking-wider text-transparent no-underline uppercase transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700">
-        <NuxtLink to="/"> Charles Jeandey</NuxtLink>
+        <nuxt-link :to="localePath('/')"> Charles Jeandey</nuxt-link>
       </div>
 
       <div class="flex items-center justify-between space-x-4 lg:hidden"> <!-- Mobile nav -->
@@ -60,7 +60,7 @@
           <div class="flex space-x-3">
             <div class="text-xs text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-1 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700" v-for="locale in availableLocales"
               :key="locale.code">
-              <nuxt-link :to="switchLocalePath(locale.code)" >
+              <nuxt-link :to="switchLocalePath(locale.code)">
                 {{ locale.name }}
               </nuxt-link>
             </div>

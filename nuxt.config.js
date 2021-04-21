@@ -18,13 +18,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Développeur web Laravel | VueJS / NuxtJS | TailwindCSS' }
+      { hid: 'description', name: 'description', content: 'Développeur web Laravel | Vuejs / Nuxtjs | TailwindCss' }
     ],
     link: [
-      // { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
-      // { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
-      // { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
-      // { rel: 'manifest', href: '/site.webmanifest' }, //favicon.ico
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins&display=swap' },
     ]
@@ -97,7 +93,6 @@ export default {
     ],
     lazy: true,
     langDir: "lang/",
-
   },
 
   optimizedImages: {
