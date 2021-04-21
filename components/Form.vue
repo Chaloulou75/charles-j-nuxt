@@ -2,20 +2,20 @@
   <div class="flex flex-col items-center max-w-md px-3 py-10 mx-auto mt-3 mb-8 bg-gray-100 border border-gray-500 rounded-lg shadow-xl dark:border-gray-300 lg:px-4 lg:max-w-xl dark:bg-bluefonce">
     <form name="contact" action="POST" data-netlify="true" data-netlify-recaptcha="true">
     <div>
-      <label class="text-sm font-bold text-gray-800 dark:text-gray-200" for="username">{{ $t('nometprenom')}}:</label>
-      <input class="w-full p-3 mt-2 text-gray-900 bg-gray-200 rounded-lg shadow-md focus:outline-none focus:shadow-outline focus:ring-4 dark:focus:ring-blue-300 focus:ring-bluefonce ring-offset-2 focus:ring-opacity-30" type="text" name="username" id="username">
+      <label class="text-sm font-bold text-gray-800 dark:text-gray-200" for="username">{{ $t('nometprenom')}}:
+      <input class="w-full p-3 mt-2 text-gray-900 bg-gray-200 rounded-lg shadow-md focus:outline-none focus:shadow-outline focus:ring-4 dark:focus:ring-blue-300 focus:ring-bluefonce ring-offset-2 focus:ring-opacity-30" type="text" name="username" id="username"></label>
     </div>
     <div class="mt-8">
-      <label class="text-sm font-bold text-gray-800 dark:text-gray-200" for="email">Email:</label>
-      <input  type="email" name="email" id="email" class="w-full p-3 mt-2 text-gray-900 bg-gray-200 rounded-lg shadow-md focus:outline-none focus:shadow-outline focus:ring-4 dark:focus:ring-blue-300 focus:ring-bluefonce ring-offset-2 focus:ring-opacity-30">
+      <label class="text-sm font-bold text-gray-800 dark:text-gray-200" for="email">Email:
+      <input  type="email" name="email" id="email" class="w-full p-3 mt-2 text-gray-900 bg-gray-200 rounded-lg shadow-md focus:outline-none focus:shadow-outline focus:ring-4 dark:focus:ring-blue-300 focus:ring-bluefonce ring-offset-2 focus:ring-opacity-30"></label>
     </div>
     <div class="mt-8">
-      <label class="text-sm font-bold text-gray-800 dark:text-gray-200" for="sujet">{{$t('sujet')}}:</label>
-      <input type="text" name="sujet" id="sujet" class="w-full p-3 mt-2 text-gray-900 bg-gray-200 rounded-lg shadow-md focus:outline-none focus:shadow-outline focus:ring-4 dark:focus:ring-blue-300 focus:ring-bluefonce ring-offset-2 focus:ring-opacity-30">
+      <label class="text-sm font-bold text-gray-800 dark:text-gray-200" for="sujet">{{$t('sujet')}}:
+      <input type="text" name="sujet" id="sujet" class="w-full p-3 mt-2 text-gray-900 bg-gray-200 rounded-lg shadow-md focus:outline-none focus:shadow-outline focus:ring-4 dark:focus:ring-blue-300 focus:ring-bluefonce ring-offset-2 focus:ring-opacity-30"></label>
     </div>
     <div class="mt-8">
-      <label class="text-sm font-bold text-gray-800 dark:text-gray-200" for="message">{{$t('message')}}:</label>
-      <textarea name="message" id="message" class="w-full h-32 p-3 mt-2 text-gray-900 bg-gray-200 rounded-lg shadow-md focus:outline-none focus:shadow-outline focus:ring-4 dark:focus:ring-blue-300 focus:ring-bluefonce ring-offset-2 focus:ring-opacity-30"></textarea>
+      <label class="text-sm font-bold text-gray-800 dark:text-gray-200" for="message">{{$t('message')}}:
+      <textarea name="message" id="message" class="w-full h-32 p-3 mt-2 text-gray-900 bg-gray-200 rounded-lg shadow-md focus:outline-none focus:shadow-outline focus:ring-4 dark:focus:ring-blue-300 focus:ring-bluefonce ring-offset-2 focus:ring-opacity-30"></textarea></label>
     </div>
 
     <div data-netlify-recaptcha="true" class="mt-8"></div>
