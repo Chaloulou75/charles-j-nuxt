@@ -31,11 +31,11 @@
           </a>
       </div>
     </div>
-    <div class="py-6">
+    <!-- <div class="py-6">
       <p class="mb-12 text-xl font-semibold leading-loose text-transparent bg-clip-text bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500">
         {{ $t('filltheform') }} <nuxt-link :to="localePath('/contact')" class="font-bold text-green-500 underline"> {{ $t('ici') }} </nuxt-link>
       </p>
-    </div>
+    </div> -->
     <!-- <Form /> -->
   </div>
 </template>
