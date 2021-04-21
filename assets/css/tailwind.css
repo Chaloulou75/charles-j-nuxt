@@ -42,3 +42,12 @@ nav .nuxt-link-exact-active {
   background-repeat: no-repeat;
   @apply pl-10;
 }
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.5s;
+}
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+}

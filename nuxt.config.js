@@ -81,17 +81,23 @@ export default {
     '@nuxtjs/sitemap' //toujours en dernier des modules
   ],
 
+  pageTransition: {
+    name: 'layout',
+    mode: 'out-in'
+  },
+
   i18n: {
     strategy: 'prefix_except_default',
+    defaultLocale: 'fr',
     detectBrowserLanguage: false,
     locales: [
       { code: 'en', iso: 'en-US', name: 'En', file: 'en-US.js' },
+      { code: 'es', iso: 'es-ES', name: 'Es', file: 'es-ES.js' },
       { code: 'fr', iso: 'fr-FR', name: 'Fr', file: 'fr-FR.js' },
-      { code: 'es', iso: 'es-ES', name: 'Es', file: 'es-ES.js' }
     ],
     lazy: true,
     langDir: "lang/",
-    defaultLocale: 'fr',
+
   },
 
   optimizedImages: {

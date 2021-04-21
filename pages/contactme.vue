@@ -1,33 +1,6 @@
 <template>
   <div>
-    <!-- <Bgcoolos /> -->
-
-    <Hero />
-
-    <Introduction />
-
-    <Works />
-
-    <Competences />
-
-    <Encore />
-
-    <div class="overflow-x-hidden"><!-- img review-->
-      <div class="pt-8 lg:pt-16 review">
-        <div class="relative pb-8 mx-auto text-xl lg:pb-12 container-inner">
-
-          <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
-            <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
-          </div>
-
-          <div class="w-full mx-auto mt-8 lg:w-1/2 sm:mt-0">
-            <img loading="lazy" src="~assets/img/review.svg" alt="review" class="h-auto mx-auto w-80" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <Contact />
+    <Form />
 
     <Svgdots />
 
@@ -52,42 +25,7 @@
 </template>
 
 <script>
-import ScrollOut from "scroll-out"
-import ScrollLink from './../components/ScrollLink.vue'
-import Visible from './../components/Visible.vue'
-import Bgcoolos from '~/components/bgcoolos.vue'
-
 export default {
-  components :{
-    ScrollLink,
-    Visible,
-    Bgcoolos,
-  },
-  mounted() {
-    this.so = ScrollOut({
-      scope: this.$el,
-      threshold: .4
-    });
-  },
-  destroyed() {
-    this.so.teardown();
-  }
 }
 </script>
 
-<style scoped>
-
-[data-scroll] {
-  transition: all 2s;
-}
-
-[data-scroll="in"] {
-  opacity: 1;
-  transform: translateX(0);
-}
-[data-scroll="out"] {
-  opacity: 0;
-  transform: translateX(-150px);
-}
-
-</style>

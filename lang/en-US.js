@@ -22,5 +22,11 @@ export default {
   encore: 'Ok, but tell us more',
   encoretext: 'Self-taught and passionate, I studied (and continue every day) through platforms such as <a class="text-green-500 font-bold" href="https://laracasts.com" target="_blank" rel=”noreferrer”> Laracasts </a> and <a class="text-green-500 font-bold" href = " https://openclassrooms.com "target =" _ blank " rel=”noreferrer”> Openclassrooms </a>, and also thanks to several YouTube channels which taught me a lot and I don’t want to forget to mention (<a class="text-green-500 font-bold" href = "https://www.youtube.com/channel/UCzuaB4F2znrMggxcwUuVhAw" target = "_ blank" rel=”noreferrer”> Les Teachers Du Net </a>, <a class="text-green-500 font-bold" href = "https://www.youtube.com/channel/UCtb40EQj2inp8zuaQlLx3iQ" target = "_ blank" rel=”noreferrer”> André Madarang </a> or <a class="text-green-500 font-bold" href="https://www.youtube.com/channel/UChyW1pwcQT2RA4Q2onfNfpg" target="_blank" rel=”noreferrer”> Thibault Dauce </a> among others).',
   encoretext2: 'On the other hand, I am a huge fan of <a class="text-green-500 font-bold" href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank" rel=”noreferrer”> Boards Of Canada </a>, and an unbeatable player at <a class="text-green-500 font-bold" href="https://mpg.football/dashboard?lang=fr-FR" target="_blank" rel=”noreferrer”> Mon Petit Gazon </a>!',
+  filltheform: 'or fill the form',
+  ici: 'here',
+  nometprenom: 'First and last name',
+  sujet: 'Subject',
+  message: 'Message',
+  envoyer: 'Send',
   footer: 'All rights reserved'
 }

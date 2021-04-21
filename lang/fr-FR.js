@@ -22,5 +22,11 @@ export default {
   encore: 'Mais encore?',
   encoretext: 'Autodidacte et passionné, je me suis formé (et continue chaque jour) au travers de plateformes telles que <a class="text-green-500 font-bold" href="https://laracasts.com" target="_blank" rel=”noreferrer”> Laracasts</a> et <a class="text-green-500 font-bold" href="https://openclassrooms.com" target="_blank" rel=”noreferrer”> Openclassrooms</a>, mais aussi via diverses chaines Youtube qui m\'ont beaucoup appris et que je tiens à mentionner ici (<a class="text-green-500 font-bold" href="https://www.youtube.com/channel/UCzuaB4F2znrMggxcwUuVhAw" target="_blank" rel=”noreferrer”> Les Teachers Du Net</a>, <a class="text-green-500 font-bold" href="https://www.youtube.com/channel/UCtb40EQj2inp8zuaQlLx3iQ" target="_blank" rel=”noreferrer”>André Madarang</a> ou encore <a class="text-green-500 font-bold" href="https://www.youtube.com/channel/UChyW1pwcQT2RA4Q2onfNfpg" target="_blank" rel=”noreferrer”>Thibault Dauce</a> entre autres).',
   encoretext2: 'Par ailleurs, je suis un grand amateur de <a class="text-green-500 font-bold" href="https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1?si=_VqY9WhHQeG58JX8cc1CaQ" target="_blank" rel=”noreferrer”> Boards Of Canada</a>, et un joueur intraitable à <a class="text-green-500 font-bold" href="https://mpg.football/dashboard?lang=fr-FR" target="_blank" rel=”noreferrer”> Mon Petit Gazon</a>!',
+  filltheform: 'ou remplissez le formulaire',
+  ici:'ici',
+  nometprenom:'Prénom et Nom',
+  sujet: 'Sujet',
+  message: 'Message',
+  envoyer: 'Envoyer',
   footer: 'Tous droits réservés'
 }

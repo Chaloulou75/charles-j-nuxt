@@ -2,7 +2,9 @@
   <div id="herotop" class="mb-4">
     <nav class="flex items-center justify-between w-full px-4 py-4 bg-transparent">
 
-      <div class="text-xl font-semibold tracking-wider text-transparent no-underline uppercase transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700">Charles Jeandey</div>
+      <div class="text-xl font-semibold tracking-wider text-transparent no-underline uppercase transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700">
+        <NuxtLink to="/"> Charles Jeandey</NuxtLink>
+      </div>
 
       <div class="flex items-center justify-between space-x-4 lg:hidden"> <!-- Mobile nav -->
 
