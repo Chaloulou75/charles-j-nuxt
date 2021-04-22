@@ -13,15 +13,15 @@
     <Encore />
 
     <div class="overflow-x-hidden"><!-- img review-->
-      <div class="pt-8 lg:pt-16 review">
-        <div class="relative pb-8 mx-auto text-xl lg:pb-12 container-inner">
+      <div class="pt-3 lg:pt-0 review">
+        <div class="relative pb-4 mx-auto text-xl lg:pb-6 container-inner">
 
           <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
             <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
           </div>
 
-          <div class="w-full mx-auto mt-8 lg:w-1/2 sm:mt-0">
-            <img loading="lazy" src="~assets/img/review.svg" alt="review" class="h-auto mx-auto w-80" />
+          <div class="w-full mx-auto lg:w-1/2">
+            <img loading="lazy" src="~assets/img/review.svg" alt="review" class="w-64 h-64 mx-auto" />
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto my-24 container-inner" id="contact">
+  <div class="mx-auto mt-4 mb-24 container-inner" id="contact">
     <div class="relative w-full h-auto py-8">
       <h2 class="mb-8 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" data-scroll>{{ $t('contactme') }}</h2>
       <p class="mb-12 text-xl font-semibold leading-loose text-transparent bg-clip-text bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" data-scroll>{{ $t('contacttextuno') }} <Mailto class="font-bold text-green-500" mail="c.jeandey@gmail.com">email</Mailto>. {{ $t('contacttextdos') }}</p>

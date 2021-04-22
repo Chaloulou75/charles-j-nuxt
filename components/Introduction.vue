@@ -4,9 +4,9 @@
       <p class="text-xl font-semibold leading-loose text-transparent bg-clip-text bg-gradient-to-br dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700" v-html="$t('intro')"></p>
     </div>
 
-    <div class="flex items-center justify-center my-20">
-      <div class="w-full px-8 lg:w-1/2 lg:py-0" >
-        <img loading="lazy" src="~assets/img/browser.svg" alt="browser" class="h-auto mx-auto w-80" />
+    <div class="flex items-center justify-center my-14">
+      <div class="w-full px-2 lg:w-1/2 lg:py-0" >
+        <img loading="lazy" src="~assets/img/browser.svg" alt="browser" class="h-48 mx-auto w-80" />
       </div>
     </div>
   </div>

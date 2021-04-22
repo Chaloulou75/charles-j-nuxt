@@ -6,14 +6,10 @@
         </div>
         <h2 class="mb-4 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" id="about" data-scroll>{{ $t('encore') }}</h2>
 
-        <div class="flex justify-center w-full" data-scroll>
-          <img loading="lazy" src="~assets/img/laravel_and_vue.svg" alt="laravel_and_vue" class="w-48 h-auto my-12 rounded-full lg:mb-0" />
+        <div class="flex justify-center w-full mx-auto my-6 lg:mb-auto" data-scroll>
+          <img loading="lazy" src="~assets/img/laravel_and_vue.svg" alt="laravel_and_vue" class="w-48 h-48 rounded-xl" />
         </div>
         <div class="relative flex flex-col items-center justify-between h-auto py-16 lg:flex-row" >
-
-          <!-- <div class="absolute inset-0 transform bg-orange-600 rounded-xl rotate-12"></div>
-          <div class="absolute inset-0 transform bg-gold rounded-xl -rotate-12"></div>
-          <div class="absolute inset-0 transform bg-purple-900 rounded-xl -rotate-3"></div> -->
           <div class="flex-1 text-xl leading-loose" data-scroll>
             <p class="pb-4 font-semibold text-transparent bg-clip-text bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" v-html="$t('encoretext')"></p>
             <p class="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" v-html="$t('encoretext2')"></p>
