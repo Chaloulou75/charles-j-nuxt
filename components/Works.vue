@@ -20,10 +20,10 @@
                 <div class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500"><a href="https://personadiseno.netlify.app/" target="_blank" rel=”noreferrer”>Persona Diseño </a></div>
               </div>
               <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400">{{ $t('persona') }} (<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/persona" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
-              <div class="flex justify-around pt-8 mt-auto">
-                <LogosNuxtDotJs class="w-5 h-5" fill="#00C58E"/>
-                <LogosTailwindCss class="w-5 h-5" fill="#38B2AC" />
-                <LogosNetlify class="w-5 h-5" fill="#00C7B7" />
+              <div class="flex justify-around pt-12 pb-8 mt-auto">
+                <LogosNuxtDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C58E"/>
+                <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+                <LogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
               </div>
             </div>
 
@@ -37,10 +37,10 @@
                 </div>
               </div>
               <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400">{{ $t('apuestamigo') }} (<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/apuestamigov3" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
-              <div class="flex justify-around pt-8 mt-auto">
-                <LogosLaravel class="w-5 h-5" fill="#FF2D20"/>
-                <LogosTailwindCss class="w-5 h-5" fill="#38B2AC" />
-                <LogosHeroku class="w-5 h-5" fill="#430098" />
+              <div class="flex justify-around pt-12 pb-8 mt-auto">
+                <LogosLaravel class="w-6 h-6 lg:w-10 lg:h-10" fill="#FF2D20"/>
+                <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+                <LogosHeroku class="w-6 h-6 lg:w-10 lg:h-10" fill="#430098" />
               </div>
             </div>
 
@@ -53,10 +53,10 @@
                 <div class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500"><a href="https://charles-jeandey.com" target="_blank" rel=”noreferrer”>Charles Jeandey</a></div>
               </div>
               <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400"> {{ $t('charlesjnuxt')}} (<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/charles-j-nuxt" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
-              <div class="flex justify-around pt-8 mt-auto">
-                <LogosNuxtDotJs class="w-5 h-5" fill="#00C58E"/>
-                <LogosTailwindCss class="w-5 h-5" fill="#38B2AC" />
-                <LogosNetlify class="w-5 h-5" fill="#00C7B7" />
+              <div class="flex justify-around pt-12 pb-8 mt-auto">
+                <LogosNuxtDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C58E"/>
+                <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+                <LogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
               </div>
             </div>
 
@@ -68,10 +68,10 @@
                 <div class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500"><a href="https://pantaloni-associes.netlify.app/" target="_blank" rel=”noreferrer”>Pantaloni & Associés</a></div>
               </div>
               <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400"> {{ $t('pantaloni')}} </div>
-              <div class="flex justify-around pt-8 mt-auto">
-                <LogosNuxtDotJs class="w-5 h-5" fill="#00C58E"/>
-                <LogosTailwindCss class="w-5 h-5" fill="#38B2AC" />
-                <LogosNetlify class="w-5 h-5" fill="#00C7B7" />
+              <div class="flex justify-around pt-12 pb-8 mt-auto">
+                <LogosNuxtDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C58E"/>
+                <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+                <LogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
               </div>
             </div>
 
@@ -83,10 +83,10 @@
                 <div class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" ><a href="https://carpinto-sites.netlify.app/" target="_blank" rel=”noreferrer”>Carpinto</a></div>
               </div>
               <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400">{{ $t('carpinto') }} (<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/charles-j-vuepress" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
-              <div class="flex justify-around pt-8 mt-auto">
-                <LogosVueDotJs class="w-5 h-5" fill="#4FC08D"/>
-                <LogosTailwindCss class="w-5 h-5" fill="#38B2AC" />
-                <LogosNetlify class="w-5 h-5" fill="#00C7B7" />
+              <div class="flex justify-around pt-12 pb-8 mt-auto">
+                <LogosVueDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#4FC08D"/>
+                <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+                <LogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
               </div>
             </div>
 
@@ -98,10 +98,10 @@
                 <div class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500">Julien Leprêtre</div>
               </div>
               <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400">{{ $t('julien') }}(<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/julienlepretre" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
-              <div class="flex justify-around pt-8 mt-auto">
-                <LogosLaravel class="w-5 h-5" fill="#FF2D20" />
-                <LogosTailwindCss class="w-5 h-5" fill="#38B2AC" />
-                <LogosVueDotJs class="w-5 h-5" fill="#4FC08D"/>
+              <div class="flex justify-around pt-12 pb-8 mt-auto">
+                <LogosLaravel class="w-6 h-6 lg:w-10 lg:h-10" fill="#FF2D20" />
+                <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+                <LogosVueDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#4FC08D"/>
               </div>
             </div>
           </div>
