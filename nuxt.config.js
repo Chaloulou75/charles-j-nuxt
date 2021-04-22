@@ -22,6 +22,7 @@ export default {
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap'},
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins&display=swap' },
     ]
   },
