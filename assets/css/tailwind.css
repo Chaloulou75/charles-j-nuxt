@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-nav .nuxt-link-exact-active {
-  @apply text-green-500;
-}
-
 @layer utilities {
   @variants hover, focus {
     .animation-paused {
