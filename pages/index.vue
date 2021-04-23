@@ -1,7 +1,5 @@
 <template>
   <div>
-    <!-- <Bgcoolos /> -->
-
     <Hero />
 
     <Introduction />
@@ -12,17 +10,13 @@
 
     <Encore />
 
-    <div class="overflow-x-hidden"><!-- img review-->
-      <div class="pt-3 lg:pt-0 review">
-        <div class="relative pb-4 mx-auto text-xl lg:pb-6 container-inner">
-
-          <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
-            <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
-          </div>
-
-          <div class="w-full mx-auto lg:w-1/2">
-            <img loading="lazy" src="~assets/img/review.svg" alt="review" class="w-64 h-48 mx-auto" />
-          </div>
+    <div class="overflow-hidden"><!-- img review-->
+      <div class="relative pt-3 pb-4 mx-auto lg:pb-6 container-inner">
+        <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
+          <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
+        </div>
+        <div class="w-full mx-auto lg:w-1/2">
+          <img loading="lazy" src="~assets/img/review.svg" alt="review" class="w-64 h-auto mx-auto" />
         </div>
       </div>
     </div>

@@ -8,7 +8,6 @@
         <h2 class="mb-12 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500" id="projects" data-scroll>{{$t('projects')}}</h2>
 
         <div class="relative">
-          <!-- <div class="absolute w-full h-full bg-gradient-to-br from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500 lg:-right-4 lg:-bottom-4 -right-2 -bottom-2 rounded-xl"></div> -->
 
           <div class="grid w-full grid-cols-1 px-2 py-8 text-lg leading-normal bg-transparent gap-x-6 gap-y-10 lg:grid-cols-2 rounded-xl sm:text-xl">
 
@@ -60,7 +59,7 @@
               </div>
             </div>
 
-            <div class="flex flex-col px-3 py-4 border-4 shadow-xl fromright border-opacity-20 dark:border-gray-300 border-bluefonce ring-2 ring-offset-4 ring-pink-600 ring-offset-transparent rounded-xl" data-scroll>
+            <div class="flex flex-col px-3 py-4 border-4 shadow-xl fromright border-opacity-20 dark:border-gray-300 border-bluefonce ring-2 ring-offset-4 ring-rose-600 ring-offset-transparent rounded-xl" data-scroll>
               <div class="flex items-center justify-center my-4 space-x-3">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 dark:text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0115 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L11 6.477V16h2a1 1 0 110 2H7a1 1 0 110-2h2V6.477L6.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 015 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L9 4.323V3a1 1 0 011-1zm-5 8.274l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L5 10.274zm10 0l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L15 10.274z" clip-rule="evenodd" />
@@ -90,7 +89,7 @@
               </div>
             </div>
 
-            <div class="flex flex-col px-3 py-4 border-4 shadow-xl fromright border-opacity-20 dark:border-gray-300 border-bluefonce ring-2 ring-offset-4 ring-indigo-800 ring-offset-transparent rounded-xl" data-scroll>
+            <div class="flex flex-col px-3 py-4 border-4 shadow-xl fromright border-opacity-20 dark:border-gray-300 border-bluefonce ring-2 ring-offset-4 ring-amber-600 ring-offset-transparent rounded-xl" data-scroll>
               <div class="flex items-center justify-center my-4 space-x-3">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 dark:text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />

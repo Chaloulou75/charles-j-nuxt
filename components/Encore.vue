@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="aspect-w-16 aspect-h-9" data-scroll>
-          <iframe loading=lazy  title="Boards of Canada" src="https://www.youtube.com/embed/CURPyCzoKfY" style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe loading=lazy title="Boards of Canada" src="https://www.youtube.com/embed/CURPyCzoKfY" style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
   </div><!-- end encore  -->
@@ -24,10 +24,8 @@
 
 <script>
 import ScrollOut from "scroll-out"
-import Carre from './Carre.vue';
 
 export default {
-  components: { Carre },
   mounted() {
     this.so = ScrollOut({
       scope: this.$el,
