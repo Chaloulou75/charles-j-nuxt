@@ -68,10 +68,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        'poppins': ['Poppins', 'Open Sans'],
-        'hachi': ['Hachi Maru Pop', 'Open Sans'],
-        'ubuntu': ['Ubuntu Mono', 'Open Sans'],
-        'opensans': ['Open Sans'],
+        'ubuntu': ['Ubuntu Mono'],
       }
     },
   },
