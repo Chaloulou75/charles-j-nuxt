@@ -60,6 +60,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/gtm',
     'nuxt-protected-mailto',
     '@nuxt/content',
     'nuxt-i18n',
@@ -76,6 +77,10 @@ export default {
     ],
     '@nuxtjs/sitemap' //toujours en dernier des modules
   ],
+
+  gtm: {
+    id: 'GTM-N3HDGBJ'
+  },
 
   pageTransition: {
     name: 'layout',
