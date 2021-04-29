@@ -21,7 +21,7 @@ export default {
       { hid: 'description', name: 'description', content: 'Développeur web Laravel | Vuejs / Nuxtjs | TailwindCss' }
     ],
     link: [
-      { rel: 'preload', href: 'https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap', as="style" },
+      { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap' },
     ]
   },
   //'
