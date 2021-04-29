@@ -20,9 +20,9 @@
             </div>
             <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400">{{ $t('persona') }} (<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/persona" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
             <div class="flex justify-around pt-12 pb-8 mt-auto">
-              <LogosNuxtDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C58E"/>
-              <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
-              <LogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
+              <LazyLogosNuxtDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C58E"/>
+              <LazyLogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+              <LazyLogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
             </div>
           </div>
 
@@ -37,9 +37,9 @@
             </div>
             <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400">{{ $t('apuestamigo') }} (<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/apuestamigov3" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
             <div class="flex justify-around pt-12 pb-8 mt-auto">
-              <LogosLaravel class="w-6 h-6 lg:w-10 lg:h-10" fill="#FF2D20"/>
-              <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
-              <LogosHeroku class="w-6 h-6 lg:w-10 lg:h-10" fill="#430098" />
+              <LazyLogosLaravel class="w-6 h-6 lg:w-10 lg:h-10" fill="#FF2D20"/>
+              <LazyLogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+              <LazyLogosHeroku class="w-6 h-6 lg:w-10 lg:h-10" fill="#430098" />
             </div>
           </div>
 
@@ -53,9 +53,9 @@
             </div>
             <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400"> {{ $t('charlesjnuxt')}} (<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/charles-j-nuxt" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
             <div class="flex justify-around pt-12 pb-8 mt-auto">
-              <LogosNuxtDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C58E"/>
-              <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
-              <LogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
+              <LazyLogosNuxtDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C58E"/>
+              <LazyLogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+              <LazyLogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
             </div>
           </div>
 
@@ -68,9 +68,9 @@
             </div>
             <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400"> {{ $t('pantaloni')}} </div>
             <div class="flex justify-around pt-12 pb-8 mt-auto">
-              <LogosNuxtDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C58E"/>
-              <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
-              <LogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
+              <LazyLogosNuxtDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C58E"/>
+              <LazyLogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+              <LazyLogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
             </div>
           </div>
 
@@ -83,9 +83,9 @@
             </div>
             <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400">{{ $t('carpinto') }} (<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/charles-j-vuepress" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
             <div class="flex justify-around pt-12 pb-8 mt-auto">
-              <LogosVueDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#4FC08D"/>
-              <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
-              <LogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
+              <LazyLogosVueDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#4FC08D"/>
+              <LazyLogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+              <LazyLogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
             </div>
           </div>
 
@@ -98,9 +98,9 @@
             </div>
             <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400">{{ $t('julien') }}(<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/julienlepretre" target="_blank" rel=”noreferrer”>GitHub</a>).</div>
             <div class="flex justify-around pt-12 pb-8 mt-auto">
-              <LogosLaravel class="w-6 h-6 lg:w-10 lg:h-10" fill="#FF2D20" />
-              <LogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
-              <LogosVueDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#4FC08D"/>
+              <LazyLogosLaravel class="w-6 h-6 lg:w-10 lg:h-10" fill="#FF2D20" />
+              <LazyLogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+              <LazyLogosVueDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#4FC08D"/>
             </div>
           </div>
         </div>
