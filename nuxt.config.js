@@ -21,7 +21,7 @@ export default {
       { hid: 'description', name: 'description', content: 'Développeur web Laravel | Vuejs / Nuxtjs | TailwindCss' }
     ],
     link: [
-      { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap' },
+      // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap' },
     ]
   },
   //'
@@ -53,6 +53,7 @@ export default {
     "nuxt-compress",
     '@aceforth/nuxt-optimized-images',
     '@nuxtjs/pwa',
+    '@nuxtjs/google-fonts',
   ],
   /*
   ** Nuxt.js modules
@@ -80,6 +81,14 @@ export default {
 
   gtm: {
     id: 'GTM-N3HDGBJ'
+  },
+
+  googleFonts: {
+    preload: true,
+    families: {
+      'Ubuntu+Mono': true,
+    },
+    display: 'swap',
   },
 
   pageTransition: {
