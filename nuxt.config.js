@@ -138,6 +138,12 @@ export default {
         decodeEntities: false
       }
     }
-  }
+  },
+
+  pwa: {
+    manifest: {
+      theme_color: '#FFDF00'
+    }
+  },
 
 }

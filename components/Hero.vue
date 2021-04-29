@@ -8,7 +8,7 @@
         <h2 id="vuejs" class="pt-2 text-3xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r dark:from-green-500 dark:to-blue-700 from-green-700 to-blue-800" data-scroll>Vuejs <LogosVueDotJs class="inline-block w-8 h-8 lg:w-16 lg:h-16" fill="#4FC08D" /> / Nuxtjs <LogosNuxtDotJs class="inline-block w-8 h-8 lg:w-16 lg:h-16" fill="#00C58E" /></h2>
       </div>
       <div class="relative flex items-center mt-16 lg:mt-8">
-        <img loading="lazy" src="~assets/img/developer.svg" alt="hero" class="object-cover mx-auto sm:mx-0 w-72 h-36" />
+        <ImgDeveloper class="mx-auto sm:mx-0" />
         <div class="absolute inset-0 hidden space-y-3 transition duration-100 shadow-2xl cursor-pointer w-52 h-52 rounded-xl lg:inline-block backdrop-filter backdrop-blur-sm hover:backdrop-brightness-150 animate-slowmoove hover:backdrop-blur-0 hover:animation-paused">
           <div class="flex flex-col items-center justify-center w-full h-full">
             <div class="text-lg text-center"><LogosLaravel class="w-8 h-8" fill="#FF2D20" /></div>

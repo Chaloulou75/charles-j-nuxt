@@ -16,7 +16,7 @@
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
         <div class="w-full mx-auto lg:w-1/2">
-          <img loading="lazy" src="~assets/img/review.svg" alt="review" class="w-64 h-auto mx-auto" />
+          <ImgReview loading="lazy" class="w-64 h-auto mx-auto" />
         </div>
       </div>
     </div>

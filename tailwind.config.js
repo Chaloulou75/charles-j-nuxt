@@ -73,8 +73,6 @@ module.exports = {
     },
   },
   variants: {
-    // filters: ['hover', 'group-hover'],
-    // bgFilters: ['hover'],
     extend: {
       backdropFilter: ['hover'],
       backdropBlur: ['hover'],
