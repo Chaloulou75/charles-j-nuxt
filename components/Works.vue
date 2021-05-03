@@ -103,6 +103,22 @@
               <LazyLogosVueDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#4FC08D"/>
             </div>
           </div>
+
+          <div class="flex flex-col px-3 py-4 border-4 shadow-xl fromleft border-opacity-20 dark:border-gray-300 border-bluefonce ring-2 ring-offset-4 ring-blue-400 ring-offset-transparent rounded-xl" data-scroll>
+            <div class="flex items-center justify-center my-4 space-x-3">
+              <svg class="w-6 h-6 text-gray-600 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+              </svg>
+              <div class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-800 dark:from-green-400 dark:to-blue-500"><a href="https://neymarxpokerstars.netlify.app/" target="_blank" rel=”noreferrer”>Neymar X Pokerstars</a></div>
+            </div>
+            <div class="text-lg tracking-wider text-justify text-gray-800 dark:text-gray-400">  Petit jeu fait dans le cadre d'un projet étudiant pour un client, réalisé avec Nuxt et Tailwind.
+            </div>
+            <div class="flex justify-around pt-12 pb-8 mt-auto">
+              <LazyLogosNuxtDotJs class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C58E"/>
+              <LazyLogosTailwindCss class="w-6 h-6 lg:w-10 lg:h-10" fill="#38B2AC" />
+              <LazyLogosNetlify class="w-6 h-6 lg:w-10 lg:h-10" fill="#00C7B7" />
+            </div>
+          </div>
         </div>
       </div>
     </div> <!-- end projects -->
