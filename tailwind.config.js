@@ -25,6 +25,7 @@ module.exports = {
         amber: colors.amber,
         lightBlue: colors.lightBlue,
         rose: colors.rose,
+        cyan: colors.cyan,
       },
       backgroundImage: (theme) => ({
         'conic-gradient': conicGradient(theme, 'from 300deg', [

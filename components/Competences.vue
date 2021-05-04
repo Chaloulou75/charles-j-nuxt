@@ -13,18 +13,18 @@
             <ul class="space-y-3 list-disc lg:space-y-4">
               <li data-scroll><code>TALL Stack</code></li>
               <li data-scroll><code>Laravel</code></li>
-              <li data-scroll><code>Tailwind CSS</code></li>
+              <li data-scroll><code>Tailwind css</code></li>
               <li data-scroll><code>Livewire</code></li>
-              <li data-scroll><code>AlpineJS</code></li>
-              <li data-scroll><code>InertiaJS</code></li>
+              <li data-scroll><code>Alpine js</code></li>
+              <li data-scroll><code>Inertia js</code></li>
             </ul>
             <ul class="space-y-3 text-xl list-disc lg:space-y-4">
               <li data-scroll><code>HTML/CSS</code> </li>
               <li data-scroll><code>PHP/MySQL</code></li>
               <li data-scroll><code>JavaScript</code></li>
               <li data-scroll><code>SASS</code> </li>
-              <li data-scroll><code>Vue JS</code></li>
-              <li data-scroll><code>Nuxt JS</code></li>
+              <li data-scroll><code>Vue js</code></li>
+              <li data-scroll><code>Nuxt js</code></li>
             </ul>
             <ul class="space-y-3 text-xl list-disc lg:space-y-4">
               <li data-scroll><code>Git/ Github</code></li>
