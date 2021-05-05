@@ -55,7 +55,7 @@ module.exports = {
           '0%, 100%': { transform: 'translateY(50%) translateX(0%) rotate(0)'},
           '15%': { transform: 'translateY(15%) translateX(-20%) rotate(90deg)'},
           '50%': { transform: 'translateY(15%) translateX(-420%) rotate(180deg)'},
-          '75%': { transform: 'translateY(100%) translateX(-430%) rotate(90deg)' },
+          '75%': { transform: 'translateY(100%) translateX(-430%) rotate(45deg)' },
         },
         slowmooveTopDown: {
           '0%, 100%': { transform: 'translateY(0%) translateX(0%) rotate(0)' },
@@ -77,7 +77,6 @@ module.exports = {
     extend: {
       backdropFilter: ['hover'],
       backdropBlur: ['hover'],
-      backdropBrightness: ['hover'],
       animation: ['hover', 'focus'],
       ringColor: ['hover', 'active'],
     },

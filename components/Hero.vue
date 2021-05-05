@@ -9,7 +9,7 @@
       </div>
       <div class="relative flex items-center mt-16 lg:mt-8">
         <ImgDeveloper class="mx-auto sm:mx-0" />
-        <div class="absolute inset-0 hidden space-y-3 transition duration-100 shadow-2xl cursor-pointer w-52 h-52 rounded-xl lg:inline-block backdrop-filter backdrop-blur-sm hover:backdrop-brightness-150 animate-slowmoove hover:backdrop-blur-0 hover:animation-paused">
+        <div class="absolute inset-0 hidden space-y-3 transition duration-200 shadow-2xl cursor-pointer w-52 h-52 rounded-xl lg:inline-block filter backdrop-filter hover:backdrop-filter backdrop-blur animate-slowmoove hover:backdrop-blur-0 hover:animation-paused">
           <div class="flex flex-col items-center justify-center w-full h-full">
             <div class="text-lg text-center"><LogosLaravel class="w-8 h-8" fill="#FF2D20" /></div>
             <div class="text-lg text-center"><LogosTailwindCss class="w-8 h-8" fill="#38B2AC" /></div>
