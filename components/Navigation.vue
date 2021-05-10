@@ -1,6 +1,6 @@
 <template>
   <div id="herotop" class="mb-4">
-    <nav class="flex items-center justify-between w-full px-4 py-4 bg-transparent">
+    <nav class="flex items-center justify-between w-full px-4 py-2 bg-transparent">
 
       <div class="text-xl font-semibold tracking-wider text-transparent no-underline transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700">
         <nuxt-link :to="localePath('index')">Charles Jeandey</nuxt-link>
@@ -52,7 +52,8 @@
     </nav>
 
     <transition name="fade" class="mobile-menu lg:hidden" ><!-- nav mobile-->
-        <div class="flex flex-col items-end px-4 py-2 space-y-2 text-base font-semibold tracking-wider" v-if="show">
+      <div class="absolute right-0">
+        <div class="flex flex-col items-end px-3 space-y-1 text-base font-semibold tracking-wider" v-if="show">
           <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-600 to-blue-700 dark:from-green-400 dark:to-blue-500">
             <scroll-link href="#contact">{{ $t('contact') }}</scroll-link>
           </div>
@@ -66,6 +67,8 @@
             </div>
           </div>
         </div>
+      </div>
+
     </transition>
   </div>
 </template>
