@@ -1,9 +1,3 @@
-const conicGradient = (theme, direction, colorList) => {
-  const params = [direction, ...colorList.map((color) => theme(`colors.${color}`))]
-
-  return `conic-gradient(${params.join(', ')})`
-}
-
 const colors = require('tailwindcss/colors')
 
 module.exports = {
@@ -27,17 +21,9 @@ module.exports = {
         rose: colors.rose,
         cyan: colors.cyan,
       },
-      backgroundImage: (theme) => ({
-        'conic-gradient': conicGradient(theme, 'from 300deg', [
-          'red.400',
-          'amber.100',
-          'lightBlue.500',
-          'blue.300',
-          'purple.600',
-          'pink.500',
-          'rose.600',
-          'red.400',
-        ]),
+      backgroundImage: theme => ({
+        'texture': "url('~assets/img/texture.jpg')",
+        'graywall': "url('~assets/img/graywall.jpg')",
       }),
       spacing: {
         108: '27rem'
