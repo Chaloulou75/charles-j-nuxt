@@ -23,7 +23,6 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'texture': "url('~assets/img/texture.jpg')",
-        'graywall': "url('~assets/img/graywall.jpg')",
       }),
       spacing: {
         108: '27rem'

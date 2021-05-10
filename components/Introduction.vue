@@ -1,7 +1,7 @@
 <template>
   <div class="relative min-h-full mx-auto container-inner my-14">
     <div class="w-full" data-scroll>
-      <p class="text-xl font-semibold leading-loose text-transparent bg-clip-text bg-gradient-to-br dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700" v-html="$t('intro')"></p>
+      <p class="text-xl font-semibold leading-loose text-transparent bg-clip-text bg-gradient-to-br dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-900" v-html="$t('intro')"></p>
     </div>
   </div>
 </template>
