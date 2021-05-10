@@ -52,14 +52,14 @@
     </nav>
 
     <transition name="fade" class="mobile-menu lg:hidden" ><!-- nav mobile-->
-      <div class="absolute right-0">
+      <div class="absolute right-0 z-50 lg:hidden">
         <div class="flex flex-col items-end px-3 space-y-1 text-base font-semibold tracking-wider" v-if="show">
           <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-600 to-blue-700 dark:from-green-400 dark:to-blue-500">
             <scroll-link href="#contact">{{ $t('contact') }}</scroll-link>
           </div>
 
           <div class="flex space-x-3">
-            <div class="text-sm text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-1 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700" v-for="locale in availableLocales"
+            <div class="px-1 text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-1 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700" v-for="locale in availableLocales"
               :key="locale.code">
               <nuxt-link :to="switchLocalePath(locale.code)">
                 {{ locale.name }}
