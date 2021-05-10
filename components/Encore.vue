@@ -1,6 +1,6 @@
 <template>
   <div class="my-8 overflow-x-hidden"><!-- encore-->
-      <div class="relative pb-8 mx-auto text-xl border-b border-gray-500 lg:pb-16 container-inner">
+      <div class="relative pb-8 mx-auto text-xl lg:pb-16 container-inner">
         <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>

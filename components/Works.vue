@@ -1,6 +1,6 @@
 <template>
   <div class="overflow-x-hidden works">
-    <div class="relative py-16 mx-auto text-xl border-t border-b border-gray-500 container-inner">
+    <div class="relative py-16 mx-auto text-xl container-inner">
       <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
         <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
       </div>

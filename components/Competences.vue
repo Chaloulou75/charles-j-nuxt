@@ -1,7 +1,7 @@
 <template>
   <div class="overflow-x-hidden competences" ><!-- competences -->
       <div class="skills" >
-        <div class="relative py-8 mx-auto text-xl border-b border-gray-500 lg:py-16 container-inner">
+        <div class="relative py-8 mx-auto text-xl lg:py-16 container-inner">
           <h2 class="mb-8 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-blue-800 dark:from-green-300 dark:to-blue-400" >
             {{ $t('skills') }}
           </h2>
