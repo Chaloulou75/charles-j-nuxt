@@ -2,10 +2,10 @@
   <div class="flex items-center justify-around min-h-screen">
     <div class="flex flex-col justify-between px-2 py-4 mx-auto mb-auto lg:flex-row ">
       <div class="w-full space-y-3 font-extrabold text-left font-ubuntu lg:space-y-4 lg:w-4/5 ">
-        <h1 class="text-5xl leading-tight text-transparent bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700 lg:text-8xl" data-scroll>{{ $t('dev') }} </h1>
-        <h2 id="laravel" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r dark:from-orange-400 from-orange-600 dark:to-blue-500 to-blue-700" data-scroll>Laravel <LogosLaravel class="inline-block w-8 h-8 lg:w-16 lg:h-16" fill="#FF2D20" /></h2>
-        <h2 id="tailwindcss" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r dark:from-blue-600 dark:to-green-400 from-blue-700 to-green-600" data-scroll>Tailwindcss <LogosTailwindCss class="inline-block w-8 h-8 lg:w-16 lg:h-16" fill="#38B2AC" /></h2>
-        <h2 id="vuejs" class="pt-2 text-3xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r dark:from-green-500 dark:to-blue-700 from-green-700 to-blue-800" data-scroll>Vuejs <LogosVueDotJs class="inline-block w-8 h-8 lg:w-16 lg:h-16" fill="#4FC08D" /> / Nuxtjs <LogosNuxtDotJs class="inline-block w-8 h-8 lg:w-16 lg:h-16" fill="#00C58E" /></h2>
+        <h1 class="text-5xl leading-tight text-transparent bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800 lg:text-8xl" data-scroll>{{ $t('dev') }} </h1>
+        <h2 id="laravel" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r dark:from-orange-400 from-orange-800 dark:to-blue-500 to-blue-800" data-scroll>Laravel <LogosLaravel class="inline-block w-8 h-8 lg:w-16 lg:h-16" fill="#FF2D20" /></h2>
+        <h2 id="tailwindcss" class="pt-2 text-4xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r dark:from-blue-600 dark:to-green-400 from-blue-800 to-green-800" data-scroll>Tailwindcss <LogosTailwindCss class="inline-block w-8 h-8 lg:w-16 lg:h-16" fill="#38B2AC" /></h2>
+        <h2 id="vuejs" class="pt-2 text-3xl leading-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r dark:from-green-500 dark:to-blue-700 from-green-800 to-blue-800" data-scroll>Vuejs <LogosVueDotJs class="inline-block w-8 h-8 lg:w-16 lg:h-16" fill="#4FC08D" /> / Nuxtjs <LogosNuxtDotJs class="inline-block w-8 h-8 lg:w-16 lg:h-16" fill="#00C58E" /></h2>
       </div>
       <div class="relative flex items-center mt-16 lg:mt-8">
         <ImgDeveloper class="mx-auto sm:mx-0" />

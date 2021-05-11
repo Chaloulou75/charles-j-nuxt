@@ -1,9 +1,9 @@
 <template>
   <div class="my-8 overflow-x-hidden"><!-- encore-->
       <div class="relative pb-8 mx-auto text-xl lg:pb-16 container-inner">
-        <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
+        <!-- <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
-        </div>
+        </div> -->
         <h2 class="mb-4 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-800 to-blue-900 dark:from-green-400 dark:to-blue-500" id="about" data-scroll>{{ $t('encore') }}</h2>
 
         <div class="flex justify-center w-full mx-auto my-6 lg:mb-auto" data-scroll>

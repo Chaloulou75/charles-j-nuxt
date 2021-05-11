@@ -5,9 +5,9 @@
           <h2 class="mb-8 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-blue-800 dark:from-green-300 dark:to-blue-400" >
             {{ $t('skills') }}
           </h2>
-          <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
+          <!-- <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
             <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
-          </div>
+          </div> -->
 
           <div class="justify-between px-12 mb-12 space-y-3 text-xl font-semibold text-gray-800 lg:px-4 lg:flex lg:space-y-0 dark:text-gray-300" >
             <ul class="space-y-3 list-disc lg:space-y-4">

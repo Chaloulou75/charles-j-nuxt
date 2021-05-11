@@ -12,9 +12,9 @@
 
     <div class="overflow-hidden"><!-- img review-->
       <div class="relative pt-3 pb-4 mx-auto lg:pb-6 container-inner">
-        <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
+        <!-- <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
-        </div>
+        </div> -->
         <div class="w-full mx-auto lg:w-1/2">
           <LazyImgReview loading="lazy" class="w-64 h-auto mx-auto" />
         </div>

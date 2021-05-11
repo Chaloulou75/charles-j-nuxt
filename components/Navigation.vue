@@ -2,7 +2,7 @@
   <div id="herotop" class="mb-4">
     <nav class="flex items-center justify-between w-full px-4 py-2 bg-transparent">
 
-      <div class="text-xl font-semibold tracking-wider text-transparent no-underline transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700">
+      <div class="text-xl font-semibold tracking-wider text-transparent no-underline transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800">
         <nuxt-link :to="localePath('index')">Charles Jeandey</nuxt-link>
       </div>
 
@@ -27,13 +27,13 @@
 
       <div class="hidden desktop-menu lg:block"> <!--Lg nav -->
         <div class="flex items-center justify-around space-x-6 font-semibold tracking-widest">
-          <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700">
+          <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800">
             <scroll-link href="#contact">
               {{ $t('contact') }}
             </scroll-link>
           </div>
           <div class="flex space-x-2">
-            <div class="text-sm text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-1 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700"
+            <div class="text-sm text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-1 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800"
             v-for="locale in availableLocales" :key="locale.code"
             >
               <nuxt-link :to="switchLocalePath(locale.code)">
@@ -54,12 +54,12 @@
     <transition name="fade" class="mobile-menu lg:hidden" ><!-- nav mobile-->
       <div class="absolute right-0 z-50 lg:hidden">
         <div class="flex flex-col items-end px-3 space-y-1 text-base font-semibold tracking-wider" v-if="show">
-          <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-600 to-blue-700 dark:from-green-400 dark:to-blue-500">
+          <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-800 to-blue-800 dark:from-green-400 dark:to-blue-500">
             <scroll-link href="#contact">{{ $t('contact') }}</scroll-link>
           </div>
 
           <div class="flex space-x-3">
-            <div class="px-1 text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-1 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-600 to-blue-700" v-for="locale in availableLocales"
+            <div class="px-1 text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-1 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800" v-for="locale in availableLocales"
               :key="locale.code">
               <nuxt-link :to="switchLocalePath(locale.code)">
                 {{ locale.name }}
@@ -120,7 +120,7 @@ export default {
 
 <style scoped>
   .fade-enter-active, .fade-leave-active {
-    transition: opacity .3s;
+    transition: opacity .2s;
   }
   .fade-enter, .fade-leave-to {
     opacity: 0;

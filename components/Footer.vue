@@ -1,7 +1,7 @@
 <template>
   <footer class="text-gray-800 bg-transparent dark:text-white">
     <div class="container flex items-center justify-between px-4 py-8 mx-auto lg:px-10">
-      <div class="text-xs font-normal leading-relaxed tracking-wide text-gray-800 dark:text-gray-300">
+      <div class="text-xs font-semibold leading-relaxed tracking-wide text-gray-800 dark:text-gray-300">
         &copy; Charles Jeandey &bull; {{ new Date().getFullYear() }}<br> {{$t('footer')}}.
       </div>
 
