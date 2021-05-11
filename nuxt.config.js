@@ -114,10 +114,6 @@ export default {
     optimizeImages: true
   },
 
-  tailwindcss: {
-    jit: true
-  },
-
   sitemap: {
     hostname: 'https://charles-jeandey.com',
     gzip: true,
