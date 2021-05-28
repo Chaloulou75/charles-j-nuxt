@@ -1,6 +1,6 @@
 <template>
   <div class="my-8 overflow-x-hidden"><!-- encore-->
-      <div class="relative pb-8 mx-auto text-xl lg:pb-16 container-inner">
+      <section class="relative pb-8 mx-auto text-xl lg:pb-16 container-inner">
         <!-- <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div> -->
@@ -18,7 +18,7 @@
         <div class="aspect-w-16 aspect-h-9" data-scroll>
           <iframe loading=lazy title="Boards of Canada" src="https://www.youtube.com/embed/CURPyCzoKfY" style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-      </div>
+      </section>
   </div><!-- end encore  -->
 </template>
 

@@ -1,8 +1,8 @@
 <template>
   <div class="relative min-h-full mx-auto my-10 container-inner">
-    <div class="w-full" data-scroll>
+    <section class="w-full" data-scroll>
       <p class="inline text-2xl font-semibold leading-loose" v-html="$t('intro')"></p>
-    </div>
+    </section>
   </div>
 </template>
 

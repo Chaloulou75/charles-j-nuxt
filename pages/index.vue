@@ -10,13 +10,13 @@
 
     <LazyEncore />
 
-    <div class="overflow-hidden"><!-- img review-->
-      <div class="relative pt-3 pb-4 mx-auto lg:pb-6 container-inner">
-        <!-- <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
+    <div class="overflow-hidden "><!-- img review-->
+      <div class="relative pt-3 pb-4 mx-auto container-inner lg:pb-6">
+        <!-- <div class="50px; absolute left-0" style="top: transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div> -->
         <div class="w-full mx-auto lg:w-1/2">
-          <LazyImgReview loading="lazy" class="w-64 h-auto mx-auto" />
+          <LazyImgReview loading="lazy" class="w-64 h-auto mx-auto " />
         </div>
       </div>
     </div>
@@ -29,8 +29,10 @@
     <div class="fixed bottom-0 right-0 z-20 mb-20 mr-8">
       <div class="p-2 bg-blue-800 border border-blue-700 rounded-full opacity-75 dark:bg-gray-100 dark:border-white hover:opacity-100">
         <scroll-link href="#herotop" class="text-gray-100 dark:text-gray-800">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"></path></svg>
-          <span class="sr-only">go to top</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+          </svg>
+          <span class="sr-only ">go to top</span>
         </scroll-link>
       </div>
     </div>
