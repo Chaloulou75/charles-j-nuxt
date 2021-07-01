@@ -50,14 +50,14 @@
           </div>
 
 
-          <div class="flex flex-col px-3 py-4 border-4 shadow-xl fromleft border-opacity-20 dark:border-gray-300 border-bluefonce ring-2 ring-offset-4 ring-lightBlue-800 dark:ring-lightBlue-500 ring-offset-transparent rounded-xl" data-scroll>
+          <div class="flex flex-col px-3 py-4 border-4 shadow-xl fromleft border-opacity-20 dark:border-gray-300 border-bluefonce ring-2 ring-offset-4 ring-sky-800 dark:ring-sky-500 ring-offset-transparent rounded-xl" data-scroll>
             <div class="flex items-center justify-center my-4 space-x-3">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 dark:text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
               </svg>
               <div class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-800 to-blue-800 dark:from-green-400 dark:to-blue-500"><a href="https://charles-jeandey.com" target="_blank" rel=”noreferrer”>Charles Jeandey</a></div>
             </div>
-            <div class="my-6 rounded-lg ring-2 ring-lightBlue-500">
+            <div class="my-6 rounded-lg ring-2 ring-sky-500">
               <img src="~/assets/img/sites/cjdark.png" alt="cjdark" loading="lazy" class="object-cover w-full h-48 rounded-lg">
             </div>
             <div class="mb-6 text-lg font-bold tracking-wider text-justify text-gray-800 dark:text-gray-400"> {{ $t('charlesjnuxt')}} (<a class="text-base font-semibold text-gray-800 dark:text-gray-400" href="https://github.com/chaloulou75/charles-j-nuxt" target="_blank" rel=”noreferrer”>GitHub</a>).</div>

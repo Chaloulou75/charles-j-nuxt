@@ -18,7 +18,7 @@ module.exports = {
         gold: '#FFDF00',
         bluefonce: '#05182d',
         amber: colors.amber,
-        lightBlue: colors.lightBlue,
+        sky: colors.sky,
         rose: colors.rose,
         cyan: colors.cyan,
       },
