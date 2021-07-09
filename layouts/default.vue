@@ -1,5 +1,6 @@
 <template>
-    <div class="relative min-h-screen overflow-x-hidden text-gray-900 bg-gray-100 bg-center bg-cover content-wrapper dark:text-gray-100 font-ubuntu dark:bg-bluefonce bg-texture bg-blend-multiply">
+    <div class="relative min-h-screen overflow-x-hidden text-gray-900 bg-gray-100 content-wrapper dark:text-gray-100 font-ubuntu dark:bg-bluefonce ">
+      <!-- bg-texture bg-center bg-cover bg-blend-multiply-->
       <Navigation />
       <Nuxt />
     </div>
