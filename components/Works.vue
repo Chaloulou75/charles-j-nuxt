@@ -16,7 +16,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 dark:text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
               </svg>
-              <div class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-800 to-blue-800 dark:from-green-400 dark:to-blue-500"><a href="https://personadiseno.netlify.app/" target="_blank" rel=”noreferrer”>Persona Diseño </a></div>
+              <div class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-800 to-blue-800 dark:from-green-400 dark:to-blue-500"><a href="https://personadiseno.netlify.app/" target="_blank" rel=”noreferrer”>Persona Portfolio </a></div>
             </div>
             <div class="my-6 rounded-lg ring-2 ring-green-500">
               <img src="~/assets/img/sites/personainicio.png" alt="personainicio" loading="lazy" class="object-cover w-full h-48 rounded-lg">
