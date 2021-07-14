@@ -19,12 +19,12 @@
               <li data-scroll><code>Inertia js</code></li>
             </ul>
             <ul class="space-y-3 text-xl list-disc lg:space-y-4">
+              <li data-scroll><code>Vue js</code></li>
+              <li data-scroll><code>Nuxt js</code></li>
               <li data-scroll><code>HTML/CSS</code> </li>
               <li data-scroll><code>PHP/MySQL</code></li>
               <li data-scroll><code>JavaScript</code></li>
               <li data-scroll><code>SASS</code> </li>
-              <li data-scroll><code>Vue js</code></li>
-              <li data-scroll><code>Nuxt js</code></li>
             </ul>
             <ul class="space-y-3 text-xl list-disc lg:space-y-4">
               <li data-scroll><code>Git/ Github</code></li>

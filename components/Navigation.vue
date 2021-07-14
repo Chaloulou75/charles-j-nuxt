@@ -2,8 +2,8 @@
   <nav class="fixed z-50 w-full px-4 py-2 mb-4 bg-transparent bg-opacity-50 backdrop-filter backdrop-blur lg:px-8 lg:py-4">
     <div class="relative flex items-center justify-between">
 
-      <div class="text-xl font-semibold tracking-wider text-transparent no-underline transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800">
-        <nuxt-link :to="localePath('index')">Charles Jeandey</nuxt-link>
+      <div class="text-2xl font-bold tracking-wider text-transparent uppercase cursor-default bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800">
+        Charles Jeandey
       </div>
 
       <div class="flex items-center justify-between space-x-4 lg:hidden"> <!-- Mobile nav -->
@@ -27,7 +27,7 @@
 
       <div class="hidden desktop-menu lg:block"> <!--Lg nav -->
         <div class="flex items-center justify-around space-x-6 font-semibold tracking-widest">
-          <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800">
+          <div class="mt-3 text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800">
             <scroll-link href="#contact">
               {{ $t('contact') }}
             </scroll-link>
