@@ -14,7 +14,7 @@
         </div>
         <div class="flex items-center justify-center h-full">
           <a href="https://twitter.com/CarlitosBuck" target="_blank" rel=”noreferrer” class="text-gray-700 hover:text-gray-800 dark:text-gray-300 dark:hover:text-gray-100">
-              <LazyLogosTwitter class="w-6 h-6" fill="#1DA1F2" />
+              <LazyLogosTwitterLogo class="w-6 h-6" fill="#1DA1F2" />
               <span class="sr-only">Twitter</span>
             </a>
         </div>

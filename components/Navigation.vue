@@ -27,7 +27,7 @@
 
       <div class="hidden desktop-menu lg:block"> <!--Lg nav -->
         <div class="flex items-center justify-around space-x-6 font-semibold tracking-widest">
-          <div class="mt-3 text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800">
+          <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 hover:text-green-500 bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800">
             <scroll-link href="#contact">
               {{ $t('contact') }}
             </scroll-link>
@@ -54,7 +54,7 @@
     <transition name="fade" class="mobile-menu lg:hidden" ><!-- nav mobile-->
       <div class="absolute right-0 z-50 lg:hidden">
         <div class="flex flex-col items-end px-3 space-y-1 text-base font-semibold tracking-wider" v-if="show">
-          <div class="text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-800 to-blue-800 dark:from-green-400 dark:to-blue-500">
+          <div class="my-2 text-transparent transition duration-500 ease-in-out transform cursor-pointer hover:translate-x-2 bg-clip-text bg-gradient-to-r from-green-800 to-blue-800 dark:from-green-400 dark:to-blue-500">
             <scroll-link href="#contact">{{ $t('contact') }}</scroll-link>
           </div>
 
