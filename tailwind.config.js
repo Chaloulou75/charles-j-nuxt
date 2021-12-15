@@ -1,8 +1,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  mode: 'jit',
-  purge: [
+  content: [
     './components/**/*.{vue,js}',
     './layouts/**/*.vue',
     './pages/**/*.vue',
@@ -13,7 +12,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        gray: colors.coolGray,
+        gray: colors.gray,
         orange: colors.orange,
         gold: '#FFDF00',
         bluefonce: '#05182d',
@@ -56,17 +55,18 @@ module.exports = {
       },
       fontFamily: {
         'ubuntu': ['Ubuntu Mono'],
+        'dmsana': ['"DM Sans"'],
       }
     },
   },
-  variants: {
-    extend: {
-      backdropFilter: ['hover'],
-      backdropBlur: ['hover'],
-      animation: ['hover', 'focus'],
-      ringColor: ['hover', 'active'],
-    },
-  },
+  // variants: {
+  //   extend: {
+  //     backdropFilter: ['hover'],
+  //     backdropBlur: ['hover'],
+  //     animation: ['hover', 'focus'],
+  //     ringColor: ['hover', 'active'],
+  //   },
+  // },
   plugins: [
     // require('tailwind-filter-utilities'),
     require('@tailwindcss/aspect-ratio'),

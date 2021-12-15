@@ -36,7 +36,7 @@
                 <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
               </svg>
               <div class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-800 to-blue-800 dark:from-green-400 dark:to-blue-500">
-              <a href="https://www.apuestamigo.com/" target="_blank" rel=”noreferrer”>Apuestamigo</a>
+              <a href="https://apuestamigo.herokuapp.com/" target="_blank" rel=”noreferrer”>Apuestamigo</a>
               </div>
             </div>
             <div class="my-6 rounded-lg ring-2 ring-yellow-500">

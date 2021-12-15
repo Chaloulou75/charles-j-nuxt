@@ -1,8 +1,8 @@
 <template>
-  <nav class="fixed z-50 w-full px-4 py-2 mb-4 bg-transparent bg-opacity-50 backdrop-filter backdrop-blur lg:px-8 lg:py-4">
+  <nav class="fixed z-50 w-full px-4 py-2 mb-4 bg-transparent bg-opacity-50 backdrop-filter backdrop-blur lg:px-8 lg:py-4 font-dmsana">
     <div class="relative flex items-center justify-between">
 
-      <div class="text-2xl font-bold tracking-wider text-transparent uppercase cursor-default bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800">
+      <div class="text-2xl font-bold tracking-wider text-transparent cursor-default bg-clip-text bg-gradient-to-r dark:from-green-400 dark:to-blue-500 from-green-800 to-blue-800">
         Charles Jeandey
       </div>
 

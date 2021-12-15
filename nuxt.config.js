@@ -87,6 +87,7 @@ export default {
     preload: true,
     families: {
       'Ubuntu+Mono': true,
+      'DM+Sans': true,
     },
     display: 'swap',
   },
