@@ -3,10 +3,8 @@
 @tailwind utilities;
 
 @layer utilities {
-  @variants hover, focus {
-    .animation-paused {
-      animation-play-state: paused;
-    }
+  .animation-paused {
+    animation-play-state: paused;
   }
 }
 
