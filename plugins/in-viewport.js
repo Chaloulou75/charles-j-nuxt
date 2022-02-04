@@ -1,4 +1,4 @@
-import Vue from 'vue'
-import inViewport from 'in-viewport';
+import Vue from "vue";
+import inViewport from "in-viewport";
 
-Vue.use(inViewport)
+Vue.use(inViewport);

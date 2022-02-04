@@ -1,4 +1,4 @@
-import Vue from 'vue'
-import ScrollOut from 'scroll-out';
+import Vue from "vue";
+import ScrollOut from "scroll-out";
 
-Vue.use(ScrollOut)
+Vue.use(ScrollOut);

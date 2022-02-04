@@ -1,29 +1,31 @@
 <template>
   <div class="relative min-h-full mx-auto my-10 container-inner">
     <section class="w-full" data-scroll>
-      <p class="inline text-2xl font-semibold leading-loose" v-html="$t('intro')"></p>
+      <p
+        class="inline text-2xl font-semibold leading-loose"
+        v-html="$t('intro')"
+      ></p>
     </section>
   </div>
 </template>
 
 <script>
-import ScrollOut from "scroll-out"
+import ScrollOut from "scroll-out";
 
 export default {
   mounted() {
     this.so = ScrollOut({
       scope: this.$el,
-      threshold: .2
+      threshold: 0.2
     });
   },
   destroyed() {
     this.so.teardown();
   }
-}
+};
 </script>
 
 <style scoped>
-
 [data-scroll] {
   transition: all 1.2s;
 }
@@ -36,5 +38,4 @@ export default {
   opacity: 0;
   /* transform: scale(.2); */
 }
-
 </style>
