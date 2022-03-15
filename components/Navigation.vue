@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="fixed z-50 w-full px-4 py-2 mb-4 bg-transparent bg-opacity-50 font-dmsana backdrop-blur backdrop-filter lg:px-8 lg:py-4"
+    class="fixed z-50 w-full px-4 py-2 mb-4 uppercase bg-transparent bg-opacity-50 font-poppins backdrop-blur backdrop-filter lg:px-8 lg:py-4"
   >
     <div class="relative flex items-center justify-between">
       <div
@@ -170,12 +170,12 @@ import ScrollLink from "./../components/ScrollLink.vue";
 
 export default {
   components: {
-    ScrollLink
+    ScrollLink,
   },
   data() {
     return {
       show: false,
-      theme: "dark"
+      theme: "dark",
     };
   },
   mounted() {
@@ -192,11 +192,11 @@ export default {
   },
   computed: {
     availableLocales() {
-      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale);
-    }
+      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale);
+    },
   },
   methods: {
-    toggleTheme: function() {
+    toggleTheme: function () {
       this.theme = this.theme === "dark" ? "light" : "dark";
       localStorage.setItem("theme", this.theme);
       if (this.theme === "dark" || localStorage.theme === "dark") {
@@ -204,8 +204,8 @@ export default {
       } else {
         document.documentElement.classList.remove("dark");
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -21,12 +21,12 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Développeur web Laravel | Vuejs / Nuxtjs | TailwindCss"
-      }
+        content: "Développeur web Laravel | Vuejs / Nuxtjs | TailwindCss",
+      },
     ],
     link: [
       // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap' },
-    ]
+    ],
   },
   //'
   /*
@@ -40,7 +40,7 @@ export default {
   plugins: [
     { src: "@/plugins/scroll-out", ssr: false },
     { src: "@/plugins/in-viewport", ssr: false },
-    "~/plugins/router"
+    "~/plugins/router",
   ],
   /*
    ** Auto import components
@@ -57,7 +57,7 @@ export default {
     "nuxt-compress",
     "@aceforth/nuxt-optimized-images",
     "@nuxtjs/pwa",
-    "@nuxtjs/google-fonts"
+    "@nuxtjs/google-fonts",
   ],
   /*
    ** Nuxt.js modules
@@ -72,28 +72,29 @@ export default {
       "nuxt-compress",
       {
         gzip: {
-          cache: true
+          cache: true,
         },
         brotli: {
-          threshold: 10240
-        }
-      }
+          threshold: 10240,
+        },
+      },
     ],
-    "@nuxtjs/sitemap" //toujours en dernier des modules
+    "@nuxtjs/sitemap", //toujours en dernier des modules
   ],
 
   googleFonts: {
     preload: true,
     families: {
       "Ubuntu+Mono": true,
-      "DM+Sans": true
+      "DM+Sans": true,
+      Poppins: true,
     },
-    display: "swap"
+    display: "swap",
   },
 
   pageTransition: {
     name: "layout",
-    mode: "out-in"
+    mode: "out-in",
   },
 
   i18n: {
@@ -103,24 +104,24 @@ export default {
     locales: [
       { code: "en", iso: "en-US", name: "En", file: "en-US.js" },
       { code: "es", iso: "es-ES", name: "Es", file: "es-ES.js" },
-      { code: "fr", iso: "fr-FR", name: "Fr", file: "fr-FR.js" }
+      { code: "fr", iso: "fr-FR", name: "Fr", file: "fr-FR.js" },
     ],
     skipSettingLocaleOnNavigate: true,
     lazy: true,
-    langDir: "lang/"
+    langDir: "lang/",
   },
 
   optimizedImages: {
-    optimizeImages: true
+    optimizeImages: true,
   },
 
   sitemap: {
     hostname: "https://charles-jeandey.com",
-    gzip: true
+    gzip: true,
   },
 
   content: {
-    liveEdit: false
+    liveEdit: false,
   },
   /*
    ** Axios module configuration
@@ -135,19 +136,28 @@ export default {
     postcss: {
       plugins: {
         tailwindcss: {},
-        autoprefixer: {}
-      }
+        autoprefixer: {},
+      },
     },
     html: {
       minify: {
-        decodeEntities: false
-      }
-    }
+        collapseBooleanAttributes: true,
+        decodeEntities: false,
+        minifyCSS: false,
+        processConditionalComments: true,
+        removeEmptyAttributes: false,
+        removeRedundantAttributes: false,
+        trimCustomFragments: false,
+        useShortDoctype: true,
+        preserveLineBreaks: false,
+        collapseWhitespace: false,
+      },
+    },
   },
 
   pwa: {
     manifest: {
-      theme_color: "#FFDF00"
-    }
-  }
+      theme_color: "#FFDF00",
+    },
+  },
 };

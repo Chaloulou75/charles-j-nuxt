@@ -4,9 +4,10 @@ module.exports = {
   content: [
     "./components/**/*.{vue,js}",
     "./layouts/**/*.vue",
+    "./lang/**/*.js",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}"
+    "./nuxt.config.{js,ts}",
   ],
   darkMode: "class", // or 'media' or 'class' or false
   theme: {
@@ -19,53 +20,56 @@ module.exports = {
         amber: colors.amber,
         sky: colors.sky,
         rose: colors.rose,
-        cyan: colors.cyan
+        cyan: colors.cyan,
       },
-      backgroundImage: theme => ({
-        texture: "url('~assets/img/texture.jpg')"
+      backgroundImage: (theme) => ({
+        texture: "url('~assets/img/texture.jpg')",
       }),
       spacing: {
-        108: "27rem"
+        108: "27rem",
       },
       borderWidth: {
-        14: "14px"
+        14: "14px",
       },
       animation: {
         slowmoove: "slowmoove 14s ease-in-out infinite",
         slowmooveTopDown: "slowmooveTopDown 14s ease-in-out infinite",
-        wiggle: "wiggle 1s ease-in-out infinite"
+        wiggle: "wiggle 1s ease-in-out infinite",
       },
       keyframes: {
         slowmoove: {
           "0%, 100%": { transform: "translateY(50%) translateX(0%) rotate(0)" },
           "15%": {
-            transform: "translateY(15%) translateX(-20%) rotate(90deg)"
+            transform: "translateY(15%) translateX(-20%) rotate(90deg)",
           },
           "50%": {
-            transform: "translateY(15%) translateX(-420%) rotate(180deg)"
+            transform: "translateY(15%) translateX(-420%) rotate(180deg)",
           },
           "75%": {
-            transform: "translateY(100%) translateX(-430%) rotate(45deg)"
-          }
+            transform: "translateY(100%) translateX(-430%) rotate(45deg)",
+          },
         },
         slowmooveTopDown: {
           "0%, 100%": { transform: "translateY(0%) translateX(0%) rotate(0)" },
           "25%": { transform: "translateY(200%) translateX(0%) rotate(90deg)" },
           "50%": {
-            transform: "translateY(200%) translateX(200%) rotate(180deg)"
+            transform: "translateY(200%) translateX(200%) rotate(180deg)",
           },
-          "75%": { transform: "translateY(0%) translateX(200%) rotate(-90deg)" }
+          "75%": {
+            transform: "translateY(0%) translateX(200%) rotate(-90deg)",
+          },
         },
         wiggle: {
           "0%, 100%": { transform: "rotate(-3deg)" },
-          "50%": { transform: "rotate(3deg)" }
-        }
+          "50%": { transform: "rotate(3deg)" },
+        },
       },
       fontFamily: {
         ubuntu: ["Ubuntu Mono"],
-        dmsana: ['"DM Sans"']
-      }
-    }
+        dmsana: ['"DM Sans"'],
+        poppins: ["Poppins"],
+      },
+    },
   },
   // variants: {
   //   extend: {
@@ -77,6 +81,6 @@ module.exports = {
   // },
   plugins: [
     // require('tailwind-filter-utilities'),
-    require("@tailwindcss/aspect-ratio")
-  ]
+    require("@tailwindcss/aspect-ratio"),
+  ],
 };

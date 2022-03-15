@@ -27,7 +27,7 @@ export default {
   charlesjnuxt:
     "Site sur lequel vous êtes. Réalisé avec Nuxtjs et Tailwindcss. Déployé avec Netlify",
   pantaloni:
-    "Site en cours de réalisation pour un cabinet d'avocats situé à Paris (en attente d'éléments de type images et textes). Réalisé avec Nuxtjs et Tailwindcss. Déployé avec Netlify",
+    "Site pour un cabinet d'avocats situé à Paris. Réalisé avec Nuxtjs et Tailwindcss. Déployé avec Netlify",
   neypok:
     "Petit jeu fait dans le cadre d'un projet étudiant pour un client, réalisé avec Nuxtjs et Tailwind.",
   encore: "Mais encore?",
@@ -41,5 +41,5 @@ export default {
   sujet: "Sujet",
   message: "Message",
   envoyer: "Envoyer",
-  footer: "Tous droits réservés"
+  footer: "Tous droits réservés",
 };
