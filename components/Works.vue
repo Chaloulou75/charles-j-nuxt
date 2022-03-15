@@ -1,12 +1,12 @@
 <template>
-  <div class="works overflow-x-hidden">
-    <section class="container-inner relative mx-auto py-16 text-xl">
+  <div class="overflow-x-hidden works">
+    <section class="relative py-16 mx-auto text-xl container-inner">
       <!-- <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
         <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
       </div> -->
 
       <h2
-        class="mb-12 bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text text-4xl font-bold text-transparent dark:from-green-400 dark:to-blue-500"
+        class="mb-12 text-4xl font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
         id="projects"
         data-scroll
       >
@@ -15,16 +15,16 @@
 
       <div class="relative">
         <div
-          class="grid w-full grid-cols-1 gap-x-10 gap-y-14 rounded-xl bg-transparent px-2 py-8 text-lg leading-normal sm:text-xl lg:grid-cols-2"
+          class="grid w-full grid-cols-1 px-2 py-8 text-lg leading-normal bg-transparent gap-x-10 gap-y-14 rounded-xl sm:text-xl lg:grid-cols-2"
         >
           <div
-            class="fromleft flex flex-col rounded-3xl border-4 border-bluefonce border-opacity-20 px-3 py-4 shadow-xl ring-4 ring-green-800 ring-offset-4 ring-offset-transparent backdrop-blur-md dark:border-gray-300 dark:ring-green-500"
+            class="flex flex-col px-3 py-4 border-4 shadow-xl fromleft rounded-3xl border-bluefonce border-opacity-20 ring-4 ring-green-800 ring-offset-4 ring-offset-transparent backdrop-blur-md dark:border-gray-300 dark:ring-green-500"
             data-scroll
           >
-            <div class="my-4 flex items-center justify-center space-x-3">
+            <div class="flex items-center justify-center my-4 space-x-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 text-gray-600 dark:text-gray-400"
+                class="w-6 h-6 text-gray-600 dark:text-gray-400"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -35,7 +35,7 @@
                 />
               </svg>
               <div
-                class="bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text font-bold text-transparent dark:from-green-400 dark:to-blue-500"
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
               >
                 <a
                   href="https://www.personaportfolio.com/"
@@ -50,11 +50,11 @@
                 src="~/assets/img/sites/personainicio.png"
                 alt="personainicio"
                 loading="lazy"
-                class="h-48 w-full rounded-lg object-cover"
+                class="object-cover w-full h-48 rounded-lg"
               />
             </div>
             <div
-              class="mb-6 text-justify text-lg font-bold tracking-wider text-gray-800 dark:text-gray-400"
+              class="mb-6 text-lg font-bold tracking-wider text-justify text-gray-800 dark:text-gray-400"
             >
               {{ $t("persona") }} (<a
                 class="text-base font-semibold text-gray-800 dark:text-gray-400"
@@ -65,31 +65,31 @@
               >).
             </div>
             <div
-              class="mt-auto flex justify-around rounded-lg bg-bluefonce bg-opacity-90 py-6 dark:bg-transparent"
+              class="flex justify-around py-6 mt-auto rounded-lg bg-bluefonce bg-opacity-90 dark:bg-transparent"
             >
               <LazyLogosNuxtDotJs
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#00C58E"
               />
               <LazyLogosTailwindCss
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#38B2AC"
               />
               <LazyLogosNetlify
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#00C7B7"
               />
             </div>
           </div>
 
           <div
-            class="fromright flex flex-col rounded-3xl border-4 border-bluefonce border-opacity-20 px-3 py-4 shadow-xl ring-2 ring-rose-600 ring-offset-4 ring-offset-transparent dark:border-gray-300"
+            class="flex flex-col px-3 py-4 border-4 shadow-xl fromright rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-rose-600 ring-offset-4 ring-offset-transparent dark:border-gray-300"
             data-scroll
           >
-            <div class="my-4 flex items-center justify-center space-x-3">
+            <div class="flex items-center justify-center my-4 space-x-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 text-gray-600 dark:text-gray-400"
+                class="w-6 h-6 text-gray-600 dark:text-gray-400"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -100,7 +100,7 @@
                 />
               </svg>
               <div
-                class="bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text font-bold text-transparent dark:from-green-400 dark:to-blue-500"
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
               >
                 <a
                   href="https://pantaloni-associes.com"
@@ -115,40 +115,40 @@
                 src="~/assets/img/sites/pantaloniinicio.png"
                 alt="pantaloni"
                 loading="lazy"
-                class="h-48 w-full rounded-lg object-cover"
+                class="object-cover w-full h-48 rounded-lg"
               />
             </div>
             <div
-              class="mb-6 text-justify text-lg font-bold tracking-wider text-gray-800 dark:text-gray-400"
+              class="mb-6 text-lg font-bold tracking-wider text-justify text-gray-800 dark:text-gray-400"
             >
               {{ $t("pantaloni") }}
             </div>
             <div
-              class="mt-auto flex justify-around rounded-lg bg-bluefonce bg-opacity-90 py-6 dark:bg-transparent"
+              class="flex justify-around py-6 mt-auto rounded-lg bg-bluefonce bg-opacity-90 dark:bg-transparent"
             >
               <LazyLogosNuxtDotJs
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#00C58E"
               />
               <LazyLogosTailwindCss
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#38B2AC"
               />
               <LazyLogosNetlify
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#00C7B7"
               />
             </div>
           </div>
 
           <div
-            class="fromleft flex flex-col rounded-3xl border-4 border-bluefonce border-opacity-20 px-3 py-4 shadow-xl ring-2 ring-sky-800 ring-offset-4 ring-offset-transparent dark:border-gray-300 dark:ring-sky-500"
+            class="flex flex-col px-3 py-4 border-4 shadow-xl fromleft rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-sky-800 ring-offset-4 ring-offset-transparent dark:border-gray-300 dark:ring-sky-500"
             data-scroll
           >
-            <div class="my-4 flex items-center justify-center space-x-3">
+            <div class="flex items-center justify-center my-4 space-x-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 text-gray-600 dark:text-gray-400"
+                class="w-6 h-6 text-gray-600 dark:text-gray-400"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -159,7 +159,7 @@
                 />
               </svg>
               <div
-                class="bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text font-bold text-transparent dark:from-green-400 dark:to-blue-500"
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
               >
                 <a
                   href="https://charles-jeandey.com"
@@ -174,11 +174,11 @@
                 src="~/assets/img/sites/cjdark.png"
                 alt="cjdark"
                 loading="lazy"
-                class="h-48 w-full rounded-lg object-cover"
+                class="object-cover w-full h-48 rounded-lg"
               />
             </div>
             <div
-              class="mb-6 text-justify text-lg font-bold tracking-wider text-gray-800 dark:text-gray-400"
+              class="mb-6 text-lg font-bold tracking-wider text-justify text-gray-800 dark:text-gray-400"
             >
               {{ $t("charlesjnuxt") }} (<a
                 class="text-base font-semibold text-gray-800 dark:text-gray-400"
@@ -189,31 +189,31 @@
               >).
             </div>
             <div
-              class="mt-auto flex justify-around rounded-lg bg-bluefonce bg-opacity-90 py-6 dark:bg-transparent"
+              class="flex justify-around py-6 mt-auto rounded-lg bg-bluefonce bg-opacity-90 dark:bg-transparent"
             >
               <LazyLogosNuxtDotJs
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#00C58E"
               />
               <LazyLogosTailwindCss
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#38B2AC"
               />
               <LazyLogosNetlify
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#00C7B7"
               />
             </div>
           </div>
 
           <div
-            class="fromright flex flex-col rounded-3xl border-4 border-bluefonce border-opacity-20 px-3 py-4 shadow-xl ring-2 ring-yellow-700 ring-offset-4 ring-offset-transparent dark:border-gray-300 dark:ring-yellow-500"
+            class="flex flex-col px-3 py-4 border-4 shadow-xl fromright rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-yellow-700 ring-offset-4 ring-offset-transparent dark:border-gray-300 dark:ring-yellow-500"
             data-scroll
           >
-            <div class="my-4 flex items-center justify-center space-x-3">
+            <div class="flex items-center justify-center my-4 space-x-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 text-gray-600 dark:text-gray-400"
+                class="w-6 h-6 text-gray-600 dark:text-gray-400"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -224,7 +224,7 @@
                 />
               </svg>
               <div
-                class="bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text font-bold text-transparent dark:from-green-400 dark:to-blue-500"
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
               >
                 <a
                   href="https://apuestamigo.herokuapp.com/"
@@ -239,11 +239,11 @@
                 src="~/assets/img/sites/apuesta.png"
                 alt="apuesta"
                 loading="lazy"
-                class="h-48 w-full rounded-lg object-cover"
+                class="object-cover w-full h-48 rounded-lg"
               />
             </div>
             <div
-              class="mb-6 text-justify text-lg font-bold tracking-wider text-gray-800 dark:text-gray-400"
+              class="mb-6 text-lg font-bold tracking-wider text-justify text-gray-800 dark:text-gray-400"
             >
               {{ $t("apuestamigo") }} (<a
                 class="text-base font-semibold text-gray-800 dark:text-gray-400"
@@ -254,28 +254,28 @@
               >).
             </div>
             <div
-              class="mt-auto flex justify-around rounded-lg bg-bluefonce bg-opacity-90 py-6 dark:bg-transparent"
+              class="flex justify-around py-6 mt-auto rounded-lg bg-bluefonce bg-opacity-90 dark:bg-transparent"
             >
               <LazyLogosLaravel
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#FF2D20"
               />
               <LazyLogosTailwindCss
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#38B2AC"
               />
-              <LazyLogosHeroku class="h-6 w-6 lg:h-10 lg:w-10" fill="#430098" />
+              <LazyLogosHeroku class="w-6 h-6 lg:h-10 lg:w-10" fill="#430098" />
             </div>
           </div>
 
           <div
-            class="fromleft flex flex-col rounded-3xl border-4 border-bluefonce border-opacity-20 px-3 py-4 shadow-xl ring-2 ring-amber-500 ring-offset-4 ring-offset-transparent dark:border-gray-300"
+            class="flex flex-col px-3 py-4 border-4 shadow-xl fromleft rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-amber-500 ring-offset-4 ring-offset-transparent dark:border-gray-300"
             data-scroll
           >
-            <div class="my-4 flex items-center justify-center space-x-3">
+            <div class="flex items-center justify-center my-4 space-x-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 text-gray-600 dark:text-gray-400"
+                class="w-6 h-6 text-gray-600 dark:text-gray-400"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -286,7 +286,7 @@
                 />
               </svg>
               <div
-                class="bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text font-bold text-transparent dark:from-green-400 dark:to-blue-500"
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
               >
                 <a
                   href="https://carpinto-sites.netlify.app/"
@@ -301,11 +301,11 @@
                 src="~/assets/img/sites/carpinto.png"
                 alt="carpinto"
                 loading="lazy"
-                class="h-48 w-full rounded-lg object-cover"
+                class="object-cover w-full h-48 rounded-lg"
               />
             </div>
             <div
-              class="mb-6 text-justify text-lg font-bold tracking-wider text-gray-800 dark:text-gray-400"
+              class="mb-6 text-lg font-bold tracking-wider text-justify text-gray-800 dark:text-gray-400"
             >
               {{ $t("carpinto") }} (<a
                 class="text-base font-semibold text-gray-800 dark:text-gray-400"
@@ -316,31 +316,31 @@
               >).
             </div>
             <div
-              class="mt-auto flex justify-around rounded-lg bg-bluefonce bg-opacity-90 py-6 dark:bg-transparent"
+              class="flex justify-around py-6 mt-auto rounded-lg bg-bluefonce bg-opacity-90 dark:bg-transparent"
             >
               <LazyLogosVueDotJs
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#4FC08D"
               />
               <LazyLogosTailwindCss
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#38B2AC"
               />
               <LazyLogosNetlify
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#00C7B7"
               />
             </div>
           </div>
 
           <div
-            class="fromright flex flex-col rounded-3xl border-4 border-bluefonce border-opacity-20 px-3 py-4 shadow-xl ring-2 ring-purple-600 ring-offset-4 ring-offset-transparent dark:border-gray-300"
+            class="flex flex-col px-3 py-4 border-4 shadow-xl fromright rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-purple-600 ring-offset-4 ring-offset-transparent dark:border-gray-300"
             data-scroll
           >
-            <div class="my-4 flex items-center justify-center space-x-3">
+            <div class="flex items-center justify-center my-4 space-x-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 text-gray-600 dark:text-gray-400"
+                class="w-6 h-6 text-gray-600 dark:text-gray-400"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -351,7 +351,7 @@
                 />
               </svg>
               <div
-                class="bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text font-bold text-transparent dark:from-green-400 dark:to-blue-500"
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
               >
                 Julien Leprêtre
               </div>
@@ -361,39 +361,39 @@
                 src="~/assets/img/sites/jlep.png"
                 alt="jlep"
                 loading="lazy"
-                class="h-48 w-full rounded-lg object-cover"
+                class="object-cover w-full h-48 rounded-lg"
               />
             </div>
             <div
-              class="mb-6 text-justify text-lg font-bold tracking-wider text-gray-800 dark:text-gray-400"
+              class="mb-6 text-lg font-bold tracking-wider text-justify text-gray-800 dark:text-gray-400"
             >
               {{ $t("julien") }}
             </div>
             <div
-              class="mt-auto flex justify-around rounded-lg bg-bluefonce bg-opacity-90 py-6 dark:bg-transparent"
+              class="flex justify-around py-6 mt-auto rounded-lg bg-bluefonce bg-opacity-90 dark:bg-transparent"
             >
               <LazyLogosLaravel
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#FF2D20"
               />
               <LazyLogosTailwindCss
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#38B2AC"
               />
               <LazyLogosVueDotJs
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#4FC08D"
               />
             </div>
           </div>
 
           <div
-            class="fromleft flex flex-col rounded-3xl border-4 border-bluefonce border-opacity-20 px-3 py-4 shadow-xl ring-2 ring-cyan-800 ring-offset-4 ring-offset-transparent dark:border-gray-300 dark:ring-cyan-600"
+            class="flex flex-col px-3 py-4 border-4 shadow-xl fromleft rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-cyan-800 ring-offset-4 ring-offset-transparent dark:border-gray-300 dark:ring-cyan-600"
             data-scroll
           >
-            <div class="my-4 flex items-center justify-center space-x-3">
+            <div class="flex items-center justify-center my-4 space-x-3">
               <svg
-                class="h-6 w-6 text-gray-600 dark:text-gray-400"
+                class="w-6 h-6 text-gray-600 dark:text-gray-400"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -405,7 +405,7 @@
                 />
               </svg>
               <div
-                class="bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text font-bold text-transparent dark:from-green-400 dark:to-blue-500"
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
               >
                 <a
                   href="https://neymarxpokerstars.netlify.app/"
@@ -420,27 +420,27 @@
                 src="~/assets/img/sites/neypok.png"
                 alt="neypok"
                 loading="lazy"
-                class="h-48 w-full rounded-lg object-cover"
+                class="object-cover w-full h-48 rounded-lg"
               />
             </div>
             <div
-              class="mb-6 text-justify text-lg font-bold tracking-wider text-gray-800 dark:text-gray-400"
+              class="mb-6 text-lg font-bold tracking-wider text-justify text-gray-800 dark:text-gray-400"
             >
               {{ $t("neypok") }}
             </div>
             <div
-              class="mt-auto flex justify-around rounded-lg bg-bluefonce bg-opacity-90 py-6 dark:bg-transparent"
+              class="flex justify-around py-6 mt-auto rounded-lg bg-bluefonce bg-opacity-90 dark:bg-transparent"
             >
               <LazyLogosNuxtDotJs
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#00C58E"
               />
               <LazyLogosTailwindCss
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#38B2AC"
               />
               <LazyLogosNetlify
-                class="h-6 w-6 lg:h-10 lg:w-10"
+                class="w-6 h-6 lg:h-10 lg:w-10"
                 fill="#00C7B7"
               />
             </div>
