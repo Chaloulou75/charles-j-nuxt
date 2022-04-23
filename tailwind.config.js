@@ -35,8 +35,14 @@ module.exports = {
         slowmoove: "slowmoove 14s ease-in-out infinite",
         slowmooveTopDown: "slowmooveTopDown 14s ease-in-out infinite",
         wiggle: "wiggle 1s ease-in-out infinite",
+        "move-bg": "move-bg 10s infinite linear",
       },
       keyframes: {
+        "move-bg": {
+          to: {
+            backgroundPosition: "400% 0",
+          },
+        },
         slowmoove: {
           "0%, 100%": { transform: "translateY(50%) translateX(0%) rotate(0)" },
           "15%": {

@@ -5,47 +5,32 @@
       class="flex flex-col justify-between px-2 py-4 mx-auto mt-20 mb-auto lg:flex-row"
     >
       <div
-        class="flex flex-col w-full h-full space-y-3 font-extrabold text-left justify-evenly font-ubuntu lg:w-4/5 lg:space-y-4 xl:space-y-10 2xl:space-y-20 "
+        class="flex h-full w-full animate-move-bg flex-col justify-evenly space-y-3 bg-gradient-to-r from-green-600 via-blue-800 to-green-600 bg-[length:400%] bg-clip-text text-left font-ubuntu font-extrabold text-transparent dark:from-green-400 dark:via-blue-700 dark:to-green-400 lg:w-4/5 lg:space-y-4 xl:space-y-10 2xl:space-y-20"
       >
-        <h1
-          class="text-5xl leading-tight text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500 lg:text-8xl"
-          data-scroll
-        >
+        <h1 class="text-5xl leading-tight lg:text-8xl">
           {{ $t("dev") }}
         </h1>
-        <h2
-          id="laravel"
-          class="pt-2 text-4xl leading-tight text-transparent bg-gradient-to-r from-orange-800 to-blue-800 bg-clip-text dark:from-orange-400 dark:to-blue-500 lg:text-7xl"
-          data-scroll
-        >
+        <h2 id="laravel" class="pt-2 text-4xl leading-tight lg:text-7xl">
           Laravel
           <LogosLaravel
             class="inline-block w-8 h-8 lg:h-16 lg:w-16"
             fill="#FF2D20"
           />
         </h2>
-        <h2
-          id="tailwindcss"
-          class="pt-2 text-4xl leading-tight text-transparent bg-gradient-to-r from-blue-800 to-green-800 bg-clip-text dark:from-blue-600 dark:to-green-400 lg:text-7xl"
-          data-scroll
-        >
-          Tailwindcss
+        <h2 id="tailwindcss" class="pt-2 text-4xl leading-tight lg:text-7xl">
+          Tailwind css
           <LogosTailwindCss
             class="inline-block w-8 h-8 lg:h-16 lg:w-16"
             fill="#38B2AC"
           />
         </h2>
-        <h2
-          id="vuejs"
-          class="pt-2 text-3xl leading-tight text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-500 dark:to-blue-700 lg:text-7xl"
-          data-scroll
-        >
-          Vuejs
+        <h2 id="vuejs" class="pt-2 text-3xl leading-tight lg:text-7xl">
+          Vue js
           <LogosVueDotJs
             class="inline-block w-8 h-8 lg:h-16 lg:w-16"
             fill="#4FC08D"
           />
-          / Nuxtjs
+          / Nuxt js
           <LogosNuxtDotJs
             class="inline-block w-8 h-8 lg:h-16 lg:w-16"
             fill="#00C58E"
@@ -82,16 +67,16 @@ import ScrollOut from "scroll-out";
 export default {
   mounted() {
     this.so = ScrollOut({
-      scope: this.$el
+      scope: this.$el,
     });
   },
   destroyed() {
     this.so.teardown();
-  }
+  },
 };
 </script>
 
-<style scoped>
+<!-- <style scoped>
 h1,
 #laravel,
 #tailwindcss,
@@ -147,4 +132,4 @@ h1[data-scroll="out"] {
   opacity: 0;
   transform: translateY(60px) scale(0.7);
 }
-</style>
+</style> -->
