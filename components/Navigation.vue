@@ -4,7 +4,7 @@
   >
     <div class="relative flex items-center justify-between">
       <div
-        class="text-2xl font-bold tracking-wider text-transparent cursor-default bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
+        class="text-lg font-bold tracking-wider text-transparent cursor-default bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500 lg:text-2xl"
       >
         Charles Jeandey
       </div>
@@ -137,10 +137,12 @@
 
     <transition name="fade" class="mobile-menu lg:hidden"
       ><!-- nav mobile-->
-      <div class="absolute right-0 z-50 lg:hidden">
+      <div
+        v-if="show"
+        class="w-full mt-4 mb-6 rounded backdrop-blur-sm lg:hidden"
+      >
         <div
-          class="flex flex-col items-end px-3 space-y-1 text-base font-semibold tracking-wider"
-          v-if="show"
+          class="flex flex-col items-end space-y-1.5 px-3 text-base font-semibold tracking-wider"
         >
           <div
             class="my-2 text-transparent transition duration-500 ease-in-out transform cursor-pointer bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text hover:translate-x-2 dark:from-green-400 dark:to-blue-500"
@@ -212,7 +214,7 @@ export default {
 <style scoped>
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.2s;
+  transition: opacity 0.5s;
 }
 .fade-enter,
 .fade-leave-to {
