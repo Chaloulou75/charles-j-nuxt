@@ -5,26 +5,35 @@
       class="flex flex-col justify-between px-2 py-4 mx-auto mt-20 mb-auto lg:flex-row"
     >
       <div
-        class="flex h-full w-full animate-move-bg flex-col justify-evenly space-y-3 bg-gradient-to-r from-green-600 via-blue-800 to-green-600 bg-[length:400%] bg-clip-text text-left font-ubuntu font-extrabold text-transparent dark:from-green-400 dark:via-blue-700 dark:to-green-400 lg:w-4/5 lg:space-y-4 xl:space-y-10 2xl:space-y-20"
+        class="flex h-full w-full animate-move-bg flex-col justify-evenly space-y-1 bg-gradient-to-r from-green-600 via-blue-800 to-green-600 bg-[length:400%] bg-clip-text text-left font-ubuntu font-black text-transparent dark:from-green-400 dark:via-blue-700 dark:to-green-400 lg:w-4/5 lg:space-y-2 xl:space-y-6 2xl:space-y-10"
       >
-        <h1 class="text-5xl leading-tight lg:text-8xl">
+        <h1 class="text-5xl lg:text-9xl">
           {{ $t("dev") }}
         </h1>
-        <h2 id="laravel" class="pt-2 text-4xl leading-tight lg:text-7xl">
+        <h2
+          id="laravel"
+          class="pt-2 text-4xl font-black text-[#FF2D20] text-opacity-95 lg:text-8xl"
+        >
           Laravel
           <LogosLaravel
             class="inline-block w-8 h-8 lg:h-16 lg:w-16"
             fill="#FF2D20"
           />
         </h2>
-        <h2 id="tailwindcss" class="pt-2 text-4xl leading-tight lg:text-7xl">
+        <h2
+          id="tailwindcss"
+          class="pt-2 text-4xl font-black text-[#38B2AC] text-opacity-95 lg:text-8xl"
+        >
           Tailwind css
           <LogosTailwindCss
             class="inline-block w-8 h-8 lg:h-16 lg:w-16"
             fill="#38B2AC"
           />
         </h2>
-        <h2 id="vuejs" class="pt-2 text-3xl leading-tight lg:text-7xl">
+        <h2
+          id="vuejs"
+          class="pt-2 text-4xl font-black text-[#4FC08D] text-opacity-95 lg:text-8xl"
+        >
           Vue js
           <LogosVueDotJs
             class="inline-block w-8 h-8 lg:h-16 lg:w-16"
