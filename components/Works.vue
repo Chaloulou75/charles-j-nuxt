@@ -226,12 +226,7 @@
               <div
                 class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
               >
-                <a
-                  href="https://apuestamigo.herokuapp.com/"
-                  target="_blank"
-                  rel="”noreferrer”"
-                  >Apuestamigo</a
-                >
+                <a href="#" rel="”noreferrer”">Apuestamigo</a>
               </div>
             </div>
             <div class="my-6 rounded-lg ring-2 ring-yellow-500">
