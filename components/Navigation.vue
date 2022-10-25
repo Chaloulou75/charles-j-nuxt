@@ -1,10 +1,10 @@
 <template>
   <nav
-    class="fixed z-50 w-full px-4 py-2 mb-4 uppercase bg-transparent bg-opacity-50 font-poppins backdrop-blur backdrop-filter lg:px-8 lg:py-4"
+    class="fixed z-50 w-full px-4 py-2 mb-4 bg-transparent bg-opacity-50 font-poppins backdrop-blur backdrop-filter lg:px-8 lg:py-4"
   >
     <div class="relative flex items-center justify-between">
       <div
-        class="text-lg font-bold tracking-wider text-transparent cursor-default bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500 lg:text-2xl"
+        class="text-lg font-semibold tracking-wider text-transparent cursor-default bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500 lg:text-2xl"
       >
         Charles Jeandey
       </div>

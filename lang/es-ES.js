@@ -14,6 +14,8 @@ export default {
   whatshere: "¿Qué hay aquí?",
   compotrans: "Solo un pequeño componente de Vue con una transición",
   tete: "Tenía que mostrar mi cara en algun lado...",
+  loisirsetsports:
+    "Directorio de clubes deportivos y de ocio en Francia. Hecho con Laravel, Vuejs 3, Inertiajs y Tailwind. Implementado con Heroku",
   persona:
     "Sitio web de Julieta, Diseñadora. Hecho con VueJS (NuxtJS) y Tailwind CSS",
   apuestamigo:

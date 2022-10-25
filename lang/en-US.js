@@ -14,6 +14,8 @@ export default {
   whatshere: "What is it here?",
   compotrans: "Just a small Vue component with a smoothie transition",
   tete: "But above all, I had to show my face somewhere...",
+  loisirsetsports:
+    "Website directory of sports and leisure clubs in France, Made with Laravel, Vuejs 3, Inertiajs and Tailwindcss. Deployed with Heroku",
   persona:
     "Website for Julieta, Design creation. Made with VueJS (NuxtJS) and Tailwind CSS",
   apuestamigo:

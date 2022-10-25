@@ -17,6 +17,67 @@
         <div
           class="grid w-full grid-cols-1 px-2 py-8 text-lg leading-normal bg-transparent gap-x-10 gap-y-14 rounded-xl sm:text-xl lg:grid-cols-2"
         >
+          <!-- Sports et loisirs -->
+          <div
+            class="flex flex-col px-3 py-4 border-4 shadow-xl fromright rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-yellow-500 ring-offset-4 ring-offset-transparent dark:border-gray-300 lg:col-span-2"
+            data-scroll
+          >
+            <div class="flex items-center justify-center my-4 space-x-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6 text-gray-600 dark:text-gray-400"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <div
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text hover:underline dark:from-green-400 dark:to-blue-500"
+              >
+                <a
+                  href="https://loisirsetsports.herokuapp.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Loisirs et Sports</a
+                >
+              </div>
+            </div>
+            <div class="my-6 rounded-lg ring-2 ring-yellow-500">
+              <img
+                src="~/assets/img/sites/loisirsetsports.png"
+                alt="loisirsetsports"
+                loading="lazy"
+                class="object-cover w-full h-48 rounded-lg lg:h-72"
+              />
+            </div>
+            <div
+              class="mb-6 text-lg font-bold tracking-wider text-justify text-gray-800 dark:text-gray-400"
+            >
+              {{ $t("loisirsetsports") }}.
+            </div>
+            <div
+              class="flex justify-around py-6 mt-auto rounded-lg bg-bluefonce bg-opacity-90 dark:bg-transparent"
+            >
+              <LazyLogosLaravel
+                class="w-6 h-6 lg:h-10 lg:w-10"
+                fill="#FF2D20"
+              />
+              <LazyLogosTailwindCss
+                class="w-6 h-6 lg:h-10 lg:w-10"
+                fill="#38B2AC"
+              />
+              <LazyLogosVueDotJs
+                class="w-6 h-6 lg:h-10 lg:w-10"
+                fill="#4FC08D"
+              />
+            </div>
+          </div>
+
+          <!-- Persona Portfolio -->
           <div
             class="flex flex-col px-3 py-4 border-4 shadow-xl fromleft rounded-3xl border-bluefonce border-opacity-20 ring-4 ring-green-800 ring-offset-4 ring-offset-transparent backdrop-blur-md dark:border-gray-300 dark:ring-green-500"
             data-scroll
@@ -35,12 +96,12 @@
                 />
               </svg>
               <div
-                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text hover:underline dark:from-green-400 dark:to-blue-500"
               >
                 <a
                   href="https://www.personaportfolio.com/"
                   target="_blank"
-                  rel="”noreferrer”"
+                  rel="noreferrer"
                   >Persona Portfolio
                 </a>
               </div>
@@ -82,6 +143,7 @@
             </div>
           </div>
 
+          <!-- Pantaloni et associés -->
           <div
             class="flex flex-col px-3 py-4 border-4 shadow-xl fromright rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-rose-600 ring-offset-4 ring-offset-transparent dark:border-gray-300"
             data-scroll
@@ -100,12 +162,12 @@
                 />
               </svg>
               <div
-                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text hover:underline dark:from-green-400 dark:to-blue-500"
               >
                 <a
                   href="https://pantaloni-associes.com"
                   target="_blank"
-                  rel="”noreferrer”"
+                  rel="noreferrer"
                   >Pantaloni & Associés</a
                 >
               </div>
@@ -141,6 +203,7 @@
             </div>
           </div>
 
+          <!-- cj website -->
           <div
             class="flex flex-col px-3 py-4 border-4 shadow-xl fromleft rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-sky-800 ring-offset-4 ring-offset-transparent dark:border-gray-300 dark:ring-sky-500"
             data-scroll
@@ -159,12 +222,12 @@
                 />
               </svg>
               <div
-                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text hover:underline dark:from-green-400 dark:to-blue-500"
               >
                 <a
                   href="https://charles-jeandey.com"
                   target="_blank"
-                  rel="”noreferrer”"
+                  rel="noreferrer"
                   >Charles Jeandey</a
                 >
               </div>
@@ -184,7 +247,7 @@
                 class="text-base font-semibold text-gray-800 dark:text-gray-400"
                 href="https://github.com/chaloulou75/charles-j-nuxt"
                 target="_blank"
-                rel="”noreferrer”"
+                rel="noreferrer"
                 >GitHub</a
               >).
             </div>
@@ -206,6 +269,7 @@
             </div>
           </div>
 
+          <!-- Apuestamigo -->
           <div
             class="flex flex-col px-3 py-4 border-4 shadow-xl fromright rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-yellow-700 ring-offset-4 ring-offset-transparent dark:border-gray-300 dark:ring-yellow-500"
             data-scroll
@@ -241,7 +305,7 @@
               class="mb-6 text-lg font-bold tracking-wider text-justify text-gray-800 dark:text-gray-400"
             >
               {{ $t("apuestamigo") }} (<a
-                class="text-base font-semibold text-gray-800 dark:text-gray-400"
+                class="text-base font-semibold text-gray-800 hover:underline dark:text-gray-400"
                 href="https://github.com/chaloulou75/apuestamigov3"
                 target="_blank"
                 rel="”noreferrer”"
@@ -263,6 +327,7 @@
             </div>
           </div>
 
+          <!-- Carpinto -->
           <div
             class="flex flex-col px-3 py-4 border-4 shadow-xl fromleft rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-amber-500 ring-offset-4 ring-offset-transparent dark:border-gray-300"
             data-scroll
@@ -286,7 +351,7 @@
                 <a
                   href="https://carpinto-sites.netlify.app/"
                   target="_blank"
-                  rel="”noreferrer”"
+                  rel="noreferrer"
                   >Carpinto</a
                 >
               </div>
@@ -306,7 +371,7 @@
                 class="text-base font-semibold text-gray-800 dark:text-gray-400"
                 href="https://github.com/chaloulou75/charles-j-vuepress"
                 target="_blank"
-                rel="”noreferrer”"
+                rel="noreferrer"
                 >GitHub</a
               >).
             </div>
@@ -328,6 +393,7 @@
             </div>
           </div>
 
+          <!-- Julien Lepretre -->
           <div
             class="flex flex-col px-3 py-4 border-4 shadow-xl fromright rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-purple-600 ring-offset-4 ring-offset-transparent dark:border-gray-300"
             data-scroll
@@ -382,6 +448,7 @@
             </div>
           </div>
 
+          <!-- Neymar vs Pok -->
           <div
             class="flex flex-col px-3 py-4 border-4 shadow-xl fromleft rounded-3xl border-bluefonce border-opacity-20 ring-2 ring-cyan-800 ring-offset-4 ring-offset-transparent dark:border-gray-300 dark:ring-cyan-600"
             data-scroll
@@ -400,12 +467,12 @@
                 />
               </svg>
               <div
-                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text dark:from-green-400 dark:to-blue-500"
+                class="font-bold text-transparent bg-gradient-to-r from-green-800 to-blue-800 bg-clip-text hover:underline dark:from-green-400 dark:to-blue-500"
               >
                 <a
                   href="https://neymarxpokerstars.netlify.app/"
                   target="_blank"
-                  rel="”noreferrer”"
+                  rel="noreferrer"
                   >Neymar X Pokerstars</a
                 >
               </div>
